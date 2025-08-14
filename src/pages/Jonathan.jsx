@@ -1,28 +1,28 @@
-import "./Jonathan.css";
-import Navbar from "../ui/Navbar";
-
 import JonNavbar from "../ui/JonNavbar";
-
-import JLBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
-import JLWindsurfing from "../assets/JL/images/fa081001_345ar.jpg";
+import "./Jonathan.css";
+import JonBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonHero from "../assets/JL/images/fa081001_345ar.jpg";
+// import { useTheme } from "../context/useTheme";
 
 function Jonathan() {
+  // const { currentTheme } = useTheme();
+  // const themeClass = currentTheme === "Jonathan" ? "Jonathan-theme" : "";
   return (
     <div id="container">
-      <div id="top">
+      <header id="top">
         <a href="index.html">
-          <img src={JLBanner} alt="Jonathan Banner" width="780" border="0" />
+          <img src={JonBanner} alt="Jonathan Banner" width="780" border="0" />
         </a>
-      </div>
+      </header>
 
-      <div id="main">
-        <div id="FullHorzBox">
+      <main id="main">
+        <article id="FullHorzBox">
           <img
-            src={JLWindsurfing}
+            src={JonHero}
             alt="Surfing Jonathan"
             width="1000"
             height="1504"
-            class="MainImageFull"
+            className="MainImageFull"
           />
           <div id="FullBoxText">
             <p>
@@ -34,69 +34,73 @@ function Jonathan() {
               things going on. Please surf around my site to see yourself.
             </p>
           </div>
-        </div>
-        <div id="halfbox">
-          <h2>
-            <a href="family/family.html">My Family </a>{" "}
-          </h2>
-          <p>
-            I live with both of my parents and my younger borther Chris, and
-            sister Yoyo.{" "}
-          </p>
-        </div>
-
-        <div id="halfbox">
-          <h2>
-            <a href="school/school.html">My School </a>{" "}
-          </h2>
-          <p>
-            I study at Class 4E in S.K.H. Tin Wan Chi Nam Primary School located
-            at Tin Wan, Aberdeen.
-          </p>
-        </div>
-
-        <div id="halfbox">
-          <h2>
-            <a href="music/music.html">My Music</a>
-          </h2>
-          <p>
-            I like music. I love playing Piano, Violin, & Harmonica. When I grow
-            bigger, I like to play guitar too.{" "}
-          </p>
-        </div>
-        <div id="halfbox">
-          <h2>
-            <a href="Sports/sports.html">My Sports</a>{" "}
-          </h2>
-          <p>
-            I love sports. Tennis, table tennis, swimming, golf, soccer,
-            canoeing are all my favourite sports.{" "}
-          </p>
-        </div>
-        <div id="halfbox">
-          <h2>
-            <a href="hobby/hobby.html">My Hobby </a>
-          </h2>
-          <p>I like playing computer, its game, and PS2.</p>
-        </div>
-        <div id="halfbox">
-          <h2>
-            <a href="photos/photos.html">My Photos</a>{" "}
-          </h2>
-          <p>Please feel free to visit my photo album </p>
-        </div>
-        <div id="halfbox">
-          <h2>
-            <a href="links/links.html">My Links</a>{" "}
-          </h2>
-          <p>Please go to enjoy the games and everything that's in my links.</p>
-        </div>
+        </article>
+        <section>
+          <div id="halfbox">
+            <h2>
+              <a href="family/family.html">My Family </a>{" "}
+            </h2>
+            <p>
+              I live with both of my parents and my younger borther Chris, and
+              sister Yoyo.{" "}
+            </p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="school/school.html">My School </a>{" "}
+            </h2>
+            <p>
+              I study at Class 4E in S.K.H. Tin Wan Chi Nam Primary School
+              located at Tin Wan, Aberdeen.
+            </p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="music/music.html">My Music</a>
+            </h2>
+            <p>
+              I like music. I love playing Piano, Violin, & Harmonica. When I
+              grow bigger, I like to play guitar too.{" "}
+            </p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="Sports/sports.html">My Sports</a>{" "}
+            </h2>
+            <p>
+              I love sports. Tennis, table tennis, swimming, golf, soccer,
+              canoeing are all my favourite sports.{" "}
+            </p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="hobby/hobby.html">My Hobby </a>
+            </h2>
+            <p>I like playing computer, its game, and PS2.</p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="photos/photos.html">My Photos</a>{" "}
+            </h2>
+            <p>Please feel free to visit my photo album </p>
+          </div>
+          <div id="halfbox">
+            <h2>
+              <a href="links/links.html">My Links</a>{" "}
+            </h2>
+            <p>
+              Please go to enjoy the games and everything that's in my links.
+            </p>
+          </div>
+        </section>
         <p>&nbsp;</p>
-      </div>
+      </main>
 
       {/* <footer id="footer">
       </footer> */}
-      <JonNavbar />
+      <footer>
+        <JonNavbar />
+      </footer>
     </div>
   );
 }

@@ -71,29 +71,6 @@ img {
   padding-left: 20px;
 }
 
-#footer ul {
-  margin: 0px;
-  padding: 0px;
-}
-
-#footer li {
-  list-style-type: none;
-  display: inline;
-  margin-right: 10px;
-  margin-left: 10px;
-}
-
-#footer a {
-  color: #000099;
-  text-decoration: none;
-  font-size: 95%;
-}
-
-#footer a:hover {
-  font-size: 95%;
-  color: #ff6563;
-  text-decoration: none;
-}
 #nav {
   text-align: center;
   padding: 10px;
@@ -379,3 +356,28 @@ img {
   color: #cc3333;
   text-decoration: none;
 }
+
+/* 
+#footer ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+#footer li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+#footer a {
+  color: #000099;
+  text-decoration: none;
+  font-size: 95%;
+}
+
+#footer a:hover {
+  font-size: 95%;
+  color: #ff6563;
+  text-decoration: none;
+} */

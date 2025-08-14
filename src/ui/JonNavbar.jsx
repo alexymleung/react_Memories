@@ -1,11 +1,10 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css";
+import "./JonNavbar.css";
 
 const JonNavbar = () => {
   return (
-    <div id="subNav">
-      <ul id="subulnav">
+    <div className="jonNav">
+      <ul className="jonUlNav">
         <li>
           <NavLink to="/jonathan/jonintro">Introduction</NavLink>
         </li>
@@ -23,6 +22,9 @@ const JonNavbar = () => {
         </li>
         <li>
           <NavLink to="/jonathan/jonhobby">Hobby</NavLink>
+        </li>
+        <li>
+          <NavLink to="/jonathan/jonphotos">Photos</NavLink>
         </li>
         <li>
           <NavLink to="/jonathan/jonlinks">Links</NavLink>
