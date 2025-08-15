@@ -93,14 +93,13 @@ function Jonathan() {
             </p>
           </div>
         </section>
-        <p>&nbsp;</p>
+        {/* <p>&nbsp;</p> */}
       </main>
-
-      {/* <footer id="footer">
-      </footer> */}
       <footer>
         <JonNavbar />
       </footer>
+      {/* <footer id="footer">
+      </footer> */}
     </div>
   );
 }

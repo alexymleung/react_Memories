@@ -1,34 +1,14 @@
-import { NavLink } from "react-router-dom";
 import "./JonNavbar.css";
+import NavList from "./NavList";
+import { navdata } from "../data/navdata";
 
 const JonNavbar = () => {
   return (
     <div className="jonNav">
       <ul className="jonUlNav">
-        <li>
-          <NavLink to="/jonathan/jonintro">Introduction</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonfamily">Family</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonschool">School</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonmusic">Music</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonsports">Sports</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonhobby">Hobby</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonphotos">Photos</NavLink>
-        </li>
-        <li>
-          <NavLink to="/jonathan/jonlinks">Links</NavLink>
-        </li>
+        {navdata("jonathan", "jon").map((listItem) => {
+          return <NavList key={listItem.id} {...listItem} />;
+        })}
       </ul>
     </div>
   );

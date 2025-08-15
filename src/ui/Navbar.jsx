@@ -1,13 +1,12 @@
-import React from "react";
 import { NavLink } from "react-router-dom";
-import "./Navbar.css";
 import { useTheme } from "../context/useTheme";
+import "./Navbar.css";
 
 const Navbar = () => {
   const { currentTheme, setCurrentTheme, themes } = useTheme();
   const isActive = (theme) => currentTheme === theme;
-  console.log("Current theme:", currentTheme); // Debug
-  console.log("Rendered classes:", `mainNav nav-${currentTheme.name}`); // Debug
+  // console.log("Current theme:", currentTheme); // Debug
+  // console.log("Rendered classes:", `mainNav nav-${currentTheme.name}`); // Debug
   return (
     <div className={`mainNav nav-${currentTheme.name}`} id="mainNavDebug">
       <ul className="mainUlNav">

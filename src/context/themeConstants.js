@@ -20,7 +20,7 @@ export const themes = {
   karen: {
     name: "karen",
     backgroundColor: "#004646",
-    textColor: "#4b0082",
-    accentColor: "#9b59b6",
+    textColor: "#001b1bff",
+    accentColor: "#00c5c5ff",
   },
 };
