@@ -1,5 +1,5 @@
 import "./CaraNavbar.css";
-import NavList from "./NavList";
+import SubNavList from "./SubNavList";
 import { navdata } from "../data/navdata";
 
 const CaraNavbar = () => {
@@ -7,7 +7,7 @@ const CaraNavbar = () => {
     <div className="caraNav">
       <ul className="caraUlNav">
         {navdata("cara", "cara").map((listItem) => {
-          return <NavList key={listItem.id} {...listItem} />;
+          return <SubNavList key={listItem.id} {...listItem} />;
         })}
       </ul>
     </div>

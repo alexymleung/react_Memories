@@ -1,3 +1,7 @@
+:root {
+  --primary-white: #fff;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -17,6 +21,11 @@ a {
   text-decoration: none;
 }
 
+.mainUlNav a:hover {
+  text-decoration: none;
+  color: var(--hover) !important;
+}
+
 .mainNav {
   margin: 0;
   padding: 0;
@@ -31,13 +40,15 @@ a {
   justify-content: center;
   align-items: stretch;
   padding: 0;
-  width: 780px;
+  width: 100%;
+  max-width: 780px;
   margin: 0 auto;
   border-bottom: none;
 }
 
 .mainUlNav li {
   display: flex;
+  text-transform: capitalize;
 }
 
 .mainUlNav a {
@@ -64,60 +75,75 @@ a {
 }
 
 /* Theme variants - active tab matches subnavbar */
+
 .nav-jonathan .mainUlNav a {
-  color: #003366;
-  background-color: #007ca5;
-  border: 1px solid #00336660;
+  color: var(--jonbackground);
+  background-color: var(--jonprimarytransparent); /* Base color */
+  border: 1px solid var(--jonbackground);
+  border-opacity: 0.38; /*Separate border transparency */
 }
 
 .mainNav.nav-jonathan .mainUlNav li a.active {
-  background-color: #0099cc !important;
-  color: #ffff66 !important;
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: all 0.3s ease;
-}
-
-.nav-jonathan .mainUlNav a {
-  color: #003366;
-  background-color: #0099cc7a;
-  border: 1px solid #00336660;
-}
-
-.mainNav.nav-chris .mainUlNav li a.active {
-  background-color: #669900 !important;
-  color: white !important;
-  border: 1px solid #02520f;
+  background-color: var(--jonprimary) !important;
+  color: var(--jonsecondary) !important;
+  border: 1px solid var(--jonbackgroundtransparent);
   border-bottom-color: transparent !important;
   position: relative;
   z-index: 1;
-  box-shadow: none !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
 
 .nav-chris .mainUlNav a {
-  color: #003a0a;
-  background-color: #6699007c;
-  border: 1px solid #00336660;
+  color: var(--chrisbackground);
+  background-color: var(--chrisprimarytransparent); /* Base color */
+  border: 1px solid var(--chrisbackground);
+  border-opacity: 0.38; /*Separate border transparency */
 }
 
-.nav-cara .mainUlNav a.active {
-  background-color: #ff928c;
-  color: #850700c4;
+.mainNav.nav-chris .mainUlNav li a.active {
+  background-color: var(--chrisprimary) !important;
+  color: var(--chrisprimary-text-active) !important;
+  border: 1px solid var(--chrisbackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
+
 .nav-cara .mainUlNav a {
-  color: #5a0000;
-  background-color: #ff8a8a7a;
-  border: 1px solid #a1000049;
+  color: var(--carabackground);
+  background-color: var(--caraprimarytransparent); /* Base color */
+  border: 1px solid var(--carabackground);
+  border-opacity: 0.38; /*Separate border transparency */
 }
 
-.nav-karen .mainUlNav a.active {
-  background-color: #00aeae;
-  color: #fff;
+.mainNav.nav-cara .mainUlNav li a.active {
+  background-color: var(--caraprimary) !important;
+  color: var(--caraprimary-text-active) !important;
+  border: 1px solid var(--carabackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
+
 .nav-karen .mainUlNav a {
-  color: #38004e;
-  background-color: #00aeae79;
-  color: #003838;
-  border: 1px solid #00353550;
+  color: var(--karenbackground);
+  background-color: var(--karenprimarytransparent); /* Base color */
+  border: 1px solid var(--karenbackground);
+  border-opacity: 0.38; /*Separate border transparency */
+}
+
+.mainNav.nav-karen .mainUlNav li a.active {
+  background-color: var(--karenprimary) !important;
+  color: var(--karenprimary-text-active) !important;
+  border: 1px solid var(--karenbackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }

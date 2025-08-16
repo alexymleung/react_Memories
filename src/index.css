@@ -2,67 +2,174 @@
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --ff-primary: "Noto Serif", serif;
+  --transition: all 0.3s ease;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --nav-height: 4rem;
+  --width1: 1280px;
+  --width2: 780px;
+  --width3: 576px;
+  --grey: rgb(46, 46, 46);
+  --hover: #cf0000;
 
-  /* color-scheme: light dark; */
-  /* color: rgba(255, 255, 255, 0.87); */
-  /* background-color: #242424; */
+  --jonprimary: #0099cc;
+  --jonprimarytransparent: #0099cc7a;
+  --jonprimary-text: #002b5c;
+  --jonprimary-text-active: #ffff66;
+  --jonsecondary: #ffff66;
+  --jonbackground: #003366;
+  --jonbackgroundtransparent: #00336693;
 
-  /* font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; */
+  --chrisprimary: #669900;
+  --chrisprimarytransparent: #6699007c;
+  --chrisprimary-text: #003000;
+  --chrisprimary-text-active: #dbffdb;
+  --chrissecondary: #c0ff4a;
+  --chrisbackground: #003300;
+  --chrisbackgroundtransparent: #0033007e;
+
+  --caraprimary: #ff928c;
+  --caraprimarytransparent: #ff928c7e;
+  --caraprimary-text: #520400;
+  --caraprimary-text-active: #ffd7d4;
+  --carasecondary: #ffcccc;
+  --carabackground: #660500;
+  --carabackgroundtransparent: #660500c7;
+
+  --karenprimary: #00aeae;
+  --karenprimarytransparent: #00aeae79;
+  --karenprimary-text: #002727;
+  --karenprimary-text-active: #aeffff;
+  --karensecondary: #80ffff;
+  --karenbackground: #004646;
+  --karenbackgroundtransparent: #003300b6;
 }
-/* 
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--hover);
+}
+
+a:active {
+  text-decoration: none;
+}
+
+#container {
+  width: var(--width2);
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  gap: 0;
+  max-width: 100%;
 }
 
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+header {
+  margin: 0px;
+  padding: 0px;
+  line-height: 0; /* Remove line height space */
 }
 
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+img {
+  margin: 0px;
+  padding: 0px;
+  display: block; /* Remove inline spacing */
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
-} */
+.FullHorzBox {
+  margin: 0px 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 5px;
+  /* padding-right: 0px; */
+  padding-bottom: 0px;
+  /* padding-left: 0px; */
+}
+
+.FullHorzBox img {
+  max-width: 90%;
+  height: auto;
+  display: block;
+  margin-bottom: 0;
+}
+
+#FullBoxText p {
+  padding-top: 20px;
+  padding-bottom: 0;
+  padding-left: 2.4rem;
+  padding-right: 2.5rem;
+}
+
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 20px;
+}
+
+.halfbox {
+  float: left;
+  width: 300px;
+  padding: 8px;
+  margin: 2px 15px 0px 10px;
+  margin-bottom: 0px;
+}
+
+.halfbox h2 {
+  font-size: large;
+  text-decoration: none;
+  margin: 2px;
+  padding: 0px;
+}
+
+.halfbox a {
+  color: var(--grey);
+  text-decoration: none;
+}
+
+.halfbox a:hover {
+  color: var(--hover);
+}
+
+.halfbox p {
+  font-size: 103%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* color: #336600; */
+  padding-top: 5px;
+  padding-right: 0px;
+  padding-bottom: 5px;
+  padding-left: 0px;
+  margin: 5px;
+}

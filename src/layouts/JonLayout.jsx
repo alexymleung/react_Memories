@@ -5,10 +5,7 @@ function JonLayout() {
   return (
     <>
       <JonNavbar />
-
       <Outlet />
-
-      {/* <JonNavbar /> */}
     </>
   );
 }

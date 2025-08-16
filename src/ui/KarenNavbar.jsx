@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "./KarenNavbar.css";
-import NavList from "./NavList";
+import SubNavList from "./SubNavList";
 import { navdata } from "../data/navdata";
 
 const KarenNavbar = () => {
@@ -8,7 +8,7 @@ const KarenNavbar = () => {
     <div className="karenNav">
       <ul className="karenUlNav">
         {navdata("karen", "karen").map((listItem) => {
-          return <NavList key={listItem.id} {...listItem} />;
+          return <SubNavList key={listItem.id} {...listItem} />;
         })}
       </ul>
     </div>

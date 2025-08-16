@@ -7,7 +7,6 @@ import {
 } from "react-router-dom";
 
 // pages
-import Homepage from "../src/pages/HomePage";
 import Jonathan from "../src/pages/Jonathan";
 import Chris from "../src/pages/Chris";
 import Cara from "../src/pages/Cara";

@@ -1,22 +1,18 @@
+import { NavLink } from "react-router-dom";
 import JonNavbar from "../ui/JonNavbar";
 import "./Jonathan.css";
 import JonBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
 import JonHero from "../assets/JL/images/fa081001_345ar.jpg";
-// import { useTheme } from "../context/useTheme";
 
 function Jonathan() {
-  // const { currentTheme } = useTheme();
-  // const themeClass = currentTheme === "Jonathan" ? "Jonathan-theme" : "";
   return (
     <div id="container">
-      <header id="top">
-        <a href="index.html">
-          <img src={JonBanner} alt="Jonathan Banner" width="780" border="0" />
-        </a>
+      <header>
+        <img src={JonBanner} alt="Jonathan Banner" />
       </header>
 
-      <main id="main">
-        <article id="FullHorzBox">
+      <main className="jon-main">
+        <article className="FullHorzBox">
           <img
             src={JonHero}
             alt="Surfing Jonathan"
@@ -36,16 +32,16 @@ function Jonathan() {
           </div>
         </article>
         <section>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
-              <a href="family/family.html">My Family </a>{" "}
+              <NavLink to="/jonathan/jonfamily/">My Family</NavLink>
             </h2>
             <p>
-              I live with both of my parents and my younger borther Chris, and
-              sister Yoyo.{" "}
+              I live with both of my parents and my younger brother Chris, and
+              sister Cara.{" "}
             </p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="school/school.html">My School </a>{" "}
             </h2>
@@ -54,7 +50,7 @@ function Jonathan() {
               located at Tin Wan, Aberdeen.
             </p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="music/music.html">My Music</a>
             </h2>
@@ -63,7 +59,7 @@ function Jonathan() {
               grow bigger, I like to play guitar too.{" "}
             </p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="Sports/sports.html">My Sports</a>{" "}
             </h2>
@@ -72,19 +68,19 @@ function Jonathan() {
               canoeing are all my favourite sports.{" "}
             </p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="hobby/hobby.html">My Hobby </a>
             </h2>
             <p>I like playing computer, its game, and PS2.</p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="photos/photos.html">My Photos</a>{" "}
             </h2>
             <p>Please feel free to visit my photo album </p>
           </div>
-          <div id="halfbox">
+          <div className="halfbox">
             <h2>
               <a href="links/links.html">My Links</a>{" "}
             </h2>

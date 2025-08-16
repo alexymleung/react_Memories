@@ -9,14 +9,14 @@ function ThemedLayout() {
   return (
     <div
       style={{
-        backgroundColor: currentTheme?.backgroundColor || "white",
+        backgroundColor: currentTheme?.background || "white",
         minHeight: "100vh",
       }}
     >
       <Navbar />
-      <main>
-        <Outlet />
-      </main>
+      <Outlet />
+      {/* <main>
+      </main> */}
     </div>
   );
 }

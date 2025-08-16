@@ -1,26 +1,11 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  margin: 0;
-  padding: 0;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
+a:hover {
   text-decoration: none;
+  color: var(--hover) !important;
 }
 
 .caraUlNav {
-  width: 780px;
-  background-color: #ff928c;
-  color: #850700;
+  width: var(--width2);
+  background-color: var(--caraprimary);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -44,7 +29,7 @@ a {
 }
 
 .caraUlNav a {
-  color: #850700c4;
+  color: var(--caraprimary-text);
   padding: 0.8rem 0.6rem;
   margin: -0.8rem 0;
   display: flex;
@@ -53,8 +38,8 @@ a {
 }
 
 .caraUlNav a.active {
-  background-color: #850700;
-  color: white;
+  background-color: var(--carabackgroundtransparent);
+  color: var(--caraprimary-text-active);
   font-weight: bold;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);

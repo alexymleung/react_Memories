@@ -1,5 +1,5 @@
 import "./ChrisNavbar.css";
-import NavList from "./NavList";
+import SubNavList from "./SubNavList";
 import { navdata } from "../data/navdata";
 
 const ChrisNavbar = () => {
@@ -7,7 +7,7 @@ const ChrisNavbar = () => {
     <div className="chrisNav">
       <ul className="chrisUlNav">
         {navdata("chris", "chris").map((listItem) => {
-          return <NavList key={listItem.id} {...listItem} />;
+          return <SubNavList key={listItem.id} {...listItem} />;
         })}
       </ul>
     </div>
