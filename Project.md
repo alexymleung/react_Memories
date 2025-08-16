@@ -6,6 +6,10 @@
 
 # 4. refactoring of NavBar (Navbar.jsx, NavList.jsx), var(color) setup, hover color
 
+# 5. refactoring of Jonathan.jsx into header, section, and list components.
+
+# responsive layout
+
 # css styling
 
 mouse over, to add transition and change color
@@ -16,5 +20,3 @@ background add gradient color
 6. Array.map run data
 
 # color as variables
-
-# responsive layout
