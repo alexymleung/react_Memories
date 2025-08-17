@@ -245,22 +245,22 @@ a:hover {
 
 @media (min-width: 1280px) {
   .mainUlNav a {
-    padding: 1rem 5rem;
+    padding: 1rem 6.5rem;
     font-size: 1.5rem;
   }
   .subUlNav {
-    gap: 1.8rem;
+    gap: 2.5rem;
     font-size: 1.3rem;
     font-weight: 600;
   }
 }
 @media (min-width: 1600px) {
   .mainUlNav a {
-    padding: 1rem 6rem;
+    padding: 1rem 9rem;
     font-size: 1.8rem;
   }
   .subUlNav {
-    gap: 2.2rem;
+    gap: 4rem;
     font-size: 1.6rem;
     font-weight: 600;
   }

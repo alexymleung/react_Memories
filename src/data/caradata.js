@@ -1,49 +1,48 @@
 import { useTheme } from "../hooks/useTheme";
-import JonBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
-import JonHero from "../assets/JL/images/fa081018_724ar.jpg";
+import CaraBanner from "../assets/CR/images/Buttons/CaraBanner.jpg";
+import CaraHero from "../assets/CR/images/fa060131_409ar.jpg";
 
-export const JonData = () => {
+export const CaraData = () => {
   const { currentTheme } = useTheme();
 
-  const joninfoheader = {
-    image: JonBanner,
+  const carainfoheader = {
+    image: CaraBanner,
     alt: `${currentTheme.name} Banner`,
   };
 
-  const joninfoarticle = {
-    image: JonHero,
-    alt: `Surfing ${currentTheme.name}`,
-    info: "Hello, I am Leung, Sik Chi Jonathan. I was born happily into this world on the 2nd December, 1998 with a weight of 8lbs and 11ozs, after which I spent 2 years happily wandering around my home before I was put into a nusery for 4 years where I played and learnt. Now, I am studying in Primary Four and have a lot of things going on. Please surf around my site to see yourself.",
+  const carainfoarticle = {
+    image: CaraHero,
+    alt: `Hero ${currentTheme.name}`,
+    info: "Hello, I am Leung, Pak Yung Cara. I was merrily born into this  world in the year 2001. I am now studying in Primary two. My  interest is playing computer games. Please feel free to cruise  along my web pages.",
   };
 
-  const joninfosection = [
+  const carainfosection = [
     {
       id: 1,
       link: `/${currentTheme.name}/${currentTheme.alias}family/`,
       title: "My Family",
       details:
-        "I am living with my parents and younger brother Chris and sister Cara.",
+        "I live with both of my parents, & my brothers Jonathan and Chris.",
     },
     {
       id: 2,
       link: `/${currentTheme.name}/${currentTheme.alias}school/`,
       title: "My School",
       details:
-        "I am studying at Class 4E in S.K.H. Tin Wan Chi Nam Primary School located at Tin Wan, Aberdeen.",
+        "I study at Class 2E in S.K.H. Tin Wan Chi Nam Primary School located at Tin Wan, Aberdeen.",
     },
     {
       id: 3,
       link: `/${currentTheme.name}/${currentTheme.alias}music/`,
       title: "My Music",
-      details:
-        "I like music. I love playing Piano, Violin, & Harmonica. When I grow bigger, I would like to play guitar too.",
+      details: "I like music. I love playing piano and singing Karaoke.",
     },
     {
       id: 4,
       link: `/${currentTheme.name}/${currentTheme.alias}sports/`,
       title: "My Sports",
       details:
-        "I love sports. Tennis, table tennis, swimming, golf, soccer, canoeing are all my favourite sports.",
+        "I love sports. Swimming, and cycling are all my favourite sports.",
     },
     {
       id: 5,
@@ -68,5 +67,5 @@ export const JonData = () => {
     },
   ];
 
-  return { joninfoheader, joninfoarticle, joninfosection };
+  return { carainfoheader, carainfoarticle, carainfosection };
 };

@@ -1,34 +1,18 @@
-import { NavLink } from "react-router-dom";
+import PersonPage from "../components/PersonPage";
 import JonNavbar from "../ui/JonNavbar";
+import { JonData } from "../data/jondata";
 import "./Jonathan.css";
-import JonBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
-import Card from "../components/Card";
-import Header from "../components/Header";
-import Article from "../components/Article";
-import { joninfoheader, joninfoarticle, joninfosection } from "../data/jondata";
 
 function Jonathan() {
+  const { joninfoheader, joninfoarticle, joninfosection } = JonData();
   return (
-    <div id="container">
-      <Header pic={joninfoheader.image} alt={joninfoheader.alt} />
-
-      <main className="jon-main">
-        <Article
-          image={joninfoarticle.image}
-          alt={joninfoarticle.alt}
-          info={joninfoarticle.info}
-        />
-        <section>
-          {joninfosection.map((item) => {
-            return <Card key={item.id} {...item} />;
-          })}
-        </section>
-      </main>
-
-      <footer>
-        <JonNavbar />
-      </footer>
-    </div>
+    <PersonPage
+      headerData={joninfoheader}
+      articleData={joninfoarticle}
+      sectionData={joninfosection}
+      NavbarComponent={JonNavbar}
+      cssClass="jon"
+    />
   );
 }
 

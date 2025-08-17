@@ -10,6 +10,8 @@
 
 # 6. responsive layout & consolidation of css
 
+# 7. useTheme for jondata.js refactoring
+
 # css styling
 
 mouse over, to add transition and change color background add gradient color
