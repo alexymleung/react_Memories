@@ -9,9 +9,11 @@
   --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   --nav-height: 4rem;
-  --width1: 1280px;
-  --width2: 780px;
-  --width3: 576px;
+  --width1: 1600px;
+  --width2: 1280px;
+  --width3: 780px;
+  --width4: 576px;
+  --setWidth: var(--width3);
   --grey: rgb(46, 46, 46);
   --hover: #cf0000;
 
@@ -55,7 +57,10 @@
 }
 
 body {
-  margin: 0;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   padding: 0;
 }
 
@@ -85,7 +90,7 @@ a:active {
 }
 
 #container {
-  width: var(--width2);
+  width: var(--setWidth);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -105,6 +110,27 @@ img {
   margin: 0px;
   padding: 0px;
   display: block; /* Remove inline spacing */
+}
+
+header img {
+  width: 100vw;
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0px;
+  width: 100%;
+  margin: 0 auto;
+  border-bottom: none;
+  position: relative;
+  z-index: 1;
+  opacity: 1;
 }
 
 .FullHorzBox {
@@ -131,8 +157,8 @@ img {
   padding-bottom: 0;
   padding-left: 2.4rem;
   padding-right: 2.5rem;
-  font-size: 105%;
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 105%;
 }
 
 section {
@@ -150,7 +176,7 @@ section {
 }
 
 .halfbox h2 {
-  font-size: large;
+  font-size: 112%;
   text-decoration: none;
   margin: 2px;
   padding: 0px;
@@ -168,10 +194,117 @@ section {
 .halfbox p {
   font-size: 103%;
   font-family: Arial, Helvetica, sans-serif;
-  /* color: #336600; */
+
   padding-top: 5px;
   padding-right: 0px;
   padding-bottom: 5px;
   padding-left: 0px;
   margin: 5px;
+}
+
+@media (min-width: 1280px) {
+  :root {
+    --setWidth: 1280px;
+  }
+  section {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  #FullBoxText p {
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 3.5rem;
+    padding-right: 3.5rem;
+    font-size: 130%;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 40px;
+  }
+
+  .halfbox h2 {
+    font-size: 130%;
+    margin: 2px;
+    padding: 0px;
+  }
+
+  .halfbox p {
+    font-size: 120%;
+
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --setWidth: 1600px;
+  }
+  main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  section {
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+  }
+
+  article {
+    flex: 1;
+    min-width: 300px;
+  }
+
+  article > div > p {
+    margin-bottom: 1rem;
+  }
+}
+/* main > article,
+main > section {
+  width: 50%; */
+/* Or use flex: 1; for equal width */
+/* }
+main > section {
+  display: block; /* Remove grid for wide screens */
+
+@media (max-width: 576px) {
+  :root {
+    --setWidth: 576px;
+  }
+
+  #FullBoxText p {
+    padding-top: 20px;
+    padding-bottom: 0;
+    padding-left: 2.4rem;
+    padding-right: 2.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 105%;
+  }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 23px;
+  }
+
+  .halfbox h2 {
+    font-size: 105%;
+    margin: 2px;
+    padding: 0px;
+  }
+
+  .halfbox p {
+    font-size: 98%;
+
+    padding-top: 5px;
+    padding-right: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+    margin: 5px;
+  }
 }

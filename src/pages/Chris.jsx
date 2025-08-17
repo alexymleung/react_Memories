@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import ChrisNavbar from "../ui/ChrisNavbar";
 import "./Chris.css";
 import ChrisBanner from "../assets/CL/images/Buttons/ChrisBanner.jpg";
-import ChrisHero from "../assets/CL/images/fa081001_419ar.jpg";
+import ChrisHero from "../assets/CL/images/fa070819_069ar.jpg";
 
 function Chris() {
   return (

@@ -1,5 +1,5 @@
 import JonBanner from "../assets/JL/images/Buttons/JonathanBanner.jpg";
-import JonHero from "../assets/JL/images/fa081001_345ar.jpg";
+import JonHero from "../assets/JL/images/fa081018_724ar.jpg";
 
 export const joninfoheader = {
   image: JonBanner,
@@ -45,13 +45,15 @@ export const joninfosection = [
     id: 5,
     link: "/jonathan/jonhobby/",
     title: "My Hobby",
-    details: "I like playing computer, its game, and PS2.",
+    details:
+      "I like playing computer, I learned much academic knowledge from them, sometimes, I played recreational games like PS2.",
   },
   {
     id: 6,
     link: "/jonathan/jonphotos/",
     title: "My Photos",
-    details: "Please feel free to visit my photo album",
+    details:
+      "Please feel free to visit my photo album where there are lots of precious memories there to share with you",
   },
   {
     id: 7,

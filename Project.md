@@ -8,12 +8,11 @@
 
 # 5. refactoring of Jonathan.jsx into header, section, and list components.
 
-# responsive layout
+# 6. responsive layout & consolidation of css
 
 # css styling
 
-mouse over, to add transition and change color
-background add gradient color
+mouse over, to add transition and change color background add gradient color
 
 # 5. refactoring
 

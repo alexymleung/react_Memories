@@ -1,6 +1,11 @@
-.jonUlNav {
-  width: var(--width2);
-  background-color: var(--jonprimary);
+a:hover {
+  text-decoration: none;
+  color: var(--hover) !important;
+}
+
+.caraUlNav {
+  width: var(--setWidth);
+  background-color: var(--caraprimary);
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -13,19 +18,18 @@
   margin: 0 auto;
   font-size: 1rem;
   font-weight: 600;
-  position: relative;
 }
 
-.jonUlNav {
+.caraUlNav {
   align-items: stretch;
 }
 
-.jonUlNav li {
+.caraUlNav li {
   display: flex;
 }
 
-.jonUlNav a {
-  color: var(--jonprimary-text);
+.caraUlNav a {
+  color: var(--caraprimary-text);
   padding: 0.8rem 0.6rem;
   margin: -0.8rem 0;
   display: flex;
@@ -33,9 +37,9 @@
   transition: all 0.6s;
 }
 
-.jonUlNav a.active {
-  background-color: var(--jonbackgroundtransparent);
-  color: var(--jonprimary-text-active);
+.caraUlNav a.active {
+  background-color: var(--carabackgroundtransparent);
+  color: var(--caraprimary-text-active);
   font-weight: bold;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);

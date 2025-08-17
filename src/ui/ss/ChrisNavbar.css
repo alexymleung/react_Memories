@@ -1,5 +1,5 @@
 .chrisUlNav {
-  width: var(--width2);
+  width: var(--setWidth);
   background-color: var(--chrisprimary);
   display: flex;
   flex-direction: row;

@@ -1,24 +1,23 @@
 body {
   background-color: var(--jonprimary);
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
 }
 
 /* Use a unique class for Jonathan's main element to avoid conflicts */
 
 .jon-main {
   background-color: var(--jonsecondary);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0px;
-  width: 100%;
-  margin: 0 auto;
-  border-bottom: none;
-  position: relative;
-  z-index: 1;
-  opacity: 1;
 }
+
+/* @media (min-width: 1600px) {
+  .jon-main {
+    flex-direction: row;
+    align-items: flex-start;
+  }
+  .jon-main > article,
+  .jon-main > section {
+    width: 50%;
+  }
+  .jon-main > section {
+    display: block;
+  }
+} */

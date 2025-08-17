@@ -1,22 +1,7 @@
 body {
   background-color: var(--caraprimary);
-  margin-left: 0px;
-  margin-top: 0px;
-  margin-right: 0px;
-  margin-bottom: 0px;
 }
 
 .cara-main {
   background-color: var(--carasecondary);
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: stretch;
-  padding: 0px;
-  width: 100%;
-  margin: 0 auto;
-  border-bottom: none;
-  position: relative;
-  z-index: 1;
-  opacity: 1;
 }

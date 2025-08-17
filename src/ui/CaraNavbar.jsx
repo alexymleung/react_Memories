@@ -1,11 +1,11 @@
-import "./CaraNavbar.css";
+import "./Navbar.css";
 import SubNavList from "./SubNavList";
 import { navdata } from "../data/navdata";
 
 const CaraNavbar = () => {
   return (
     <div className="caraNav">
-      <ul className="caraUlNav">
+      <ul className="subUlNav caraUlNav">
         {navdata("cara", "cara").map((listItem) => {
           return <SubNavList key={listItem.id} {...listItem} />;
         })}
