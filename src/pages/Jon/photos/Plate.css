@@ -1,0 +1,46 @@
+.photo-plate {
+  max-width: var(--setWidth);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.photo-plate h2 {
+  color: var(--jonprimary-text);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.plate-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plate-image {
+  width: 100%;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: var(--radius);
+  box-shadow: var(--dark-shadow);
+}
+
+.plate-description {
+  padding: 15px;
+  background-color: var(--jonbackgroundtransparent);
+  border-radius: var(--radius);
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .plate-content {
+    flex-direction: row;
+  }
+
+  .plate-image {
+    width: 60%;
+  }
+
+  .plate-description {
+    width: 40%;
+  }
+}
