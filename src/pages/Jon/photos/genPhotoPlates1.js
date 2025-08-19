@@ -9,14 +9,21 @@ const template = `import "../../../css/Jonathan.css";
 import { JonData } from "../../../data/jondata";
 import JonNavbar from "../../../ui/JonNavbar";
 import PhotoPage from "../../../components/PhotoPage";
+import { useTheme } from "../../../context/useTheme";
+import { useTopic } from "../../../hooks/useTopic";
 
 function JonPlatePLATE_NUM() {
+  const { currentTheme } = useTheme();
+  const { currentTopic } = useTopic();
   const { jonheader, jonPhotosPlates } = JonData();
   const plateData = jonPhotosPlates.find((plate) => plate.plate === "platePLATE_NUM");
   const photoNo = jonPhotosPlates.length;
 
   return (
     <PhotoPage
+      name={currentTheme.name}
+      alias={currentTheme.alias}
+      topics={currentTopic}
       headerData={jonheader}
       photoPlate={plateData.img}
       photoNo={photoNo}
@@ -30,13 +37,15 @@ function JonPlatePLATE_NUM() {
 export default JonPlatePLATE_NUM;
 `;
 
-for (let i = 2; i <= 49; i++) {
-  const plateNum = i.toString().padStart(2, "0");
-  const content = template.replace(/PLATE_NUM/g, plateNum);
+(async () => {
+  for (let i = 2; i <= 49; i++) {
+    const plateNum = i.toString().padStart(2, "0");
+    const content = template.replace(/PLATE_NUM/g, plateNum);
 
-  const filePath = path.join(__dirname, `JonPlate${plateNum}.jsx`);
-  fs.writeFileSync(filePath, content);
-  console.log(`Generated JonPlate${plateNum}.jsx`);
-}
+    const filePath = path.join(__dirname, `JonPlate${plateNum}.jsx`);
+    await fs.writeFile(filePath, content); // Use await here
+    console.log(`Generated JonPlate${plateNum}.jsx`);
+  }
 
-console.log("All plate components generated!");
+  console.log("All plate components generated!");
+})();
