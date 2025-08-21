@@ -26,19 +26,19 @@ export const JonLinksData = () => {
     },
     {
       id: 2,
-      link: `/${currentTheme.name}/${currentTheme.alias}links/games`,
+      link: `/${currentTheme.name}/${currentTheme.alias}links/plate02`,
       title: "games",
       details: "I love visiting these Pages.",
     },
     {
       id: 3,
-      link: `/${currentTheme.name}/${currentTheme.alias}links/downloads`,
+      link: `/${currentTheme.name}/${currentTheme.alias}links/plate03`,
       title: "downloads",
       details: "See the joy of the game downloads.",
     },
     {
       id: 4,
-      link: `/${currentTheme.name}/${currentTheme.alias}links/credit`,
+      link: `/${currentTheme.name}/${currentTheme.alias}links/plate04`,
       title: "credit",
       details: "Not the credit you are thinking of",
     },
@@ -47,27 +47,56 @@ export const JonLinksData = () => {
   const jonlinksplates = [
     {
       plate: "plate01",
-      img: "/src/assets/JL/images/f0991204_023ar.jpg",
       title: "Plate 1",
-      info: "With father in my 1-year old birthday party.",
+      info: `<h1><a href="http://smallcampus.net/entrance/">小校園</a></h1>
+<h1><a href="http://www.prof-ho.com/reading/">每日一篇</a></h1>
+<h1><a href="https://icograms.com/usage-school-maps">MAP Maths Adventure Platform</a></h1>
+<h1 id="line1"><a href="https://www.gsis.edu.hk/en/">常識Ready Go</a></h1>
+`,
     },
     {
       plate: "plate02",
-      img: "/src/assets/JL/images/fa021011_029ar.jpg",
       title: "Plate 2",
-      info: "Father and son.",
+      info: `<div id="games">
+<h1 align="left">Games</h1>
+</div>
+
+<div class="link-box">
+  <h2><a href="http://www.asiadog.com/game/" target="_blank">Asiadog Games</a></h2>
+</div>
+
+<div class="link-box">
+  <h2><a href="http://mario.ngamer.net/index.shtml" target="_blank">Mario Games</a></h2>
+</div>
+
+<div class="link-box">
+  <h2><a href="http://www.newgrounds.com/games/" target="_blank">Newgrounds Games</a></h2>
+</div>
+
+<div class="link-box">
+  <h2><a href="http://hk10.com/" target="_blank">HK10 Games</a></h2>
+</div>
+
+<div class="link-box">
+  <h2><a href="http://www.ugameasia.com/i-game/" target="_blank">Ugameasia Games</a></h2>
+</div>
+
+`,
     },
     {
       plate: "plate03",
-      img: "/src/assets/JL/images/fa070128_073ar.jpg",
       title: "Plate 3",
-      info: "Looking onward.",
+      info: `<h1><a href="http://www.download.com/Mario-Forever/3000-7435_4-10344976.html">mario forever</a></h1>
+<p>It is a game. It's good.I like it very much.</p>
+`,
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa020303_039ar.jpg",
       title: "Plate 4",
-      info: "3y-old me with mother and brother.",
+      info: `<h2>boss: Leung Sik Chi</h2>
+<h2>chairman: Mak Tze Chun</p>
+
+`,
     },
   ];
 

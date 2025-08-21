@@ -16,6 +16,8 @@
   --setWidth: var(--width3);
   --grey: rgb(46, 46, 46);
   --hover: #cf0000;
+  --active: #cf0000;
+  --active2: #ff6767;
 
   --jonprimary: #0099cc;
   --jonprimarytransparent: #0099cc7a;
@@ -168,7 +170,7 @@ main {
   padding-left: 2.4rem;
   padding-right: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 105%;
+  font-size: 120%;
 }
 
 /* SECTION SETTINGS */
@@ -367,6 +369,10 @@ section {
   color: white;
 }
 
+.links-content {
+  margin: 3rem;
+}
+
 /* @media (min-width: 768px) {
   .plate-content {
     flex-direction: row;
@@ -538,4 +544,54 @@ main > section {
   .plate-description {
     width: 40%;
   }
+}
+
+/* AUDIO PLAYER STYLING */
+.audio-player {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1.5rem 0;
+  padding: 1rem;
+  /* background-color: var(--jonbackground); */
+  border-radius: var(--radius);
+}
+
+.audio-player audio {
+  width: 80%;
+  max-width: 400px;
+  transition: all 0.3s ease;
+}
+
+.audio-player audio:hover {
+  transform: scale(1.1);
+}
+
+/* Style audio controls to match theme */
+.audio-player audio::-webkit-media-controls-panel {
+  background-color: var(--jonprimary);
+  transition: all 0.3s ease;
+}
+
+.audio-player audio:hover::-webkit-media-controls-panel {
+  background-color: var(--hover);
+}
+
+/* Change to reddish color when playing */
+.audio-player audio:focus::-webkit-media-controls-panel,
+.audio-player audio[data-playing]::-webkit-media-controls-panel {
+  background-color: var(--active2); /* Reddish color for active/playing state */
+}
+
+.audio-player audio::-webkit-media-controls-play-button,
+.audio-player audio::-webkit-media-controls-volume-slider,
+.audio-player audio::-webkit-media-controls-mute-button {
+  filter: invert(1);
+  transition: var(--transition);
+}
+
+.audio-player audio:hover::-webkit-media-controls-play-button,
+.audio-player audio:hover::-webkit-media-controls-volume-slider,
+.audio-player audio:hover::-webkit-media-controls-mute-button {
+  filter: invert(0);
 }

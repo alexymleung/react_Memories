@@ -1,7 +1,7 @@
 import PersonPage from "../components/PersonPage";
 import JonNavbar from "../ui/JonNavbar";
 import { JonData } from "../data/JL/jondata";
-import "./Jonathan.css";
+import "../css/Jonathan.css";
 
 function Jonathan() {
   const { jonheader, joninfoarticle, joninfosection } = JonData();

@@ -20,13 +20,17 @@
 
 # 11 split data into separate files, reorganize jondata jondata2 into jondata and jonfamiydata; refactoring HeaderNav component, Jonathan part 95% completed
 
-# 12 create usePrevNexthandler.js, fix browser nav bug by addEventListener"popstate"(ThemeProvider)
+# 12 create usePrevNexthandler.js; fix browser nav bug by addEventListener"popstate"(ThemeProvider)
+
+# 13 Links pages, add media link, cleanup css. Jon 100% done.
+
+keyboard shortcut for navigation
 
 mouse over, to add transition and change color background add gradient color
 
 # to switch menu up and down
 
-RootLayout
+RootLayout.jsx
 <Navbar />
 <Outlet />
 

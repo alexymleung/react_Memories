@@ -18,6 +18,6 @@ function ThemedLayout() {
   );
 }
 
-export default function Rootlayout() {
+export default function RootLayout() {
   return <ThemedLayout />;
 }

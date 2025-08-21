@@ -14,6 +14,12 @@ function JonMusic04() {
   const plateData = jonmusicplates.find((plate) => plate.plate === "plate04");
   const photoNo = jonmusicplates.length;
 
+  // Check if link exists and is a valid MP3 file
+  const hasAudioLink =
+    plateData.link &&
+    typeof plateData.link === "string" &&
+    plateData.link.endsWith(".mp3");
+
   return (
     <PhotoPage
       name={currentTheme.name}
@@ -25,6 +31,7 @@ function JonMusic04() {
       info={plateData.info}
       SubNavbar={JonNavbar}
       cssClass={currentTheme.alias}
+      link={hasAudioLink ? plateData.link : undefined} // Pass link only if it exists and is valid
     />
   );
 }

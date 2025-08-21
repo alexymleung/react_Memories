@@ -1,6 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
 import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
-
 import JonMusicHero from "../../assets/JL/images/fa080405_097ar.jpg";
 
 export const JonMusicData = () => {
@@ -68,7 +67,8 @@ export const JonMusicData = () => {
       plate: "plate04",
       img: "/src/assets/JL/images/fa080405_097ar.jpg",
       title: "Plate 4",
-      info: "I am practising for my Grade 5 examination next year.",
+      info: "I am practising for my Grade 5 examination next year. Below is a piece I played named 'Prelude in C' by JS Bach",
+      link: "/src/assets/JL/multimedia/JL070908_PreludeInC.mp3",
     },
     {
       plate: "plate05",

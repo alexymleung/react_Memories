@@ -1,6 +1,6 @@
 import { useTheme } from "../context/useTheme";
 import { navname } from "../data/navdata";
-import "./Navbar.css";
+import "../css/Navbar.css";
 import NavList from "./NavList";
 
 const Navbar = () => {

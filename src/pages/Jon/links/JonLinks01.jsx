@@ -2,7 +2,7 @@ import "../../../css/Jonathan.css";
 import { JonData } from "../../../data/JL/jondata";
 import { JonLinksData } from "../../../data/JL/jonlinksdata";
 import JonNavbar from "../../../ui/JonNavbar";
-import PhotoPage from "../../../components/PhotoPage";
+import LinksPage from "../../../components/LinksPage";
 import { useTheme } from "../../../context/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
@@ -15,7 +15,7 @@ function JonLinks01() {
   const photoNo = jonlinksplates.length;
 
   return (
-    <PhotoPage
+    <LinksPage
       name={currentTheme.name}
       alias={currentTheme.alias}
       topics={currentTopic}

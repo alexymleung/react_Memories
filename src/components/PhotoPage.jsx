@@ -1,7 +1,7 @@
-import { useNavigate } from "react-router-dom";
 import "../css/Jonathan.css";
 import HeaderNav from "./HeaderNav";
-import usePrevNextHandler from "../hooks/usePrevNextHandler";
+
+import PrevNextHandler from "./PrevNextHandler";
 
 function PhotoPage({
   name,
@@ -13,14 +13,8 @@ function PhotoPage({
   info,
   SubNavbar,
   cssClass,
+  link, // Add link prop to check for MP3 files
 }) {
-  const { handlePrev, handleNext, handleUp } = usePrevNextHandler(
-    name,
-    alias,
-    topics,
-    photoNo
-  );
-
   return (
     <>
       <div id="container" className={cssClass}>
@@ -29,26 +23,32 @@ function PhotoPage({
         {/* PHOTO PLATE */}
         <div className="photo-plate">
           {/* NAVIATION BUTTONS */}
-          <div className="photo-navigation">
-            <button className="nav-button prev-button" onClick={handlePrev}>
-              <i className="fas fa-chevron-left"></i>
-            </button>
-            <button className="nav-button thumb-button" onClick={handleUp}>
-              <i className="fas fa-chevron-up"></i>
-            </button>
-            <button className="nav-button next-button" onClick={handleNext}>
-              <i className="fas fa-chevron-right"></i>
-            </button>
-          </div>
+          <PrevNextHandler
+            name={name}
+            alias={alias}
+            topics={topics}
+            photoNo={photoNo}
+          />
 
           {/* PHOTO BODY */}
           <img src={photoPlate} alt="" />
           <p>{info}</p>
+
+          {/* AUDIO PLAYER FOR MP3 FILES */}
+          {link && typeof link === "string" && link.endsWith(".mp3") && (
+            <div className="audio-player">
+              <audio
+                controls
+                onPlay={(e) => e.target.setAttribute("data-playing", "true")}
+                onPause={(e) => e.target.removeAttribute("data-playing")}
+                onEnded={(e) => e.target.removeAttribute("data-playing")}
+              >
+                <source src={link} type="audio/mpeg" />
+                Your browser does not support the audio element.
+              </audio>
+            </div>
+          )}
         </div>
-
-        {/* <main className={`${cssClass}-main`}></main>
-
-        <footer></footer> */}
       </div>
     </>
   );

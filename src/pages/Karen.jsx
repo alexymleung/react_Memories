@@ -1,7 +1,7 @@
 import PersonPage from "../components/PersonPage";
 import KarenNavbar from "../ui/KarenNavbar";
 import { KarenData } from "../data/KH/karendata";
-import "./Karen.css";
+import "../css/Karen.css";
 
 function Karen() {
   const { kareninfoheader, kareninfoarticle, kareninfosection } = KarenData();

@@ -1,5 +1,4 @@
-import { NavLink } from "react-router-dom";
-import "./Navbar.css";
+import "../css/Navbar.css";
 import SubNavList from "./SubNavList";
 import { navdata } from "../data/navdata";
 
