@@ -1,13 +1,8 @@
-import { Outlet } from "react-router-dom";
 import JonNavbar from "../ui/JonNavbar";
+import Layout from "../components/Layout";
 
 function JonLayout() {
-  return (
-    <>
-      <JonNavbar />
-      <Outlet />
-    </>
-  );
+  return <Layout navbar={JonNavbar} />;
 }
 
 export default JonLayout;

@@ -6,7 +6,7 @@
 
 4. Bearing in mind I have under context and hooks that store four states for the four individual persons, and that
 
-5. I use data folder and the files like jondata to import data.
+5. I use data folder and the files like JL/jondata to import data.
 
 6. My question is, what is the best way to go about achieving the above?
 
@@ -16,4 +16,4 @@ We know that the use of these will depend on the currentTheme as defined in the 
 
 can we use the useTheme in the wider context so that we don't have to manually pass these parameters
 
-e.g. in jondata, there are many jon, Jon, jonathan, how can we use parameter as a template so that these can be derived from context?
+e.g. in JL/jondata, there are many jon, Jon, jonathan, how can we use parameter as a template so that these can be derived from context?

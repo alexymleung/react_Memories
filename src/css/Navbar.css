@@ -1,0 +1,354 @@
+a:hover {
+  text-decoration: none;
+  color: var(--hover) !important;
+}
+
+/* MAIN NAVBAR SETTINGS */
+
+/* .mainUlNav a:hover {
+  text-decoration: none;
+  color: var(--hover) !important;
+} */
+
+.mainNav {
+  margin: 0;
+  padding: 0;
+  top: 0;
+  width: 100%;
+}
+
+.mainUlNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+  padding: 0;
+  width: 100%;
+  max-width: var(--setWidth);
+  margin: 0 auto;
+  border-bottom: none;
+}
+
+.mainUlNav li {
+  display: flex;
+  text-transform: capitalize;
+}
+
+.mainUlNav a {
+  padding: 1rem 3.6rem;
+  border: 1px solid transparent;
+  border-bottom: none;
+  border-radius: 5px 5px 0 0;
+  font-size: 1.1rem;
+  font-weight: 800;
+  transition: all 0.2s ease;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* .mainUlNav a:hover {
+  background-color: #f5f5f5;
+} */
+
+/* Active tab styles - will be overridden by theme classes */
+.mainUlNav a.active {
+  border: 1px solid #16033a;
+  border-bottom-color: transparent;
+  margin-bottom: 0;
+  box-shadow: none;
+}
+
+/* SUBNAVBAR GENERAL SETTINGS */
+
+.subUlNav {
+  width: var(--setWidth);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: baseline;
+  align-items: stretch;
+  flex-wrap: wrap;
+  text-align: center;
+  padding-top: 0.8rem;
+  gap: 1rem;
+  padding-bottom: 1rem;
+  margin: 0 auto;
+  font-size: 1rem;
+  font-weight: 600;
+  position: relative;
+}
+
+.subUlNav li {
+  display: flex;
+}
+
+.subUlNav a {
+  padding: 0.8rem 0.6rem;
+  margin: -0.8rem 0;
+  display: flex;
+  align-items: center;
+  transition: all 0.6s;
+}
+
+.subUlNav a.active {
+  font-weight: bold;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  padding: 0.8rem 1.2rem;
+  margin: -0.7rem -0.6rem -0.85rem;
+  border-radius: 4px;
+}
+
+/* MAIN NAVBAR INDIVIDUAL SETTINGS */
+
+/* Jon active - set BG color and Text for rest of Inactive tabs */
+.nav-jonathan .mainUlNav a {
+  color: var(--jonbackground);
+  background-color: var(--jonprimarytransparent); /* Base color */
+  border: 1px solid var(--jonbackground);
+  border-opacity: 0.38; /*Separate border transparency */
+}
+
+/* Jon active - set BG color and Text for active tab */
+.mainNav.nav-jonathan .mainUlNav li a.active {
+  background-color: var(--jonprimary) !important;
+  color: var(--jonsecondary) !important;
+  border: 1px solid var(--jonbackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+/* Chris active - set BG color and Text for rest of Inactive tabs */
+.nav-chris .mainUlNav a {
+  color: var(--chrisbackground);
+  background-color: var(--chrisprimarytransparent); /* Base color */
+  border: 1px solid var(--chrisbackground);
+  border-opacity: 0.38; /*Separate border transparency */
+}
+
+/* Chris active - set BG color and Text for active tab */
+.mainNav.nav-chris .mainUlNav li a.active {
+  background-color: var(--chrisprimary) !important;
+  color: var(--chrisprimary-text-active) !important;
+  border: 1px solid var(--chrisbackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+/* Cara active - set BG color and Text for rest of Inactive tabs */
+.nav-cara .mainUlNav a {
+  color: var(--carabackground);
+  background-color: var(--caraprimarytransparent); /* Base color */
+  border: 1px solid var(--carabackground);
+  border-opacity: 0.38; /*Separate border transparency */
+}
+
+/* Cara active - set BG color and Text for active tab */
+.mainNav.nav-cara .mainUlNav li a.active {
+  background-color: var(--caraprimary) !important;
+  color: var(--caraprimary-text-active) !important;
+  border: 1px solid var(--carabackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+/* Karen active - set BG color and Text for rest of Inactive tabs */
+.nav-karen .mainUlNav a {
+  color: var(--karenbackground);
+  background-color: var(--karenprimarytransparent); /* Base color */
+  border: 1px solid var(--karenbackground);
+  border-opacity: 0.38; /*Separate border transparency */
+}
+
+/* Karen active - set BG color and Text for active tab */
+.mainNav.nav-karen .mainUlNav li a.active {
+  background-color: var(--karenprimary) !important;
+  color: var(--karenprimary-text-active) !important;
+  border: 1px solid var(--karenbackgroundtransparent);
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
+}
+
+/* SUB-NAVBAR INDIVIDUAL SETTINGS */
+
+/* JONATHAN's SUB-NAVBAR SETTINGS */
+
+.jonUlNav {
+  background-color: var(--jonprimary);
+}
+
+.jonUlNav a {
+  color: var(--jonprimary-text);
+}
+
+.jonUlNav a.active {
+  background-color: var(--jonbackgroundtransparent);
+  color: var(--jonprimary-text-active);
+}
+
+/* CHRIS' SUB-NAVBAR SETTINGS */
+.chrisUlNav {
+  background-color: var(--chrisprimary);
+}
+
+.chrisUlNav a {
+  color: var(--chrisprimary-text);
+}
+
+.chrisUlNav a.active {
+  background-color: var(--chrisbackgroundtransparent);
+  color: var(--chrisprimary-text-active);
+}
+
+/* CARA's SUB-NAVBAR Settings */
+
+.caraUlNav {
+  width: var(--setWidth);
+  background-color: var(--caraprimary);
+}
+
+.caraUlNav a {
+  color: var(--caraprimary-text);
+}
+
+.caraUlNav a.active {
+  background-color: var(--carabackgroundtransparent);
+  color: var(--caraprimary-text-active);
+}
+
+/* KAREN's SUB-NAVBAR Settings */
+
+.karenUlNav {
+  background-color: var(--karenprimary);
+}
+
+.karenUlNav a {
+  color: var(--karenprimary-text);
+}
+
+.karenUlNav a.active {
+  background-color: var(--karenbackgroundtransparent);
+  color: var(--karenprimary-text-active);
+}
+
+@media (min-width: 1280px) {
+  .mainUlNav a {
+    padding: 1rem 6.5rem;
+    font-size: 1.5rem;
+  }
+  .subUlNav {
+    gap: 2.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+}
+@media (min-width: 1600px) {
+  .mainUlNav a {
+    padding: 1rem 9rem;
+    font-size: 1.8rem;
+  }
+  .subUlNav {
+    gap: 4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 700px) {
+  .mainUlNav a {
+    padding: 0.6rem 2.3rem;
+    font-size: 1.1rem;
+  }
+  .mainUlNav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    max-width: var(--setWidth);
+    margin: 0 auto;
+    border-bottom: none;
+  }
+  .subUlNav {
+    gap: 0.1rem;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    gap: 0.8rem;
+    padding-bottom: 0.7rem;
+    margin: 0 auto;
+    width: 100%wv;
+    /* justify-content: center; */
+    flex-wrap: wrap;
+  }
+  .subUlNav a {
+    padding: 0.1rem 0.1rem;
+    margin: -0.8rem 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.6s;
+  }
+  .subUlNav a.active {
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0.3rem 0.6rem;
+    margin: -0.4rem -0.3rem -0.5rem;
+    border-radius: 3px;
+  }
+}
+
+@media (max-width: 576px) {
+  .mainUlNav a {
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+  }
+  .mainUlNav {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    width: 100%;
+    max-width: var(--setWidth);
+    margin: 0 auto;
+    border-bottom: none;
+  }
+  .subUlNav {
+    gap: 0.1rem;
+    font-size: 0.8rem;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    gap: 0.5rem;
+    padding-bottom: 0.7rem;
+    margin: 0 auto;
+    width: 100%wv;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .subUlNav a {
+    padding: 0.1rem 0.1rem;
+    margin: -0.8rem 0;
+    display: flex;
+    align-items: center;
+    transition: all 0.6s;
+  }
+  .subUlNav a.active {
+    font-weight: bold;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.3);
+    padding: 0.3rem 0.6rem;
+    margin: -0.4rem -0.3rem -0.5rem;
+    border-radius: 3px;
+  }
+}

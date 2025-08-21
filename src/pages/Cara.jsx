@@ -1,22 +1,16 @@
 import PersonPage from "../components/PersonPage";
 import CaraNavbar from "../ui/CaraNavbar";
-import CaraData from "../data/caradata";
-import { useTheme } from "../context/useTheme";
-import "./Cara.css";
+import { CaraData } from "../data/CR/caradata";
+import "../css/Cara.css";
 
 function Cara() {
-  const theme = useTheme();
-  const {
-    header: carainfoheader,
-    article: carainfoarticle,
-    section: carainfosection,
-  } = CaraData(theme);
+  const { carainfoheader, carainfoarticle, carainfosection } = CaraData();
   return (
     <PersonPage
       headerData={carainfoheader}
       articleData={carainfoarticle}
       sectionData={carainfosection}
-      NavbarComponent={CaraNavbar}
+      SubNavbar={CaraNavbar}
       cssClass="cara"
     />
   );

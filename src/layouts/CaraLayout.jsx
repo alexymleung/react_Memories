@@ -1,14 +1,8 @@
-import { Outlet } from "react-router-dom";
 import CaraNavbar from "../ui/CaraNavbar";
+import Layout from "../components/Layout";
 
 function CaraLayout() {
-  return (
-    <>
-      <CaraNavbar />
-
-      <Outlet />
-    </>
-  );
+  return <Layout navbar={CaraNavbar} />;
 }
 
 export default CaraLayout;

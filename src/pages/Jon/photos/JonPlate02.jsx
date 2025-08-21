@@ -1,5 +1,6 @@
 import "../../../css/Jonathan.css";
-import { JonData } from "../../../data/jondata";
+import { JonData } from "../../../data/JL/jondata";
+import { JonPhotosData } from "../../../data/JL/jonphotosdata";
 import JonNavbar from "../../../ui/JonNavbar";
 import PhotoPage from "../../../components/PhotoPage";
 import { useTheme } from "../../../context/useTheme";
@@ -8,7 +9,8 @@ import { useTopic } from "../../../hooks/useTopic";
 function JonPlate02() {
   const { currentTheme } = useTheme();
   const { currentTopic } = useTopic();
-  const { jonheader, jonPhotosPlates } = JonData();
+  const { jonheader } = JonData();
+  const { jonPhotosPlates } = JonPhotosData();
   const plateData = jonPhotosPlates.find((plate) => plate.plate === "plate02");
   const photoNo = jonPhotosPlates.length;
 
@@ -22,7 +24,7 @@ function JonPlate02() {
       photoNo={photoNo}
       info={plateData.info}
       SubNavbar={JonNavbar}
-      cssClass="jon"
+      cssClass={currentTheme.alias}
     />
   );
 }

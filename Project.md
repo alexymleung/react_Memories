@@ -10,14 +10,29 @@
 
 # 6. responsive layout & consolidation of css
 
-# 7. useTheme for jondata.js refactoring
+# 7. useTheme for JL/jondata.js refactoring
 
-# css styling
+# 8 create layout component, layout(banner to top), css folder, photo thumbnail and plates completed, with data from jonData.
+
+# 9 Add logic for front & end photoplates handling
+
+# 10 created topic state using useContext, photopage dynamically rendered using useContext, also for photoNo
+
+# 11 split data into separate files, reorganize jondata jondata2 into jondata and jonfamiydata; refactoring HeaderNav component, Jonathan part 95% completed
+
+# 12 create usePrevNexthandler.js, fix browser nav bug by addEventListener"popstate"(ThemeProvider)
 
 mouse over, to add transition and change color background add gradient color
 
-# 5. refactoring
+# to switch menu up and down
 
-6. Array.map run data
+RootLayout
+<Navbar />
+<Outlet />
 
-# color as variables
+HeaderNav.jsx
+
+<div className="sticky">
+<SubNavbar />
+</div>
+<Header pic={headerData.image} alt={headerData.alt} />

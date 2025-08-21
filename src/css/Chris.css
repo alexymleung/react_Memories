@@ -1,0 +1,7 @@
+body {
+  background-color: var(--chrisprimary);
+}
+
+.chris-main {
+  background-color: var(--chrissecondary);
+}

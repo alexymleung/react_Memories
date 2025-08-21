@@ -1,6 +1,5 @@
 import { Outlet } from "react-router-dom";
 import Navbar from "../ui/Navbar";
-import { ThemeProvider } from "../context/ThemeProvider";
 import { useTheme } from "../hooks/useTheme";
 
 function ThemedLayout() {
@@ -15,16 +14,10 @@ function ThemedLayout() {
     >
       <Navbar />
       <Outlet />
-      {/* <main>
-      </main> */}
     </div>
   );
 }
 
 export default function Rootlayout() {
-  return (
-    <ThemeProvider>
-      <ThemedLayout />
-    </ThemeProvider>
-  );
+  return <ThemedLayout />;
 }

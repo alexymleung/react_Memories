@@ -1,6 +1,6 @@
 import PersonPage from "../components/PersonPage";
 import KarenNavbar from "../ui/KarenNavbar";
-import { KarenData } from "../data/karendata";
+import { KarenData } from "../data/KH/karendata";
 import "./Karen.css";
 
 function Karen() {
@@ -10,7 +10,7 @@ function Karen() {
       headerData={kareninfoheader}
       articleData={kareninfoarticle}
       sectionData={kareninfosection}
-      NavbarComponent={KarenNavbar}
+      SubNavbar={KarenNavbar}
       cssClass="karen"
     />
   );

@@ -20,7 +20,7 @@ export const navname = [
 export const navdata = (name, alias) => [
   {
     id: 1,
-    link: `/${name}/${alias}intro`,
+    link: `/${name}/${alias}info`,
     innerText: "Introduction",
   },
   {

@@ -1,0 +1,25 @@
+body {
+  background-color: var(--jonprimary);
+}
+
+/* Use a unique class for Jonathan's main element to avoid conflicts */
+
+.jon {
+  background-color: var(--jonbackground);
+}
+
+.jon-main {
+  background-color: var(--jonsecondary);
+}
+
+.photo-gallery {
+  background-color: var(--jonsecondary);
+}
+
+.thumbnail-box {
+  background-color: var(--jonprimary);
+}
+
+.photo-plate {
+  background-color: var(--jonsecondary);
+}

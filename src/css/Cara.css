@@ -1,0 +1,7 @@
+body {
+  background-color: var(--caraprimary);
+}
+
+.cara-main {
+  background-color: var(--carasecondary);
+}

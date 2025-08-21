@@ -1,16 +1,16 @@
 import PersonPage from "../components/PersonPage";
 import JonNavbar from "../ui/JonNavbar";
-import { JonData } from "../data/jondata";
+import { JonData } from "../data/JL/jondata";
 import "./Jonathan.css";
 
 function Jonathan() {
-  const { joninfoheader, joninfoarticle, joninfosection } = JonData();
+  const { jonheader, joninfoarticle, joninfosection } = JonData();
   return (
     <PersonPage
-      headerData={joninfoheader}
+      headerData={jonheader}
       articleData={joninfoarticle}
       sectionData={joninfosection}
-      NavbarComponent={JonNavbar}
+      SubNavbar={JonNavbar}
       cssClass="jon"
     />
   );

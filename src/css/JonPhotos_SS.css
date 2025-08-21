@@ -1,0 +1,12 @@
+.thumbnail-box {
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 22px;
+  padding: 15px;
+  background-color: #009ace;
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

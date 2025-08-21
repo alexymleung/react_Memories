@@ -1,0 +1,7 @@
+body {
+  background-color: var(--karenprimary);
+}
+
+.karen-main {
+  background-color: var(--karensecondary);
+}

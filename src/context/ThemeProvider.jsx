@@ -5,7 +5,7 @@ import { ThemeContext } from "./ThemeContext";
 export const ThemeProvider = ({ children }) => {
   const [currentTheme, setCurrentTheme] = useState(null);
 
-  useEffect(() => {
+  const updateThemeFromPath = () => {
     const path = window.location.pathname;
     if (path.includes("/chris")) {
       setCurrentTheme(themes.chris);
@@ -16,6 +16,23 @@ export const ThemeProvider = ({ children }) => {
     } else {
       setCurrentTheme(themes.jonathan);
     }
+  };
+
+  useEffect(() => {
+    // Set initial theme
+    updateThemeFromPath();
+
+    // Listen for popstate events (browser back/forward navigation)
+    const handlePopState = () => {
+      updateThemeFromPath();
+    };
+
+    window.addEventListener("popstate", handlePopState);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("popstate", handlePopState);
+    };
   }, []);
 
   if (currentTheme === null) {

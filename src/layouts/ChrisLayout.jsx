@@ -1,14 +1,9 @@
-import { Outlet } from "react-router-dom";
+import Layout from "../components/Layout";
+
 import ChrisNavbar from "../ui/ChrisNavbar";
 
 function ChrisLayout() {
-  return (
-    <>
-      <ChrisNavbar />
-
-      <Outlet />
-    </>
-  );
+  return <Layout navbar={ChrisNavbar} />;
 }
 
 export default ChrisLayout;
