@@ -26,6 +26,8 @@
 
 # 14 1st level framing, photo & plates for all completed.
 
+# 15 Framework for all pages created. also finished Chris & Cara sections
+
 keyboard shortcut for navigation
 
 mouse over, to add transition and change color background add gradient color

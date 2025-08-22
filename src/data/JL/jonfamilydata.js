@@ -34,14 +34,14 @@ export const JonFamilyData = () => {
       link: `/${currentTheme.name}/${currentTheme.alias}family/plate06`,
       title: "My Brother, Chris",
       details:
-        "Chris is now studying in class 2D at the same school. Here is his web site.",
+        "Chris is now studying in class 3B at the same school. Here is his web site.",
     },
     {
       id: 4,
       link: `/${currentTheme.name}/${currentTheme.alias}family/plate08`,
       title: "My Sister, Cara",
       details:
-        "Cara too is studying in my school in class 1B. This is the link to her web site.",
+        "Cara too is studying in my school in class 2B. This is the link to her web site.",
     },
   ];
 

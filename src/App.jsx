@@ -153,18 +153,62 @@ import JonPlate46 from "./pages/Jon/photos/JonPlate46";
 import JonPlate47 from "./pages/Jon/photos/JonPlate47";
 import JonPlate48 from "./pages/Jon/photos/JonPlate48";
 import JonPlate49 from "./pages/Jon/photos/JonPlate49";
-// import ChrisHobby01 from "./pages/Chris/hobby/ChrisHobby01";
-// import ChrisHobby02 from "./pages/Chris/hobby/ChrisHobby02";
-// import ChrisHobby03 from "./pages/Chris/hobby/ChrisHobby03";
-// import ChrisHobby04 from "./pages/Chris/hobby/ChrisHobby04";
-// import ChrisHobby05 from "./pages/Chris/hobby/ChrisHobby05";
-// import ChrisHobby06 from "./pages/Chris/hobby/ChrisHobby06";
-// import ChrisHobby07 from "./pages/Chris/hobby/ChrisHobby07";
-// import ChrisHobby08 from "./pages/Chris/hobby/ChrisHobby08";
-// import ChrisLinks01 from "./pages/Chris/links/ChrisLinks01";
-// import ChrisLinks02 from "./pages/Chris/links/ChrisLinks02";
-// import ChrisLinks03 from "./pages/Chris/links/ChrisLinks03";
-// import ChrisLinks04 from "./pages/Chris/links/ChrisLinks04";
+
+// Chris
+import ChrisFamily01 from "./pages/Chris/family/ChrisFamily01";
+import ChrisFamily02 from "./pages/Chris/family/ChrisFamily02";
+import ChrisFamily03 from "./pages/Chris/family/ChrisFamily03";
+import ChrisFamily04 from "./pages/Chris/family/ChrisFamily04";
+import ChrisFamily05 from "./pages/Chris/family/ChrisFamily05";
+import ChrisFamily06 from "./pages/Chris/family/ChrisFamily06";
+import ChrisFamily07 from "./pages/Chris/family/ChrisFamily07";
+import ChrisFamily08 from "./pages/Chris/family/ChrisFamily08";
+import ChrisFamily09 from "./pages/Chris/family/ChrisFamily09";
+
+import ChrisSchool01 from "./pages/Chris/school/ChrisSchool01";
+
+import ChrisMusic01 from "./pages/Chris/music/ChrisMusic01";
+import ChrisMusic02 from "./pages/Chris/music/ChrisMusic02";
+import ChrisMusic03 from "./pages/Chris/music/ChrisMusic03";
+
+import ChrisSports01 from "./pages/Chris/sports/ChrisSports01";
+import ChrisSports02 from "./pages/Chris/sports/ChrisSports02";
+import ChrisSports03 from "./pages/Chris/sports/ChrisSports03";
+import ChrisSports04 from "./pages/Chris/sports/ChrisSports04";
+import ChrisSports05 from "./pages/Chris/sports/ChrisSports05";
+import ChrisSports06 from "./pages/Chris/sports/ChrisSports06";
+import ChrisSports07 from "./pages/Chris/sports/ChrisSports07";
+import ChrisSports08 from "./pages/Chris/sports/ChrisSports08";
+import ChrisSports09 from "./pages/Chris/sports/ChrisSports09";
+import ChrisSports10 from "./pages/Chris/sports/ChrisSports10";
+import ChrisSports11 from "./pages/Chris/sports/ChrisSports11";
+import ChrisSports12 from "./pages/Chris/sports/ChrisSports12";
+import ChrisSports13 from "./pages/Chris/sports/ChrisSports13";
+import ChrisSports14 from "./pages/Chris/sports/ChrisSports14";
+import ChrisSports15 from "./pages/Chris/sports/ChrisSports15";
+import ChrisSports16 from "./pages/Chris/sports/ChrisSports16";
+import ChrisSports17 from "./pages/Chris/sports/ChrisSports17";
+import ChrisSports18 from "./pages/Chris/sports/ChrisSports18";
+import ChrisSports19 from "./pages/Chris/sports/ChrisSports19";
+import ChrisSports20 from "./pages/Chris/sports/ChrisSports20";
+import ChrisSports21 from "./pages/Chris/sports/ChrisSports21";
+import ChrisSports22 from "./pages/Chris/sports/ChrisSports22";
+import ChrisSports23 from "./pages/Chris/sports/ChrisSports23";
+
+import ChrisHobby01 from "./pages/Chris/hobby/ChrisHobby01";
+import ChrisHobby02 from "./pages/Chris/hobby/ChrisHobby02";
+import ChrisHobby03 from "./pages/Chris/hobby/ChrisHobby03";
+import ChrisHobby04 from "./pages/Chris/hobby/ChrisHobby04";
+import ChrisHobby05 from "./pages/Chris/hobby/ChrisHobby05";
+import ChrisHobby06 from "./pages/Chris/hobby/ChrisHobby06";
+import ChrisHobby07 from "./pages/Chris/hobby/ChrisHobby07";
+import ChrisHobby08 from "./pages/Chris/hobby/ChrisHobby08";
+
+import ChrisLinks01 from "./pages/Chris/links/ChrisLinks01";
+import ChrisLinks02 from "./pages/Chris/links/ChrisLinks02";
+import ChrisLinks03 from "./pages/Chris/links/ChrisLinks03";
+import ChrisLinks04 from "./pages/Chris/links/ChrisLinks04";
+
 import ChrisPlate01 from "./pages/Chris/photos/ChrisPlate01";
 import ChrisPlate02 from "./pages/Chris/photos/ChrisPlate02";
 import ChrisPlate03 from "./pages/Chris/photos/ChrisPlate03";
@@ -207,6 +251,51 @@ import ChrisPlate39 from "./pages/Chris/photos/ChrisPlate39";
 import ChrisPlate40 from "./pages/Chris/photos/ChrisPlate40";
 import ChrisPlate41 from "./pages/Chris/photos/ChrisPlate41";
 import ChrisPlate42 from "./pages/Chris/photos/ChrisPlate42";
+
+// CARA
+import CaraFamily01 from "./pages/Cara/family/CaraFamily01";
+import CaraFamily02 from "./pages/Cara/family/CaraFamily02";
+import CaraFamily03 from "./pages/Cara/family/CaraFamily03";
+import CaraFamily04 from "./pages/Cara/family/CaraFamily04";
+import CaraFamily05 from "./pages/Cara/family/CaraFamily05";
+import CaraFamily06 from "./pages/Cara/family/CaraFamily06";
+import CaraFamily07 from "./pages/Cara/family/CaraFamily07";
+import CaraFamily08 from "./pages/Cara/family/CaraFamily08";
+import CaraFamily09 from "./pages/Cara/family/CaraFamily09";
+
+import CaraSchool01 from "./pages/Cara/school/CaraSchool01";
+import CaraSchool02 from "./pages/Cara/school/CaraSchool02";
+import CaraSchool03 from "./pages/Cara/school/CaraSchool03";
+import CaraSchool04 from "./pages/Cara/school/CaraSchool04";
+import CaraSchool05 from "./pages/Cara/school/CaraSchool05";
+
+import CaraMusic01 from "./pages/Cara/music/CaraMusic01";
+
+import CaraSports01 from "./pages/Cara/sports/CaraSports01";
+import CaraSports02 from "./pages/Cara/sports/CaraSports02";
+import CaraSports03 from "./pages/Cara/sports/CaraSports03";
+import CaraSports04 from "./pages/Cara/sports/CaraSports04";
+import CaraSports05 from "./pages/Cara/sports/CaraSports05";
+import CaraSports06 from "./pages/Cara/sports/CaraSports06";
+import CaraSports07 from "./pages/Cara/sports/CaraSports07";
+import CaraSports08 from "./pages/Cara/sports/CaraSports08";
+import CaraSports09 from "./pages/Cara/sports/CaraSports09";
+import CaraSports10 from "./pages/Cara/sports/CaraSports10";
+import CaraSports11 from "./pages/Cara/sports/CaraSports11";
+import CaraSports12 from "./pages/Cara/sports/CaraSports12";
+
+import CaraHobby01 from "./pages/Cara/hobby/CaraHobby01";
+import CaraHobby02 from "./pages/Cara/hobby/CaraHobby02";
+import CaraHobby03 from "./pages/Cara/hobby/CaraHobby03";
+import CaraHobby04 from "./pages/Cara/hobby/CaraHobby04";
+import CaraHobby05 from "./pages/Cara/hobby/CaraHobby05";
+import CaraHobby06 from "./pages/Cara/hobby/CaraHobby06";
+
+import CaraLinks01 from "./pages/Cara/links/CaraLinks01";
+import CaraLinks02 from "./pages/Cara/links/CaraLinks02";
+import CaraLinks03 from "./pages/Cara/links/CaraLinks03";
+import CaraLinks04 from "./pages/Cara/links/CaraLinks04";
+
 import CaraPlate01 from "./pages/Cara/photos/CaraPlate01";
 import CaraPlate02 from "./pages/Cara/photos/CaraPlate02";
 import CaraPlate03 from "./pages/Cara/photos/CaraPlate03";
@@ -255,6 +344,50 @@ import CaraPlate45 from "./pages/Cara/photos/CaraPlate45";
 import CaraPlate46 from "./pages/Cara/photos/CaraPlate46";
 import CaraPlate47 from "./pages/Cara/photos/CaraPlate47";
 import CaraPlate48 from "./pages/Cara/photos/CaraPlate48";
+
+// KAREN
+import KarenFamily01 from "./pages/Karen/family/KarenFamily01";
+import KarenFamily02 from "./pages/Karen/family/KarenFamily02";
+import KarenFamily03 from "./pages/Karen/family/KarenFamily03";
+import KarenFamily04 from "./pages/Karen/family/KarenFamily04";
+import KarenFamily05 from "./pages/Karen/family/KarenFamily05";
+import KarenFamily06 from "./pages/Karen/family/KarenFamily06";
+import KarenFamily07 from "./pages/Karen/family/KarenFamily07";
+import KarenFamily08 from "./pages/Karen/family/KarenFamily08";
+import KarenFamily09 from "./pages/Karen/family/KarenFamily09";
+import KarenFamily10 from "./pages/Karen/family/KarenFamily10";
+import KarenFamily11 from "./pages/Karen/family/KarenFamily11";
+import KarenFamily12 from "./pages/Karen/family/KarenFamily12";
+import KarenFamily13 from "./pages/Karen/family/KarenFamily13";
+import KarenFamily14 from "./pages/Karen/family/KarenFamily14";
+import KarenFamily15 from "./pages/Karen/family/KarenFamily15";
+import KarenFamily16 from "./pages/Karen/family/KarenFamily16";
+import KarenFamily17 from "./pages/Karen/family/KarenFamily17";
+import KarenFamily18 from "./pages/Karen/family/KarenFamily18";
+import KarenFamily19 from "./pages/Karen/family/KarenFamily19";
+import KarenFamily20 from "./pages/Karen/family/KarenFamily20";
+import KarenFamily21 from "./pages/Karen/family/KarenFamily21";
+import KarenFamily22 from "./pages/Karen/family/KarenFamily22";
+import KarenFamily23 from "./pages/Karen/family/KarenFamily23";
+
+import KarenSchool01 from "./pages/Karen/school/KarenSchool01";
+
+import KarenMusic01 from "./pages/Karen/music/KarenMusic01";
+import KarenMusic02 from "./pages/Karen/music/KarenMusic02";
+
+import KarenSports01 from "./pages/Karen/sports/KarenSports01";
+import KarenSports02 from "./pages/Karen/sports/KarenSports02";
+import KarenSports03 from "./pages/Karen/sports/KarenSports03";
+import KarenSports04 from "./pages/Karen/sports/KarenSports04";
+import KarenSports05 from "./pages/Karen/sports/KarenSports05";
+
+import KarenHobby01 from "./pages/Karen/hobby/KarenHobby01";
+import KarenHobby02 from "./pages/Karen/hobby/KarenHobby02";
+import KarenHobby03 from "./pages/Karen/hobby/KarenHobby03";
+import KarenHobby04 from "./pages/Karen/hobby/KarenHobby04";
+import KarenHobby05 from "./pages/Karen/hobby/KarenHobby05";
+import KarenHobby06 from "./pages/Karen/hobby/KarenHobby06";
+import KarenHobby07 from "./pages/Karen/hobby/KarenHobby07";
 
 import KarenPlate01 from "./pages/Karen/photos/KarenPlate01";
 import KarenPlate02 from "./pages/Karen/photos/KarenPlate02";
@@ -310,6 +443,8 @@ import KarenPlate51 from "./pages/Karen/photos/KarenPlate51";
 import KarenPlate52 from "./pages/Karen/photos/KarenPlate52";
 import KarenPlate53 from "./pages/Karen/photos/KarenPlate53";
 
+import KarenLinks01 from "./pages/Karen/links/KarenLinks01";
+
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RootLayout />}>
@@ -326,6 +461,7 @@ const router = createBrowserRouter(
         <Route path="jonfamily/plate06" element={<JonFamily06 />} />
         <Route path="jonfamily/plate07" element={<JonFamily07 />} />
         <Route path="jonfamily/plate08" element={<JonFamily08 />} />
+
         <Route path="jonschool" element={<JonSchool />} />
         <Route path="jonschool/plate01" element={<JonSchool01 />} />
         <Route path="jonschool/plate02" element={<JonSchool02 />} />
@@ -340,6 +476,7 @@ const router = createBrowserRouter(
         <Route path="jonschool/plate11" element={<JonSchool11 />} />
         <Route path="jonschool/plate12" element={<JonSchool12 />} />
         <Route path="jonschool/plate13" element={<JonSchool13 />} />
+
         <Route path="jonmusic" element={<JonMusic />} />
         <Route path="jonmusic/plate01" element={<JonMusic01 />} />
         <Route path="jonmusic/plate02" element={<JonMusic02 />} />
@@ -348,6 +485,7 @@ const router = createBrowserRouter(
         <Route path="jonmusic/plate05" element={<JonMusic05 />} />
         <Route path="jonmusic/plate06" element={<JonMusic06 />} />
         <Route path="jonmusic/plate07" element={<JonMusic07 />} />
+
         <Route path="jonsports" element={<JonSports />} />
         <Route path="jonsports/plate01" element={<JonSports01 />} />
         <Route path="jonsports/plate02" element={<JonSports02 />} />
@@ -365,6 +503,7 @@ const router = createBrowserRouter(
         <Route path="jonsports/plate14" element={<JonSports14 />} />
         <Route path="jonsports/plate15" element={<JonSports15 />} />
         <Route path="jonsports/plate16" element={<JonSports16 />} />
+
         <Route path="jonhobby" element={<JonHobby />} />
         <Route path="jonhobby/plate01" element={<JonHobby01 />} />
         <Route path="jonhobby/plate02" element={<JonHobby02 />} />
@@ -374,6 +513,7 @@ const router = createBrowserRouter(
         <Route path="jonhobby/plate06" element={<JonHobby06 />} />
         <Route path="jonhobby/plate07" element={<JonHobby07 />} />
         <Route path="jonhobby/plate08" element={<JonHobby08 />} />
+
         <Route path="jonphotos" element={<JonPhotos />} />
         <Route path="jonphotos/plate01" element={<JonPlate01 />} />
         <Route path="jonphotos/plate02" element={<JonPlate02 />} />
@@ -438,6 +578,57 @@ const router = createBrowserRouter(
         <Route path="chrismusic" element={<ChrisMusic />} />
         <Route path="chrissports" element={<ChrisSports />} />
         <Route path="chrishobby" element={<ChrisHobby />} />
+
+        <Route path="chrisfamily/plate01" element={<ChrisFamily01 />} />
+        <Route path="chrisfamily/plate02" element={<ChrisFamily02 />} />
+        <Route path="chrisfamily/plate03" element={<ChrisFamily03 />} />
+        <Route path="chrisfamily/plate04" element={<ChrisFamily04 />} />
+        <Route path="chrisfamily/plate05" element={<ChrisFamily05 />} />
+        <Route path="chrisfamily/plate06" element={<ChrisFamily06 />} />
+        <Route path="chrisfamily/plate07" element={<ChrisFamily07 />} />
+        <Route path="chrisfamily/plate08" element={<ChrisFamily08 />} />
+        <Route path="chrisfamily/plate09" element={<ChrisFamily09 />} />
+        <Route path="chrisschool/plate01" element={<ChrisSchool01 />} />
+        <Route path="chrismusic/plate01" element={<ChrisMusic01 />} />
+        <Route path="chrismusic/plate02" element={<ChrisMusic02 />} />
+        <Route path="chrismusic/plate03" element={<ChrisMusic03 />} />
+
+        <Route path="chrissports/plate01" element={<ChrisSports01 />} />
+        <Route path="chrissports/plate02" element={<ChrisSports02 />} />
+        <Route path="chrissports/plate03" element={<ChrisSports03 />} />
+        <Route path="chrissports/plate04" element={<ChrisSports04 />} />
+        <Route path="chrissports/plate05" element={<ChrisSports05 />} />
+        <Route path="chrissports/plate06" element={<ChrisSports06 />} />
+        <Route path="chrissports/plate07" element={<ChrisSports07 />} />
+        <Route path="chrissports/plate08" element={<ChrisSports08 />} />
+        <Route path="chrissports/plate09" element={<ChrisSports09 />} />
+        <Route path="chrissports/plate10" element={<ChrisSports10 />} />
+        <Route path="chrissports/plate11" element={<ChrisSports11 />} />
+        <Route path="chrissports/plate12" element={<ChrisSports12 />} />
+        <Route path="chrissports/plate13" element={<ChrisSports13 />} />
+        <Route path="chrissports/plate14" element={<ChrisSports14 />} />
+        <Route path="chrissports/plate15" element={<ChrisSports15 />} />
+        <Route path="chrissports/plate16" element={<ChrisSports16 />} />
+        <Route path="chrissports/plate17" element={<ChrisSports17 />} />
+        <Route path="chrissports/plate18" element={<ChrisSports18 />} />
+        <Route path="chrissports/plate19" element={<ChrisSports19 />} />
+        <Route path="chrissports/plate20" element={<ChrisSports20 />} />
+        <Route path="chrissports/plate21" element={<ChrisSports21 />} />
+        <Route path="chrissports/plate22" element={<ChrisSports22 />} />
+        <Route path="chrissports/plate23" element={<ChrisSports23 />} />
+        <Route path="chrishobby/plate01" element={<ChrisHobby01 />} />
+        <Route path="chrishobby/plate02" element={<ChrisHobby02 />} />
+        <Route path="chrishobby/plate03" element={<ChrisHobby03 />} />
+        <Route path="chrishobby/plate04" element={<ChrisHobby04 />} />
+        <Route path="chrishobby/plate05" element={<ChrisHobby05 />} />
+        <Route path="chrishobby/plate06" element={<ChrisHobby06 />} />
+        <Route path="chrishobby/plate07" element={<ChrisHobby07 />} />
+        <Route path="chrishobby/plate08" element={<ChrisHobby08 />} />
+        <Route path="chrislinks/plate01" element={<ChrisLinks01 />} />
+        <Route path="chrislinks/plate02" element={<ChrisLinks02 />} />
+        <Route path="chrislinks/plate03" element={<ChrisLinks03 />} />
+        <Route path="chrislinks/plate04" element={<ChrisLinks04 />} />
+
         <Route path="chrisphotos" element={<ChrisPhotos />} />
         <Route path="chrisphotos/plate01" element={<ChrisPlate01 />} />
         <Route path="chrisphotos/plate02" element={<ChrisPlate02 />} />
@@ -491,6 +682,46 @@ const router = createBrowserRouter(
         <Route path="caramusic" element={<CaraMusic />} />
         <Route path="carasports" element={<CaraSports />} />
         <Route path="carahobby" element={<CaraHobby />} />
+
+        <Route path="carafamily/plate01" element={<CaraFamily01 />} />
+        <Route path="carafamily/plate02" element={<CaraFamily02 />} />
+        <Route path="carafamily/plate03" element={<CaraFamily03 />} />
+        <Route path="carafamily/plate04" element={<CaraFamily04 />} />
+        <Route path="carafamily/plate05" element={<CaraFamily05 />} />
+        <Route path="carafamily/plate06" element={<CaraFamily06 />} />
+        <Route path="carafamily/plate07" element={<CaraFamily07 />} />
+        <Route path="carafamily/plate08" element={<CaraFamily08 />} />
+        <Route path="carafamily/plate09" element={<CaraFamily09 />} />
+        <Route path="caraschool/plate01" element={<CaraSchool01 />} />
+        <Route path="caraschool/plate02" element={<CaraSchool02 />} />
+        <Route path="caraschool/plate03" element={<CaraSchool03 />} />
+        <Route path="caraschool/plate04" element={<CaraSchool04 />} />
+        <Route path="caraschool/plate05" element={<CaraSchool05 />} />
+        <Route path="caramusic/plate01" element={<CaraMusic01 />} />
+        <Route path="carasports/plate01" element={<CaraSports01 />} />
+        <Route path="carasports/plate02" element={<CaraSports02 />} />
+        <Route path="carasports/plate03" element={<CaraSports03 />} />
+        <Route path="carasports/plate04" element={<CaraSports04 />} />
+        <Route path="carasports/plate05" element={<CaraSports05 />} />
+        <Route path="carasports/plate06" element={<CaraSports06 />} />
+        <Route path="carasports/plate07" element={<CaraSports07 />} />
+        <Route path="carasports/plate08" element={<CaraSports08 />} />
+        <Route path="carasports/plate09" element={<CaraSports09 />} />
+        <Route path="carasports/plate10" element={<CaraSports10 />} />
+        <Route path="carasports/plate11" element={<CaraSports11 />} />
+        <Route path="carasports/plate12" element={<CaraSports12 />} />
+        <Route path="carahobby/plate01" element={<CaraHobby01 />} />
+        <Route path="carahobby/plate02" element={<CaraHobby02 />} />
+        <Route path="carahobby/plate03" element={<CaraHobby03 />} />
+        <Route path="carahobby/plate04" element={<CaraHobby04 />} />
+        <Route path="carahobby/plate05" element={<CaraHobby05 />} />
+        <Route path="carahobby/plate06" element={<CaraHobby06 />} />
+
+        <Route path="caralinks/plate01" element={<CaraLinks01 />} />
+        <Route path="caralinks/plate02" element={<CaraLinks02 />} />
+        <Route path="caralinks/plate03" element={<CaraLinks03 />} />
+        <Route path="caralinks/plate04" element={<CaraLinks04 />} />
+
         <Route path="caraphotos" element={<CaraPhotos />} />
         <Route path="caraphotos/plate01" element={<CaraPlate01 />} />
         <Route path="caraphotos/plate02" element={<CaraPlate02 />} />
@@ -551,6 +782,45 @@ const router = createBrowserRouter(
         <Route path="karenmusic" element={<KarenMusic />} />
         <Route path="karensports" element={<KarenSports />} />
         <Route path="karenhobby" element={<KarenHobby />} />
+
+        <Route path="karenfamily/plate01" element={<KarenFamily01 />} />
+        <Route path="karenfamily/plate02" element={<KarenFamily02 />} />
+        <Route path="karenfamily/plate03" element={<KarenFamily03 />} />
+        <Route path="karenfamily/plate04" element={<KarenFamily04 />} />
+        <Route path="karenfamily/plate05" element={<KarenFamily05 />} />
+        <Route path="karenfamily/plate06" element={<KarenFamily06 />} />
+        <Route path="karenfamily/plate07" element={<KarenFamily07 />} />
+        <Route path="karenfamily/plate08" element={<KarenFamily08 />} />
+        <Route path="karenfamily/plate09" element={<KarenFamily09 />} />
+        <Route path="karenfamily/plate10" element={<KarenFamily10 />} />
+        <Route path="karenfamily/plate11" element={<KarenFamily11 />} />
+        <Route path="karenfamily/plate12" element={<KarenFamily12 />} />
+        <Route path="karenfamily/plate13" element={<KarenFamily13 />} />
+        <Route path="karenfamily/plate14" element={<KarenFamily14 />} />
+        <Route path="karenfamily/plate15" element={<KarenFamily15 />} />
+        <Route path="karenfamily/plate16" element={<KarenFamily16 />} />
+        <Route path="karenfamily/plate17" element={<KarenFamily17 />} />
+        <Route path="karenfamily/plate18" element={<KarenFamily18 />} />
+        <Route path="karenfamily/plate19" element={<KarenFamily19 />} />
+        <Route path="karenfamily/plate20" element={<KarenFamily20 />} />
+        <Route path="karenfamily/plate21" element={<KarenFamily21 />} />
+        <Route path="karenfamily/plate22" element={<KarenFamily22 />} />
+        <Route path="karenfamily/plate23" element={<KarenFamily23 />} />
+        <Route path="karenschool/plate01" element={<KarenSchool01 />} />
+        <Route path="karenmusic/plate01" element={<KarenMusic01 />} />
+        <Route path="karenmusic/plate02" element={<KarenMusic02 />} />
+        <Route path="karensports/plate01" element={<KarenSports01 />} />
+        <Route path="karensports/plate02" element={<KarenSports02 />} />
+        <Route path="karensports/plate03" element={<KarenSports03 />} />
+        <Route path="karensports/plate04" element={<KarenSports04 />} />
+        <Route path="karensports/plate05" element={<KarenSports05 />} />
+        <Route path="karenhobby/plate01" element={<KarenHobby01 />} />
+        <Route path="karenhobby/plate02" element={<KarenHobby02 />} />
+        <Route path="karenhobby/plate03" element={<KarenHobby03 />} />
+        <Route path="karenhobby/plate04" element={<KarenHobby04 />} />
+        <Route path="karenhobby/plate05" element={<KarenHobby05 />} />
+        <Route path="karenhobby/plate06" element={<KarenHobby06 />} />
+        <Route path="karenhobby/plate07" element={<KarenHobby07 />} />
         <Route path="karenphotos" element={<KarenPhotos />} />
         <Route path="karenphotos/plate01" element={<KarenPlate01 />} />
         <Route path="karenphotos/plate02" element={<KarenPlate02 />} />
@@ -607,6 +877,7 @@ const router = createBrowserRouter(
         <Route path="karenphotos/plate53" element={<KarenPlate53 />} />
 
         <Route path="karenlinks" element={<KarenLinks />} />
+        <Route path="karenlinks/plate01" element={<KarenLinks01 />} />
       </Route>
       <Route path="*" element=<h1>PAGE NOT FOUND</h1> />
     </Route>

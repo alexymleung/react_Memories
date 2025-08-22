@@ -93,10 +93,7 @@ export const CaraLinksData = () => {
     {
       plate: "plate04",
       title: "Plate 4",
-      info: `<h2>boss: Leung Sik Chi</h2>
-<h2>chairman: Mak Tze Chun</p>
-
-`,
+      info: `<h2>Leung Pak Yung</h2>`,
     },
   ];
 

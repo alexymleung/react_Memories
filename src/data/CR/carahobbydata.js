@@ -20,42 +20,40 @@ export const CaraHobbyData = () => {
     {
       id: 1,
       link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate01`,
-      title: "hiking",
+      title: "Hiking",
       details:
-        "My father and mother takes us to hiking a lot of times around the year especially around the autumn and winter times.",
+        "Hiking is such my favourite passtime that I would drag my family to it.",
     },
     {
       id: 2,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate03`,
-      title: "computer",
+      // link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate03`,
+      title: "Computer & PS2",
       details:
-        "I love playing computer ever since I could lay my fingers on the keyboard. I still spend a majority of my leisure time in computer.",
+        "Just like my brothers, I am drawn to computer; PS2 and the lots of games with it.",
     },
     {
       id: 3,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate05`,
-      title: "Calligraphy",
-      details: "I sometimes try out calligraphy.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate02`,
+      title: "Playing in the Park",
+      details: "Just playing in the park is great fun. See me slide.",
     },
     {
       id: 4,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate06`,
-      title: "Exhibition",
-      details: "Mother takes us a lot to different exhibitions.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate03`,
+      title: "Sand in the Beach",
+      details: "I love playing with sand all day.",
     },
     {
       id: 5,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate07`,
-      title: "Fishing",
-      details:
-        "While I played water sports in Stanley, I also managed to do fishing.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate05`,
+      title: "Budda",
+      details: "I once visited the Budda in Lantau.",
     },
     {
       id: 6,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate08`,
-      title: "Boy Scout",
-      details:
-        "I joined boy scout at school, and there are a lot of activities we can played there.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate06`,
+      title: "Picnic",
+      details: "I went to picnic often.",
     },
     // {
     //   id: 7,
@@ -75,51 +73,39 @@ export const CaraHobbyData = () => {
   const carahobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CR/images/fa031116_017ar.jpg",
+      img: "/src/assets/CR/images/fa041227_057ar.jpg",
       title: "Plate 1",
-      info: "Hiking in Lamma Island in 2003",
+      info: "Hiking in the hills",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CR/images/fa071208_118ar.jpg",
+      img: "/src/assets/CR/images/fa060212_336ar.jpg",
       title: "Plate 2",
-      info: "Lamma revisited in 2007.",
+      info: "So much fun playing in the slide.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CR/images/fa000125_238ar.jpg",
+      img: "/src/assets/CR/images/fa040711_012ar.jpg",
       title: "Plate 3",
-      info: "See me head start in computer when I am just one year old!",
+      info: "See the fun of playing with sand.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CR/images/fa020120_130ar.jpg",
+      img: "/src/assets/CR/images/fa080406_221ar.jpg",
       title: "Plate 4",
-      info: "Playing computer games with brother Cara.",
+      info: "I never get tired of playing in the sand.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CR/images/fa050212s029ar.jpg",
+      img: "/src/assets/CR/images/fa040409_025ar.jpg",
       title: "Plate 5",
-      info: "Here, I am participating in a charity Chinese Calligraphy event for the new year.",
+      info: "Great Budda behind me.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CR/images/fa050705_070ar.jpg",
+      img: "/src/assets/CR/images/fa040725_122ar.jpg",
       title: "Plate 6",
-      info: "The dinosaur exhibition in Taikoo Place in 2005.",
-    },
-    {
-      plate: "plate07",
-      img: "/src/assets/CR/images/fa080426_269ar.jpg",
-      title: "Plate 7",
-      info: "This is the first fish I catched all my life",
-    },
-    {
-      plate: "plate08",
-      img: "/src/assets/CR/images/fa080504_262ar.jpg",
-      title: "Plate 8",
-      info: "I was participating in the Hong Kong history medal and this was taken at the Boy Scout headquarter in Wanchai after I finished the event.",
+      info: "Brother and me making bread.",
     },
   ];
 

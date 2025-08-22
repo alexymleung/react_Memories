@@ -13,80 +13,48 @@ export const ChrisMusicData = () => {
   const chrismusicarticle = {
     image: ChrisMusicHero,
     alt: `${currentTheme.name} Music`,
-    info: "Music is such an indispensable part in my life that I literally wears music on my lips wherever I go.",
+    info: "I like playing piano and Cello.",
   };
 
   const chrismusicsection = [
     {
       id: 1,
       link: `/${currentTheme.name}/${currentTheme.alias}music/plate01`,
-      title: "Violin",
+      title: "Cello",
       details: "I play and have regular lessons in the Music Office",
     },
     {
       id: 2,
-      link: `/${currentTheme.name}/${currentTheme.alias}music/plate03`,
+      link: `/${currentTheme.name}/${currentTheme.alias}music/plate01`,
       title: "Piano",
-      details: "I will try to obtain Grade 5 Piano Certificate next year.",
+      details: "I also have regular Piano lessons.",
     },
     {
       id: 3,
-      link: `/${currentTheme.name}/${currentTheme.alias}music/singing`,
-      title: "Singing",
-      details: "I like singing a lot. Karaoke is one of my favourite.",
-    },
-    {
-      id: 4,
-      link: `/${currentTheme.name}/${currentTheme.alias}music/plate07`,
-      title: "Harmonica",
-      details:
-        "I have played Harmonica and loved the wonderful song it produced.",
+      link: `/${currentTheme.name}/${currentTheme.alias}music/plate02`,
+      title: "Karaoke",
+      details: "I  like singing Karaoke, especially Ultraman, any Ultraman.",
     },
   ];
 
   const chrismusicplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CL/images/fa080405_062ar.jpg",
+      img: "/src/assets/CL/images/fa080404_113ar.jpg",
       title: "Plate 1",
-      info: "I am concentrating in playing violin.",
+      info: "I had regular lessons in Cello in the Music Office of LCSD.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CL/images/fa080506_396ar.jpg",
+      img: "/src/assets/CL/images/fa080404_325ar.jpg",
       title: "Plate 2",
-      info: "Taken with my Violin Tutor Mr. Kam in my Music Office class.",
+      info: "Below is a link to Prelude in C I like playing.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CL/images/fa020310_029a.jpg",
+      img: "/src/assets/CL/images/fa050305_129ar.jpg",
       title: "Plate 3",
-      info: "See me playing keyboard at the age of three.",
-    },
-    {
-      plate: "plate04",
-      img: "/src/assets/CL/images/fa080405_097ar.jpg",
-      title: "Plate 4",
-      info: "I am practising for my Grade 5 examination next year. Below is a piece I played named 'Prelude in C' by JS Bach",
-      link: "/src/assets/CL/multimedia/CL070908_PreludeInC.mp3",
-    },
-    {
-      plate: "plate05",
-      img: "/src/assets/CL/images/F1140028.jpg",
-      title: "Plate 5",
-      info: "Singing with daddy in a Karaoke contest.",
-    },
-    {
-      plate: "plate06",
-      img: "/src/assets/CL/images/fa071202_462a.jpg",
-      title: "Plate 6",
-      info: "Singing Karaoke in California Red",
-    },
-    {
-      plate: "plate07",
-      img: "/src/assets/CL/images/CL_Harmonica_Montage_ar.jpg",
-      title: "Plate 7",
-      info: "Enjoy playing harmonica.",
+      info: "Singing Karaoke with dad and brother Jonathan.",
     },
   ];
 

@@ -90,21 +90,21 @@ export const KarenPhotosData = () => {
     },
     {
       plate: "plate14",
-      img: "/src/assets/KH/images/AKA_Wedding_010C200810.jpg",
+      img: "/src/assets/KH/images/CKA_Wedding_022C.jpg",
       title: "Plate 14",
       info: "Looks smilley?",
     },
     {
       plate: "plate15",
-      img: "/src/assets/KH/images/BKA_Wedding_063C200814.jpg",
+      img: "/src/assets/KH/images/FKA_Wedding_035C.jpg",
       title: "Plate 15",
-      info: "in a suite",
+      info: "studio shots",
     },
     {
       plate: "plate16",
-      img: "/src/assets/KH/images/CKA_Wedding_024C200813.jpg",
+      img: "/src/assets/KH/images/PKA_Wedding_043cr.jpg",
       title: "Plate 16",
-      info: "Wedding photo shot.",
+      info: "In the forest.",
     },
     {
       plate: "plate17",

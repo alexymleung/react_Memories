@@ -13,7 +13,7 @@ export const ChrisHobbyData = () => {
   const chrishobbyarticle = {
     image: ChrisHobbyHero,
     alt: `${currentTheme.name} Hobby`,
-    info: "I have lots of hobbies keeping me busy all the times.",
+    info: "It is fun time just playing sand on the beach.",
   };
 
   const chrishobbysection = [
@@ -26,100 +26,98 @@ export const ChrisHobbyData = () => {
     },
     {
       id: 2,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate03`,
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate02`,
       title: "computer",
       details:
-        "I love playing computer ever since I could lay my fingers on the keyboard. I still spend a majority of my leisure time in computer.",
+        "I love playing Mario, Ultraman, and a lot of other games in computer. It can occupy me a whole day, that is if it were not for mother.",
     },
     {
       id: 3,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate05`,
-      title: "Calligraphy",
-      details: "I sometimes try out calligraphy.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate03`,
+      title: "In the park",
+      details:
+        "Just playing in the park is great fun. See me in the slider having fun.",
     },
     {
       id: 4,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate06`,
-      title: "Exhibition",
-      details: "Mother takes us a lot to different exhibitions.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate04`,
+      title: "PS2",
+      details:
+        "Apart from the computer, what else is more interesting than the PS2?",
     },
     {
       id: 5,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate07`,
-      title: "Fishing",
-      details:
-        "While I played water sports in Stanley, I also managed to do fishing.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate05`,
+      title: "Sand in the Beach",
+      details: "I like playing with sand all day.",
     },
     {
       id: 6,
-      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate08`,
-      title: "Boy Scout",
-      details:
-        "I joined boy scout at school, and there are a lot of activities we can played there.",
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate06`,
+      title: "Astronaut",
+      details: "I hope to become an astronaut some day.",
     },
-    // {
-    //   id: 7,
-    //   link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate05`,
-    //   title: "chess",
-    //   details:
-    //     "I am beginning to acquire a interest in Chinese Chess and International Chess.",
-    // },
-    // {
-    //   id: 8,
-    //   link: `/${currentTheme.name}/${currentTheme.alias}hobby/ps2`,
-    //   title: "PS2",
-    //   details:
-    //     "Can you find something more interesting than playing games in PS2?",
-    // },
+    {
+      id: 7,
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate07`,
+      title: "Painting",
+      details: "I paint whenever I wanted.",
+    },
+    {
+      id: 8,
+      link: `/${currentTheme.name}/${currentTheme.alias}hobby/plate08`,
+      title: "Monkey Swing",
+      details: "I am quite good at monkey swing!",
+    },
   ];
   const chrishobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CL/images/fa031116_017ar.jpg",
+      img: "/src/assets/CL/images/fa030105_040ar.jpg",
       title: "Plate 1",
-      info: "Hiking in Lamma Island in 2003",
+      info: "I love hiking, especially with my mother.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CL/images/fa071208_118ar.jpg",
+      img: "/src/assets/CL/images/fa030406_104ar.jpg",
       title: "Plate 2",
-      info: "Lamma revisited in 2007.",
+      info: 'Playing one of my favourite PC game "Thomas the Tank Engine" when I was 3 year old.',
     },
     {
       plate: "plate03",
-      img: "/src/assets/CL/images/fa000125_238ar.jpg",
+      img: "/src/assets/CL/images/fa060131_239ar.jpg",
       title: "Plate 3",
-      info: "See me head start in computer when I am just one year old!",
+      info: "Sure have fun in the park!",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CL/images/fa020120_130ar.jpg",
+      img: "/src/assets/JL/images/fa020120_130ar.jpg",
       title: "Plate 4",
-      info: "Playing computer games with brother Chris.",
+      info: "Playing PS2 games with brother Chris.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CL/images/fa050212s029ar.jpg",
+      img: "/src/assets/CL/images/fa040424_004ar.jpg",
       title: "Plate 5",
-      info: "Here, I am participating in a charity Chinese Calligraphy event for the new year.",
+      info: "Just playing sand in the beach.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CL/images/fa050705_070ar.jpg",
+      img: "/src/assets/CL/images/fa060115_260ar.jpg",
       title: "Plate 6",
-      info: "The dinosaur exhibition in Taikoo Place in 2005.",
+      info: "Am I a real astrounaut?",
     },
     {
       plate: "plate07",
-      img: "/src/assets/CL/images/fa080426_269ar.jpg",
+      img: "/src/assets/CL/images/fa070225_460ar.jpg",
       title: "Plate 7",
-      info: "This is the first fish I catched all my life",
+      info: "Painting is fun when it subject is right.",
     },
     {
       plate: "plate08",
-      img: "/src/assets/CL/images/fa080504_262ar.jpg",
+      img: "/src/assets/CL/images/fa070107_625ar.jpg",
       title: "Plate 8",
-      info: "I was participating in the Hong Kong history medal and this was taken at the Boy Scout headquarter in Wanchai after I finished the event.",
+      info: "Monkey swing is one of my favourite pastime.",
     },
   ];
 
