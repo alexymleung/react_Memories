@@ -1,7 +1,22 @@
-import React from "react";
+import PersonPage from "../../components/PersonPage";
+import CaraNavbar from "../../ui/CaraNavbar";
+import { CaraData } from "../../data/CR/caradata";
+import { CaraMusicData } from "../../data/CR/caramusicdata";
+import "../../css/Cara.css";
 
 function CaraMusic() {
-  return <h1>CaraMusic</h1>;
+  const { caraheader } = CaraData();
+  const { caramusicarticle, caramusicsection } = CaraMusicData();
+
+  return (
+    <PersonPage
+      headerData={caraheader}
+      articleData={caramusicarticle}
+      sectionData={caramusicsection}
+      SubNavbar={CaraNavbar}
+      cssClass="cara"
+    />
+  );
 }
 
 export default CaraMusic;

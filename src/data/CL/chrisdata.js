@@ -5,7 +5,7 @@ import ChrisHero from "../../assets/CL/images/fa070819_069ar.jpg";
 export const ChrisData = () => {
   const { currentTheme } = useTheme();
 
-  const chrisinfoheader = {
+  const chrisheader = {
     image: ChrisBanner,
     alt: `${currentTheme.name} Banner`,
   };
@@ -67,5 +67,5 @@ export const ChrisData = () => {
     },
   ];
 
-  return { chrisinfoheader, chrisinfoarticle, chrisinfosection };
+  return { chrisheader, chrisinfoarticle, chrisinfosection };
 };

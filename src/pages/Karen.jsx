@@ -4,10 +4,10 @@ import { KarenData } from "../data/KH/karendata";
 import "../css/Karen.css";
 
 function Karen() {
-  const { kareninfoheader, kareninfoarticle, kareninfosection } = KarenData();
+  const { karenheader, kareninfoarticle, kareninfosection } = KarenData();
   return (
     <PersonPage
-      headerData={kareninfoheader}
+      headerData={karenheader}
       articleData={kareninfoarticle}
       sectionData={kareninfosection}
       SubNavbar={KarenNavbar}

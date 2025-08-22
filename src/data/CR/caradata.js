@@ -5,7 +5,7 @@ import CaraHero from "../../assets/CR/images/fa060131_409ar.jpg";
 export const CaraData = () => {
   const { currentTheme } = useTheme();
 
-  const carainfoheader = {
+  const caraheader = {
     image: CaraBanner,
     alt: `${currentTheme.name} Banner`,
   };
@@ -67,5 +67,5 @@ export const CaraData = () => {
     },
   ];
 
-  return { carainfoheader, carainfoarticle, carainfosection };
+  return { caraheader, carainfoarticle, carainfosection };
 };

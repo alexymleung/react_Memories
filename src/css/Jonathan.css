@@ -12,14 +12,72 @@ body {
   background-color: var(--jonsecondary);
 }
 
-.photo-gallery {
+/* PHOTO GALLERY STYLES */
+.jon .photo-gallery {
   background-color: var(--jonsecondary);
 }
 
-.thumbnail-box {
+.jon .thumbnail-box {
   background-color: var(--jonprimary);
 }
 
-.photo-plate {
+/* PHOTO NAVIGATION */
+.jon .nav-button {
+  background: var(--jonprimary);
+}
+
+.jon .nav-button i {
+  color: var(--jonsecondary);
+}
+
+.jon .nav-button:hover {
+  background: var(--jonprimary-text);
+}
+
+.jon .photo-plate {
   background-color: var(--jonsecondary);
+}
+
+.jon .photo-plate h2 {
+  color: var(--jonprimary-text);
+}
+
+.jon .plate-description {
+  background-color: var(--jonbackgroundtransparent);
+}
+
+/* MAIN NAVBAR INDIVIDUAL SETTINGS */
+
+/* Jon active - set BG color and Text for rest of Inactive tabs */
+.nav-jonathan a {
+  color: var(--jonbackground);
+  background-color: var(--jonprimarytransparent); /* Base color */
+  /* border: 1px solid var(--jonbackground); */
+}
+
+/* Jon active - set BG color and Text for active tab */
+.nav-jonathan li a.active {
+  background-image: var(--jonprimary1) !important;
+  color: var(--jonsecondary) !important;
+  border: 1px solid var(--jonbackgroundtransparent);
+}
+
+/* JONATHAN's SUB-NAVBAR SETTINGS */
+
+.jonUlNav {
+  background-image: var(--jonprimary2);
+}
+
+.jonUlNav a {
+  color: var(--jonprimary-text);
+}
+
+.jonUlNav a.active {
+  background-color: var(--jonbackgroundtransparent);
+  color: var(--jonprimary-text-active);
+}
+
+/* Style audio controls to match theme */
+.audio-player audio::-webkit-media-controls-panel {
+  background-color: var(--jonprimary);
 }

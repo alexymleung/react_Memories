@@ -5,7 +5,7 @@ import KarenHero from "../../assets/KH/images/AL970401008Kyoto.jpg";
 export const KarenData = () => {
   const { currentTheme } = useTheme();
 
-  const kareninfoheader = {
+  const karenheader = {
     image: KarenBanner,
     alt: `${currentTheme.name} Banner`,
   };
@@ -65,5 +65,5 @@ export const KarenData = () => {
     },
   ];
 
-  return { kareninfoheader, kareninfoarticle, kareninfosection };
+  return { karenheader, kareninfoarticle, kareninfosection };
 };

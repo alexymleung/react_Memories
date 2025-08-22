@@ -19,7 +19,11 @@
   --active: #cf0000;
   --active2: #ff6767;
 
+  --jonprimary1: linear-gradient(180deg, #0099cc 15%, #1bc6ff 100%);
+  --jonprimary2: linear-gradient(0deg, #0099cc 15%, #1bc6ff 100%);
   --jonprimary: #0099cc;
+  --jonprimary9: #1bc6ff;
+  --jonprimary10: #007ea8;
   --jonprimarytransparent: #0099cc7a;
   --jonprimary-text: #002b5c;
   --jonprimary-text-active: #ffff66;
@@ -307,7 +311,6 @@ section {
 }
 
 .nav-button {
-  background: var(--jonprimary);
   border: none;
   border-radius: 50%;
   width: 3rem;
@@ -318,12 +321,10 @@ section {
 }
 
 .nav-button i {
-  color: var(--jonsecondary);
   font-size: 1.6rem;
 }
 
 .nav-button:hover {
-  background: var(--jonprimary-text);
   transform: scale(1.1);
 }
 
@@ -343,7 +344,6 @@ section {
 }
 
 .photo-plate h2 {
-  color: var(--jonprimary-text);
   text-align: center;
   margin-bottom: 20px;
 }
@@ -364,7 +364,6 @@ section {
 
 .plate-description {
   padding: 15px;
-  background-color: var(--jonbackgroundtransparent);
   border-radius: var(--radius);
   color: white;
 }
@@ -553,7 +552,6 @@ main > section {
   align-items: center;
   margin: 1.5rem 0;
   padding: 1rem;
-  /* background-color: var(--jonbackground); */
   border-radius: var(--radius);
 }
 
@@ -569,7 +567,6 @@ main > section {
 
 /* Style audio controls to match theme */
 .audio-player audio::-webkit-media-controls-panel {
-  background-color: var(--jonprimary);
   transition: all 0.3s ease;
 }
 

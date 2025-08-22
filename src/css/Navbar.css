@@ -43,6 +43,16 @@ a:hover {
   font-weight: 800;
   transition: all 0.2s ease;
   background-color: rgba(0, 0, 0, 0.1);
+  /* border-opacity: 0.38; Separate border transparency */
+}
+
+/* active - set BG color and Text for active tab */
+.mainNav .mainUlNav li a.active {
+  border-bottom-color: transparent !important;
+  position: relative;
+  z-index: 1;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: var(--transition);
 }
 
 /* .mainUlNav a:hover {
@@ -96,150 +106,6 @@ a:hover {
   padding: 0.8rem 1.2rem;
   margin: -0.7rem -0.6rem -0.85rem;
   border-radius: 4px;
-}
-
-/* MAIN NAVBAR INDIVIDUAL SETTINGS */
-
-/* Jon active - set BG color and Text for rest of Inactive tabs */
-.nav-jonathan .mainUlNav a {
-  color: var(--jonbackground);
-  background-color: var(--jonprimarytransparent); /* Base color */
-  border: 1px solid var(--jonbackground);
-  border-opacity: 0.38; /*Separate border transparency */
-}
-
-/* Jon active - set BG color and Text for active tab */
-.mainNav.nav-jonathan .mainUlNav li a.active {
-  background-color: var(--jonprimary) !important;
-  color: var(--jonsecondary) !important;
-  border: 1px solid var(--jonbackgroundtransparent);
-  border-bottom-color: transparent !important;
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
-
-/* Chris active - set BG color and Text for rest of Inactive tabs */
-.nav-chris .mainUlNav a {
-  color: var(--chrisbackground);
-  background-color: var(--chrisprimarytransparent); /* Base color */
-  border: 1px solid var(--chrisbackground);
-  border-opacity: 0.38; /*Separate border transparency */
-}
-
-/* Chris active - set BG color and Text for active tab */
-.mainNav.nav-chris .mainUlNav li a.active {
-  background-color: var(--chrisprimary) !important;
-  color: var(--chrisprimary-text-active) !important;
-  border: 1px solid var(--chrisbackgroundtransparent);
-  border-bottom-color: transparent !important;
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
-
-/* Cara active - set BG color and Text for rest of Inactive tabs */
-.nav-cara .mainUlNav a {
-  color: var(--carabackground);
-  background-color: var(--caraprimarytransparent); /* Base color */
-  border: 1px solid var(--carabackground);
-  border-opacity: 0.38; /*Separate border transparency */
-}
-
-/* Cara active - set BG color and Text for active tab */
-.mainNav.nav-cara .mainUlNav li a.active {
-  background-color: var(--caraprimary) !important;
-  color: var(--caraprimary-text-active) !important;
-  border: 1px solid var(--carabackgroundtransparent);
-  border-bottom-color: transparent !important;
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
-
-/* Karen active - set BG color and Text for rest of Inactive tabs */
-.nav-karen .mainUlNav a {
-  color: var(--karenbackground);
-  background-color: var(--karenprimarytransparent); /* Base color */
-  border: 1px solid var(--karenbackground);
-  border-opacity: 0.38; /*Separate border transparency */
-}
-
-/* Karen active - set BG color and Text for active tab */
-.mainNav.nav-karen .mainUlNav li a.active {
-  background-color: var(--karenprimary) !important;
-  color: var(--karenprimary-text-active) !important;
-  border: 1px solid var(--karenbackgroundtransparent);
-  border-bottom-color: transparent !important;
-  position: relative;
-  z-index: 1;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  transition: var(--transition);
-}
-
-/* SUB-NAVBAR INDIVIDUAL SETTINGS */
-
-/* JONATHAN's SUB-NAVBAR SETTINGS */
-
-.jonUlNav {
-  background-color: var(--jonprimary);
-}
-
-.jonUlNav a {
-  color: var(--jonprimary-text);
-}
-
-.jonUlNav a.active {
-  background-color: var(--jonbackgroundtransparent);
-  color: var(--jonprimary-text-active);
-}
-
-/* CHRIS' SUB-NAVBAR SETTINGS */
-.chrisUlNav {
-  background-color: var(--chrisprimary);
-}
-
-.chrisUlNav a {
-  color: var(--chrisprimary-text);
-}
-
-.chrisUlNav a.active {
-  background-color: var(--chrisbackgroundtransparent);
-  color: var(--chrisprimary-text-active);
-}
-
-/* CARA's SUB-NAVBAR Settings */
-
-.caraUlNav {
-  width: var(--setWidth);
-  background-color: var(--caraprimary);
-}
-
-.caraUlNav a {
-  color: var(--caraprimary-text);
-}
-
-.caraUlNav a.active {
-  background-color: var(--carabackgroundtransparent);
-  color: var(--caraprimary-text-active);
-}
-
-/* KAREN's SUB-NAVBAR Settings */
-
-.karenUlNav {
-  background-color: var(--karenprimary);
-}
-
-.karenUlNav a {
-  color: var(--karenprimary-text);
-}
-
-.karenUlNav a.active {
-  background-color: var(--karenbackgroundtransparent);
-  color: var(--karenprimary-text-active);
 }
 
 @media (min-width: 1280px) {

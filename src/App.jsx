@@ -153,6 +153,162 @@ import JonPlate46 from "./pages/Jon/photos/JonPlate46";
 import JonPlate47 from "./pages/Jon/photos/JonPlate47";
 import JonPlate48 from "./pages/Jon/photos/JonPlate48";
 import JonPlate49 from "./pages/Jon/photos/JonPlate49";
+// import ChrisHobby01 from "./pages/Chris/hobby/ChrisHobby01";
+// import ChrisHobby02 from "./pages/Chris/hobby/ChrisHobby02";
+// import ChrisHobby03 from "./pages/Chris/hobby/ChrisHobby03";
+// import ChrisHobby04 from "./pages/Chris/hobby/ChrisHobby04";
+// import ChrisHobby05 from "./pages/Chris/hobby/ChrisHobby05";
+// import ChrisHobby06 from "./pages/Chris/hobby/ChrisHobby06";
+// import ChrisHobby07 from "./pages/Chris/hobby/ChrisHobby07";
+// import ChrisHobby08 from "./pages/Chris/hobby/ChrisHobby08";
+// import ChrisLinks01 from "./pages/Chris/links/ChrisLinks01";
+// import ChrisLinks02 from "./pages/Chris/links/ChrisLinks02";
+// import ChrisLinks03 from "./pages/Chris/links/ChrisLinks03";
+// import ChrisLinks04 from "./pages/Chris/links/ChrisLinks04";
+import ChrisPlate01 from "./pages/Chris/photos/ChrisPlate01";
+import ChrisPlate02 from "./pages/Chris/photos/ChrisPlate02";
+import ChrisPlate03 from "./pages/Chris/photos/ChrisPlate03";
+import ChrisPlate04 from "./pages/Chris/photos/ChrisPlate04";
+import ChrisPlate05 from "./pages/Chris/photos/ChrisPlate05";
+import ChrisPlate06 from "./pages/Chris/photos/ChrisPlate06";
+import ChrisPlate07 from "./pages/Chris/photos/ChrisPlate07";
+import ChrisPlate08 from "./pages/Chris/photos/ChrisPlate08";
+import ChrisPlate09 from "./pages/Chris/photos/ChrisPlate09";
+import ChrisPlate10 from "./pages/Chris/photos/ChrisPlate10";
+import ChrisPlate11 from "./pages/Chris/photos/ChrisPlate11";
+import ChrisPlate12 from "./pages/Chris/photos/ChrisPlate12";
+import ChrisPlate13 from "./pages/Chris/photos/ChrisPlate13";
+import ChrisPlate14 from "./pages/Chris/photos/ChrisPlate14";
+import ChrisPlate15 from "./pages/Chris/photos/ChrisPlate15";
+import ChrisPlate16 from "./pages/Chris/photos/ChrisPlate16";
+import ChrisPlate17 from "./pages/Chris/photos/ChrisPlate17";
+import ChrisPlate18 from "./pages/Chris/photos/ChrisPlate18";
+import ChrisPlate19 from "./pages/Chris/photos/ChrisPlate19";
+import ChrisPlate20 from "./pages/Chris/photos/ChrisPlate20";
+import ChrisPlate21 from "./pages/Chris/photos/ChrisPlate21";
+import ChrisPlate22 from "./pages/Chris/photos/ChrisPlate22";
+import ChrisPlate23 from "./pages/Chris/photos/ChrisPlate23";
+import ChrisPlate24 from "./pages/Chris/photos/ChrisPlate24";
+import ChrisPlate25 from "./pages/Chris/photos/ChrisPlate25";
+import ChrisPlate26 from "./pages/Chris/photos/ChrisPlate26";
+import ChrisPlate27 from "./pages/Chris/photos/ChrisPlate27";
+import ChrisPlate28 from "./pages/Chris/photos/ChrisPlate28";
+import ChrisPlate29 from "./pages/Chris/photos/ChrisPlate29";
+import ChrisPlate30 from "./pages/Chris/photos/ChrisPlate30";
+import ChrisPlate31 from "./pages/Chris/photos/ChrisPlate31";
+import ChrisPlate32 from "./pages/Chris/photos/ChrisPlate32";
+import ChrisPlate33 from "./pages/Chris/photos/ChrisPlate33";
+import ChrisPlate34 from "./pages/Chris/photos/ChrisPlate34";
+import ChrisPlate35 from "./pages/Chris/photos/ChrisPlate35";
+import ChrisPlate36 from "./pages/Chris/photos/ChrisPlate36";
+import ChrisPlate37 from "./pages/Chris/photos/ChrisPlate37";
+import ChrisPlate38 from "./pages/Chris/photos/ChrisPlate38";
+import ChrisPlate39 from "./pages/Chris/photos/ChrisPlate39";
+import ChrisPlate40 from "./pages/Chris/photos/ChrisPlate40";
+import ChrisPlate41 from "./pages/Chris/photos/ChrisPlate41";
+import ChrisPlate42 from "./pages/Chris/photos/ChrisPlate42";
+import CaraPlate01 from "./pages/Cara/photos/CaraPlate01";
+import CaraPlate02 from "./pages/Cara/photos/CaraPlate02";
+import CaraPlate03 from "./pages/Cara/photos/CaraPlate03";
+import CaraPlate04 from "./pages/Cara/photos/CaraPlate04";
+import CaraPlate05 from "./pages/Cara/photos/CaraPlate05";
+import CaraPlate06 from "./pages/Cara/photos/CaraPlate06";
+import CaraPlate07 from "./pages/Cara/photos/CaraPlate07";
+import CaraPlate08 from "./pages/Cara/photos/CaraPlate08";
+import CaraPlate09 from "./pages/Cara/photos/CaraPlate09";
+import CaraPlate10 from "./pages/Cara/photos/CaraPlate10";
+import CaraPlate11 from "./pages/Cara/photos/CaraPlate11";
+import CaraPlate12 from "./pages/Cara/photos/CaraPlate12";
+import CaraPlate13 from "./pages/Cara/photos/CaraPlate13";
+import CaraPlate14 from "./pages/Cara/photos/CaraPlate14";
+import CaraPlate15 from "./pages/Cara/photos/CaraPlate15";
+import CaraPlate16 from "./pages/Cara/photos/CaraPlate16";
+import CaraPlate17 from "./pages/Cara/photos/CaraPlate17";
+import CaraPlate18 from "./pages/Cara/photos/CaraPlate18";
+import CaraPlate19 from "./pages/Cara/photos/CaraPlate19";
+import CaraPlate20 from "./pages/Cara/photos/CaraPlate20";
+import CaraPlate21 from "./pages/Cara/photos/CaraPlate21";
+import CaraPlate22 from "./pages/Cara/photos/CaraPlate22";
+import CaraPlate23 from "./pages/Cara/photos/CaraPlate23";
+import CaraPlate24 from "./pages/Cara/photos/CaraPlate24";
+import CaraPlate25 from "./pages/Cara/photos/CaraPlate25";
+import CaraPlate26 from "./pages/Cara/photos/CaraPlate26";
+import CaraPlate27 from "./pages/Cara/photos/CaraPlate27";
+import CaraPlate28 from "./pages/Cara/photos/CaraPlate28";
+import CaraPlate29 from "./pages/Cara/photos/CaraPlate29";
+import CaraPlate30 from "./pages/Cara/photos/CaraPlate30";
+import CaraPlate31 from "./pages/Cara/photos/CaraPlate31";
+import CaraPlate32 from "./pages/Cara/photos/CaraPlate32";
+import CaraPlate33 from "./pages/Cara/photos/CaraPlate33";
+import CaraPlate34 from "./pages/Cara/photos/CaraPlate34";
+import CaraPlate35 from "./pages/Cara/photos/CaraPlate35";
+import CaraPlate36 from "./pages/Cara/photos/CaraPlate36";
+import CaraPlate37 from "./pages/Cara/photos/CaraPlate37";
+import CaraPlate38 from "./pages/Cara/photos/CaraPlate38";
+import CaraPlate39 from "./pages/Cara/photos/CaraPlate39";
+import CaraPlate40 from "./pages/Cara/photos/CaraPlate40";
+import CaraPlate41 from "./pages/Cara/photos/CaraPlate41";
+import CaraPlate42 from "./pages/Cara/photos/CaraPlate42";
+import CaraPlate43 from "./pages/Cara/photos/CaraPlate43";
+import CaraPlate44 from "./pages/Cara/photos/CaraPlate44";
+import CaraPlate45 from "./pages/Cara/photos/CaraPlate45";
+import CaraPlate46 from "./pages/Cara/photos/CaraPlate46";
+import CaraPlate47 from "./pages/Cara/photos/CaraPlate47";
+import CaraPlate48 from "./pages/Cara/photos/CaraPlate48";
+
+import KarenPlate01 from "./pages/Karen/photos/KarenPlate01";
+import KarenPlate02 from "./pages/Karen/photos/KarenPlate02";
+import KarenPlate03 from "./pages/Karen/photos/KarenPlate03";
+import KarenPlate04 from "./pages/Karen/photos/KarenPlate04";
+import KarenPlate05 from "./pages/Karen/photos/KarenPlate05";
+import KarenPlate06 from "./pages/Karen/photos/KarenPlate06";
+import KarenPlate07 from "./pages/Karen/photos/KarenPlate07";
+import KarenPlate08 from "./pages/Karen/photos/KarenPlate08";
+import KarenPlate09 from "./pages/Karen/photos/KarenPlate09";
+import KarenPlate10 from "./pages/Karen/photos/KarenPlate10";
+import KarenPlate11 from "./pages/Karen/photos/KarenPlate11";
+import KarenPlate12 from "./pages/Karen/photos/KarenPlate12";
+import KarenPlate13 from "./pages/Karen/photos/KarenPlate13";
+import KarenPlate14 from "./pages/Karen/photos/KarenPlate14";
+import KarenPlate15 from "./pages/Karen/photos/KarenPlate15";
+import KarenPlate16 from "./pages/Karen/photos/KarenPlate16";
+import KarenPlate17 from "./pages/Karen/photos/KarenPlate17";
+import KarenPlate18 from "./pages/Karen/photos/KarenPlate18";
+import KarenPlate19 from "./pages/Karen/photos/KarenPlate19";
+import KarenPlate20 from "./pages/Karen/photos/KarenPlate20";
+import KarenPlate21 from "./pages/Karen/photos/KarenPlate21";
+import KarenPlate22 from "./pages/Karen/photos/KarenPlate22";
+import KarenPlate23 from "./pages/Karen/photos/KarenPlate23";
+import KarenPlate24 from "./pages/Karen/photos/KarenPlate24";
+import KarenPlate25 from "./pages/Karen/photos/KarenPlate25";
+import KarenPlate26 from "./pages/Karen/photos/KarenPlate26";
+import KarenPlate27 from "./pages/Karen/photos/KarenPlate27";
+import KarenPlate28 from "./pages/Karen/photos/KarenPlate28";
+import KarenPlate29 from "./pages/Karen/photos/KarenPlate29";
+import KarenPlate30 from "./pages/Karen/photos/KarenPlate30";
+import KarenPlate31 from "./pages/Karen/photos/KarenPlate31";
+import KarenPlate32 from "./pages/Karen/photos/KarenPlate32";
+import KarenPlate33 from "./pages/Karen/photos/KarenPlate33";
+import KarenPlate34 from "./pages/Karen/photos/KarenPlate34";
+import KarenPlate35 from "./pages/Karen/photos/KarenPlate35";
+import KarenPlate36 from "./pages/Karen/photos/KarenPlate36";
+import KarenPlate37 from "./pages/Karen/photos/KarenPlate37";
+import KarenPlate38 from "./pages/Karen/photos/KarenPlate38";
+import KarenPlate39 from "./pages/Karen/photos/KarenPlate39";
+import KarenPlate40 from "./pages/Karen/photos/KarenPlate40";
+import KarenPlate41 from "./pages/Karen/photos/KarenPlate41";
+import KarenPlate42 from "./pages/Karen/photos/KarenPlate42";
+import KarenPlate43 from "./pages/Karen/photos/KarenPlate43";
+import KarenPlate44 from "./pages/Karen/photos/KarenPlate44";
+import KarenPlate45 from "./pages/Karen/photos/KarenPlate45";
+import KarenPlate46 from "./pages/Karen/photos/KarenPlate46";
+import KarenPlate47 from "./pages/Karen/photos/KarenPlate47";
+import KarenPlate48 from "./pages/Karen/photos/KarenPlate48";
+import KarenPlate49 from "./pages/Karen/photos/KarenPlate49";
+import KarenPlate50 from "./pages/Karen/photos/KarenPlate50";
+import KarenPlate51 from "./pages/Karen/photos/KarenPlate51";
+import KarenPlate52 from "./pages/Karen/photos/KarenPlate52";
+import KarenPlate53 from "./pages/Karen/photos/KarenPlate53";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -283,6 +439,48 @@ const router = createBrowserRouter(
         <Route path="chrissports" element={<ChrisSports />} />
         <Route path="chrishobby" element={<ChrisHobby />} />
         <Route path="chrisphotos" element={<ChrisPhotos />} />
+        <Route path="chrisphotos/plate01" element={<ChrisPlate01 />} />
+        <Route path="chrisphotos/plate02" element={<ChrisPlate02 />} />
+        <Route path="chrisphotos/plate03" element={<ChrisPlate03 />} />
+        <Route path="chrisphotos/plate04" element={<ChrisPlate04 />} />
+        <Route path="chrisphotos/plate05" element={<ChrisPlate05 />} />
+        <Route path="chrisphotos/plate06" element={<ChrisPlate06 />} />
+        <Route path="chrisphotos/plate07" element={<ChrisPlate07 />} />
+        <Route path="chrisphotos/plate08" element={<ChrisPlate08 />} />
+        <Route path="chrisphotos/plate09" element={<ChrisPlate09 />} />
+        <Route path="chrisphotos/plate10" element={<ChrisPlate10 />} />
+        <Route path="chrisphotos/plate11" element={<ChrisPlate11 />} />
+        <Route path="chrisphotos/plate12" element={<ChrisPlate12 />} />
+        <Route path="chrisphotos/plate13" element={<ChrisPlate13 />} />
+        <Route path="chrisphotos/plate14" element={<ChrisPlate14 />} />
+        <Route path="chrisphotos/plate15" element={<ChrisPlate15 />} />
+        <Route path="chrisphotos/plate16" element={<ChrisPlate16 />} />
+        <Route path="chrisphotos/plate17" element={<ChrisPlate17 />} />
+        <Route path="chrisphotos/plate18" element={<ChrisPlate18 />} />
+        <Route path="chrisphotos/plate19" element={<ChrisPlate19 />} />
+        <Route path="chrisphotos/plate20" element={<ChrisPlate20 />} />
+        <Route path="chrisphotos/plate21" element={<ChrisPlate21 />} />
+        <Route path="chrisphotos/plate22" element={<ChrisPlate22 />} />
+        <Route path="chrisphotos/plate23" element={<ChrisPlate23 />} />
+        <Route path="chrisphotos/plate24" element={<ChrisPlate24 />} />
+        <Route path="chrisphotos/plate25" element={<ChrisPlate25 />} />
+        <Route path="chrisphotos/plate26" element={<ChrisPlate26 />} />
+        <Route path="chrisphotos/plate27" element={<ChrisPlate27 />} />
+        <Route path="chrisphotos/plate28" element={<ChrisPlate28 />} />
+        <Route path="chrisphotos/plate29" element={<ChrisPlate29 />} />
+        <Route path="chrisphotos/plate30" element={<ChrisPlate30 />} />
+        <Route path="chrisphotos/plate31" element={<ChrisPlate31 />} />
+        <Route path="chrisphotos/plate32" element={<ChrisPlate32 />} />
+        <Route path="chrisphotos/plate33" element={<ChrisPlate33 />} />
+        <Route path="chrisphotos/plate34" element={<ChrisPlate34 />} />
+        <Route path="chrisphotos/plate35" element={<ChrisPlate35 />} />
+        <Route path="chrisphotos/plate36" element={<ChrisPlate36 />} />
+        <Route path="chrisphotos/plate37" element={<ChrisPlate37 />} />
+        <Route path="chrisphotos/plate38" element={<ChrisPlate38 />} />
+        <Route path="chrisphotos/plate39" element={<ChrisPlate39 />} />
+        <Route path="chrisphotos/plate40" element={<ChrisPlate40 />} />
+        <Route path="chrisphotos/plate41" element={<ChrisPlate41 />} />
+        <Route path="chrisphotos/plate42" element={<ChrisPlate42 />} />
         <Route path="chrislinks" element={<ChrisLinks />} />
       </Route>
       <Route path="cara" element={<CaraLayout />}>
@@ -294,6 +492,55 @@ const router = createBrowserRouter(
         <Route path="carasports" element={<CaraSports />} />
         <Route path="carahobby" element={<CaraHobby />} />
         <Route path="caraphotos" element={<CaraPhotos />} />
+        <Route path="caraphotos/plate01" element={<CaraPlate01 />} />
+        <Route path="caraphotos/plate02" element={<CaraPlate02 />} />
+        <Route path="caraphotos/plate03" element={<CaraPlate03 />} />
+        <Route path="caraphotos/plate04" element={<CaraPlate04 />} />
+        <Route path="caraphotos/plate05" element={<CaraPlate05 />} />
+        <Route path="caraphotos/plate06" element={<CaraPlate06 />} />
+        <Route path="caraphotos/plate07" element={<CaraPlate07 />} />
+        <Route path="caraphotos/plate08" element={<CaraPlate08 />} />
+        <Route path="caraphotos/plate09" element={<CaraPlate09 />} />
+        <Route path="caraphotos/plate10" element={<CaraPlate10 />} />
+        <Route path="caraphotos/plate11" element={<CaraPlate11 />} />
+        <Route path="caraphotos/plate12" element={<CaraPlate12 />} />
+        <Route path="caraphotos/plate13" element={<CaraPlate13 />} />
+        <Route path="caraphotos/plate14" element={<CaraPlate14 />} />
+        <Route path="caraphotos/plate15" element={<CaraPlate15 />} />
+        <Route path="caraphotos/plate16" element={<CaraPlate16 />} />
+        <Route path="caraphotos/plate17" element={<CaraPlate17 />} />
+        <Route path="caraphotos/plate18" element={<CaraPlate18 />} />
+        <Route path="caraphotos/plate19" element={<CaraPlate19 />} />
+        <Route path="caraphotos/plate20" element={<CaraPlate20 />} />
+        <Route path="caraphotos/plate21" element={<CaraPlate21 />} />
+        <Route path="caraphotos/plate22" element={<CaraPlate22 />} />
+        <Route path="caraphotos/plate23" element={<CaraPlate23 />} />
+        <Route path="caraphotos/plate24" element={<CaraPlate24 />} />
+        <Route path="caraphotos/plate25" element={<CaraPlate25 />} />
+        <Route path="caraphotos/plate26" element={<CaraPlate26 />} />
+        <Route path="caraphotos/plate27" element={<CaraPlate27 />} />
+        <Route path="caraphotos/plate28" element={<CaraPlate28 />} />
+        <Route path="caraphotos/plate29" element={<CaraPlate29 />} />
+        <Route path="caraphotos/plate30" element={<CaraPlate30 />} />
+        <Route path="caraphotos/plate31" element={<CaraPlate31 />} />
+        <Route path="caraphotos/plate32" element={<CaraPlate32 />} />
+        <Route path="caraphotos/plate33" element={<CaraPlate33 />} />
+        <Route path="caraphotos/plate34" element={<CaraPlate34 />} />
+        <Route path="caraphotos/plate35" element={<CaraPlate35 />} />
+        <Route path="caraphotos/plate36" element={<CaraPlate36 />} />
+        <Route path="caraphotos/plate37" element={<CaraPlate37 />} />
+        <Route path="caraphotos/plate38" element={<CaraPlate38 />} />
+        <Route path="caraphotos/plate39" element={<CaraPlate39 />} />
+        <Route path="caraphotos/plate40" element={<CaraPlate40 />} />
+        <Route path="caraphotos/plate41" element={<CaraPlate41 />} />
+        <Route path="caraphotos/plate42" element={<CaraPlate42 />} />
+        <Route path="caraphotos/plate43" element={<CaraPlate43 />} />
+        <Route path="caraphotos/plate44" element={<CaraPlate44 />} />
+        <Route path="caraphotos/plate45" element={<CaraPlate45 />} />
+        <Route path="caraphotos/plate46" element={<CaraPlate46 />} />
+        <Route path="caraphotos/plate47" element={<CaraPlate47 />} />
+        <Route path="caraphotos/plate48" element={<CaraPlate48 />} />
+
         <Route path="caralinks" element={<CaraLinks />} />
       </Route>
       <Route path="karen" element={<KarenLayout />}>
@@ -305,6 +552,60 @@ const router = createBrowserRouter(
         <Route path="karensports" element={<KarenSports />} />
         <Route path="karenhobby" element={<KarenHobby />} />
         <Route path="karenphotos" element={<KarenPhotos />} />
+        <Route path="karenphotos/plate01" element={<KarenPlate01 />} />
+        <Route path="karenphotos/plate02" element={<KarenPlate02 />} />
+        <Route path="karenphotos/plate03" element={<KarenPlate03 />} />
+        <Route path="karenphotos/plate04" element={<KarenPlate04 />} />
+        <Route path="karenphotos/plate05" element={<KarenPlate05 />} />
+        <Route path="karenphotos/plate06" element={<KarenPlate06 />} />
+        <Route path="karenphotos/plate07" element={<KarenPlate07 />} />
+        <Route path="karenphotos/plate08" element={<KarenPlate08 />} />
+        <Route path="karenphotos/plate09" element={<KarenPlate09 />} />
+        <Route path="karenphotos/plate10" element={<KarenPlate10 />} />
+        <Route path="karenphotos/plate11" element={<KarenPlate11 />} />
+        <Route path="karenphotos/plate12" element={<KarenPlate12 />} />
+        <Route path="karenphotos/plate13" element={<KarenPlate13 />} />
+        <Route path="karenphotos/plate14" element={<KarenPlate14 />} />
+        <Route path="karenphotos/plate15" element={<KarenPlate15 />} />
+        <Route path="karenphotos/plate16" element={<KarenPlate16 />} />
+        <Route path="karenphotos/plate17" element={<KarenPlate17 />} />
+        <Route path="karenphotos/plate18" element={<KarenPlate18 />} />
+        <Route path="karenphotos/plate19" element={<KarenPlate19 />} />
+        <Route path="karenphotos/plate20" element={<KarenPlate20 />} />
+        <Route path="karenphotos/plate21" element={<KarenPlate21 />} />
+        <Route path="karenphotos/plate22" element={<KarenPlate22 />} />
+        <Route path="karenphotos/plate23" element={<KarenPlate23 />} />
+        <Route path="karenphotos/plate24" element={<KarenPlate24 />} />
+        <Route path="karenphotos/plate25" element={<KarenPlate25 />} />
+        <Route path="karenphotos/plate26" element={<KarenPlate26 />} />
+        <Route path="karenphotos/plate27" element={<KarenPlate27 />} />
+        <Route path="karenphotos/plate28" element={<KarenPlate28 />} />
+        <Route path="karenphotos/plate29" element={<KarenPlate29 />} />
+        <Route path="karenphotos/plate30" element={<KarenPlate30 />} />
+        <Route path="karenphotos/plate31" element={<KarenPlate31 />} />
+        <Route path="karenphotos/plate32" element={<KarenPlate32 />} />
+        <Route path="karenphotos/plate33" element={<KarenPlate33 />} />
+        <Route path="karenphotos/plate34" element={<KarenPlate34 />} />
+        <Route path="karenphotos/plate35" element={<KarenPlate35 />} />
+        <Route path="karenphotos/plate36" element={<KarenPlate36 />} />
+        <Route path="karenphotos/plate37" element={<KarenPlate37 />} />
+        <Route path="karenphotos/plate38" element={<KarenPlate38 />} />
+        <Route path="karenphotos/plate39" element={<KarenPlate39 />} />
+        <Route path="karenphotos/plate40" element={<KarenPlate40 />} />
+        <Route path="karenphotos/plate41" element={<KarenPlate41 />} />
+        <Route path="karenphotos/plate42" element={<KarenPlate42 />} />
+        <Route path="karenphotos/plate43" element={<KarenPlate43 />} />
+        <Route path="karenphotos/plate44" element={<KarenPlate44 />} />
+        <Route path="karenphotos/plate45" element={<KarenPlate45 />} />
+        <Route path="karenphotos/plate46" element={<KarenPlate46 />} />
+        <Route path="karenphotos/plate47" element={<KarenPlate47 />} />
+        <Route path="karenphotos/plate48" element={<KarenPlate48 />} />
+        <Route path="karenphotos/plate49" element={<KarenPlate49 />} />
+        <Route path="karenphotos/plate50" element={<KarenPlate50 />} />
+        <Route path="karenphotos/plate51" element={<KarenPlate51 />} />
+        <Route path="karenphotos/plate52" element={<KarenPlate52 />} />
+        <Route path="karenphotos/plate53" element={<KarenPlate53 />} />
+
         <Route path="karenlinks" element={<KarenLinks />} />
       </Route>
       <Route path="*" element=<h1>PAGE NOT FOUND</h1> />

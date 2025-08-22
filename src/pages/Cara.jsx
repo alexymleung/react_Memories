@@ -4,10 +4,10 @@ import { CaraData } from "../data/CR/caradata";
 import "../css/Cara.css";
 
 function Cara() {
-  const { carainfoheader, carainfoarticle, carainfosection } = CaraData();
+  const { caraheader, carainfoarticle, carainfosection } = CaraData();
   return (
     <PersonPage
-      headerData={carainfoheader}
+      headerData={caraheader}
       articleData={carainfoarticle}
       sectionData={carainfosection}
       SubNavbar={CaraNavbar}

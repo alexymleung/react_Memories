@@ -1,6 +1,5 @@
 import Header from "./Header";
 import { Link, Outlet } from "react-router-dom";
-import "../css/Jonathan.css";
 import HeaderNav from "./HeaderNav";
 
 function PhotosPage({ headerData, photosPlates, SubNavbar, cssClass }) {
@@ -15,7 +14,11 @@ function PhotosPage({ headerData, photosPlates, SubNavbar, cssClass }) {
                 <div className="thumbnail-box" key={plate.plate}>
                   <Link to={`${plate.plate}`}>
                     <img src={plate.img} alt={plate.title} />
-                    <span>{plate.info.split(" ").slice(0, 3).join(" ")}</span>
+                    <span>
+                      {plate.info
+                        ? plate.info.split(" ").slice(0, 3).join(" ")
+                        : ""}
+                    </span>
                   </Link>
                 </div>
               ))}

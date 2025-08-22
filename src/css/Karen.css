@@ -5,3 +5,68 @@ body {
 .karen-main {
   background-color: var(--karensecondary);
 }
+
+/* MAIN NAVBAR INDIVIDUAL SETTINGS */
+
+/* Karen active - set BG color and Text for rest of Inactive tabs */
+.nav-karen a {
+  color: var(--karenbackground);
+  background-color: var(--karenprimarytransparent); /* Base color */
+  border: 1px solid var(--karenbackground);
+}
+
+/* Karen active - set BG color and Text for active tab */
+.nav-karen li a.active {
+  background-color: var(--karenprimary) !important;
+  color: var(--karenprimary-text-active) !important;
+  border: 1px solid var(--karenbackgroundtransparent);
+}
+
+/* KAREN's SUB-NAVBAR Settings */
+
+.karenUlNav {
+  background-color: var(--karenprimary);
+}
+
+.karenUlNav a {
+  color: var(--karenprimary-text);
+}
+
+.karenUlNav a.active {
+  background-color: var(--karenbackgroundtransparent);
+  color: var(--karenprimary-text-active);
+}
+
+/* PHOTO GALLERY STYLES */
+.karen .photo-gallery {
+  background-color: var(--karensecondary);
+}
+
+.karen .thumbnail-box {
+  background-color: var(--karenprimary);
+}
+
+/* PHOTO NAVIGATION */
+.karen .nav-button {
+  background: var(--karenprimary);
+}
+
+.karen .nav-button i {
+  color: var(--karensecondary);
+}
+
+.karen .nav-button:hover {
+  background: var(--karenprimary-text);
+}
+
+.karen .photo-plate {
+  background-color: var(--karensecondary);
+}
+
+.karen .photo-plate h2 {
+  color: var(--karenprimary-text);
+}
+
+.karen .plate-description {
+  background-color: var(--karenbackgroundtransparent);
+}

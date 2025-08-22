@@ -24,6 +24,8 @@
 
 # 13 Links pages, add media link, cleanup css. Jon 100% done.
 
+# 14 1st level framing, photo & plates for all completed.
+
 keyboard shortcut for navigation
 
 mouse over, to add transition and change color background add gradient color
