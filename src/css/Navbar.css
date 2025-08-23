@@ -84,7 +84,9 @@ a:hover {
   margin: 0 auto;
   font-size: 1rem;
   font-weight: 600;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* High z-index to ensure it overlays content */
 }
 
 .subUlNav li {
@@ -154,8 +156,8 @@ a:hover {
     gap: 0.8rem;
     padding-bottom: 0.7rem;
     margin: 0 auto;
-    width: 100%wv;
-    /* justify-content: center; */
+    width: 100%;
+    justify-content: center;
     flex-wrap: wrap;
   }
   .subUlNav a {
@@ -198,7 +200,7 @@ a:hover {
     gap: 0.5rem;
     padding-bottom: 0.7rem;
     margin: 0 auto;
-    width: 100%wv;
+    width: 100%;
     justify-content: center;
     flex-wrap: wrap;
   }

@@ -17,7 +17,7 @@ body {
 
 /* Karen active - set BG color and Text for active tab */
 .nav-karen li a.active {
-  background-color: var(--karenprimary) !important;
+  background-image: var(--karenprimary1) !important;
   color: var(--karenprimary-text-active) !important;
   border: 1px solid var(--karenbackgroundtransparent);
 }
@@ -25,7 +25,7 @@ body {
 /* KAREN's SUB-NAVBAR Settings */
 
 .karenUlNav {
-  background-color: var(--karenprimary);
+  background-image: var(--karenprimary2);
 }
 
 .karenUlNav a {

@@ -17,7 +17,7 @@ body {
 
 /* Chris active - set BG color and Text for active tab */
 .nav-chris li a.active {
-  background-color: var(--chrisprimary) !important;
+  background-image: var(--chrisprimary1) !important;
   color: var(--chrisprimary-text-active) !important;
   border: 1px solid var(--chrisbackgroundtransparent);
 }
@@ -26,7 +26,7 @@ body {
 
 /* CHRIS' SUB-NAVBAR SETTINGS */
 .chrisUlNav {
-  background-color: var(--chrisprimary);
+  background-image: var(--chrisprimary2);
 }
 
 .chrisUlNav a {

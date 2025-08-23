@@ -1,5 +1,6 @@
 import Article from "./Article";
 import Card from "./Card";
+import Header from "./Header";
 import HeaderNav from "./HeaderNav";
 
 function PersonPage({
@@ -12,7 +13,8 @@ function PersonPage({
   return (
     <>
       <div id="container" className={cssClass}>
-        <HeaderNav SubNavbar={SubNavbar} headerData={headerData} />
+        {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
+        <Header pic={headerData.image} alt={headerData.alt} />
 
         <main className={`${cssClass}-main`}>
           <Article

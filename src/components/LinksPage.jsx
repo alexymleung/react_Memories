@@ -1,4 +1,5 @@
 import "../css/Jonathan.css";
+import Header from "./Header";
 import HeaderNav from "./HeaderNav";
 import PrevNextHandler from "./PrevNextHandler";
 import { useEffect, useRef } from "react";
@@ -47,7 +48,8 @@ function LinksPage({
   return (
     <>
       <div id="container" className={cssClass}>
-        <HeaderNav SubNavbar={SubNavbar} headerData={headerData} />
+        {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
+        <Header pic={headerData.image} alt={headerData.alt} />
 
         {/* PHOTO PLATE */}
         <div className="photo-plate">

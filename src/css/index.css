@@ -14,13 +14,27 @@
   --width3: 780px;
   --width4: 576px;
   --setWidth: var(--width3);
+  --height1: 1200px;
+  --height2: 800px;
+  --height3: 600px;
+  --height4: 500px;
   --grey: rgb(46, 46, 46);
   --hover: #cf0000;
   --active: #cf0000;
   --active2: #ff6767;
 
-  --jonprimary1: linear-gradient(180deg, #0099cc 15%, #1bc6ff 100%);
-  --jonprimary2: linear-gradient(0deg, #0099cc 15%, #1bc6ff 100%);
+  --jonprimary1: linear-gradient(
+    180deg,
+    #27b7e7 15%,
+    #34ccff 85%
+  ); /* transparency */
+  --jonprimary2: linear-gradient(
+    0deg,
+    #34ccffce 0%,
+    #34ccff 85%
+  ); /* transparency */
+  --jonprimary3: linear-gradient(180deg, #0099cc 15%, #1bc6ff 100%);
+  --jonprimary4: linear-gradient(0deg, #0099cc 15%, #1bc6ff 100%);
   --jonprimary: #0099cc;
   --jonprimary9: #1bc6ff;
   --jonprimary10: #007ea8;
@@ -31,6 +45,16 @@
   --jonbackground: #003366;
   --jonbackgroundtransparent: #00336693;
 
+  --chrisprimary1: linear-gradient(
+    180deg,
+    #71aa00 15%,
+    #79b600 85%
+  ); /* transparency */
+  --chrisprimary2: linear-gradient(
+    0deg,
+    #83c400c7 0%,
+    #79b600 85%
+  ); /* transparency */
   --chrisprimary: #669900;
   --chrisprimarytransparent: #6699007c;
   --chrisprimary-text: #003000;
@@ -39,6 +63,16 @@
   --chrisbackground: #003300;
   --chrisbackgroundtransparent: #0033007e;
 
+  --caraprimary1: linear-gradient(
+    180deg,
+    #ff8a84 15%,
+    #ff928c 85%
+  ); /* transparency */
+  --caraprimary2: linear-gradient(
+    0deg,
+    #ff928cc5 0%,
+    #ff928c 85%
+  ); /* transparency */
   --caraprimary: #ff928c;
   --caraprimarytransparent: #ff928c7e;
   --caraprimary-text: #520400;
@@ -47,6 +81,16 @@
   --carabackground: #660500;
   --carabackgroundtransparent: #660500c7;
 
+  --karenprimary1: linear-gradient(
+    180deg,
+    #00a3a3 15%,
+    #00aeae 85%
+  ); /* transparency */
+  --karenprimary2: linear-gradient(
+    0deg,
+    #00aeaece 0%,
+    #00aeae 85%
+  ); /* transparency */
   --karenprimary: #00aeae;
   --karenprimarytransparent: #00aeae79;
   --karenprimary-text: #002727;
@@ -109,8 +153,8 @@ a:active {
 .sticky {
   position: sticky;
   top: 0;
-  z-index: 100;
-  background: inherit;
+  z-index: 1000; /* Increased z-index to overlay content */
+  background: transparent; /* Ensure transparent background */
 }
 
 header {
@@ -299,15 +343,21 @@ section {
 .photo-plate {
   width: var(--setWidth);
   margin: 0 auto;
-  padding: 10px 20px 10px; /* Increased top padding */
+  padding: 0.5rem 1rem 0.5rem; /* Increased top padding */
 }
 
 /* PHOTO NAVIGATION */
 .photo-navigation {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
   display: flex;
-  justify-content: center;
-  gap: 2rem;
-  margin: 1rem; /* Balanced top and bottom margins */
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  z-index: 10;
 }
 
 .nav-button {
@@ -315,24 +365,48 @@ section {
   border-radius: 50%;
   width: 3rem;
   height: 3rem;
-  font-size: 1.2rem;
+  font-size: 1.44rem;
   cursor: pointer;
   transition: all 0.3s ease;
+  opacity: 0.7;
+  margin: 0 2rem; /* Add margin to push buttons closer to photo edges */
 }
 
 .nav-button i {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
 }
 
 .nav-button:hover {
   transform: scale(1.1);
+  opacity: 1;
+}
+
+/* Position previous button on left */
+.prev-button {
+  margin-left: 2rem; /* Position from left edge */
+  margin-right: auto;
+}
+
+/* Position next button on right */
+.next-button {
+  margin-right: 2rem; /* Position from right edge */
+  margin-left: auto;
+}
+
+/* Make photo-plate container relative for absolute positioning */
+.photo-plate {
+  position: relative;
+  width: var(--setWidth);
+  margin: 0 auto;
+  padding: 10px 20px 10px; /* Increased top padding */
 }
 
 .photo-plate img {
   width: 80%;
-  height: auto;
+  height: 70vh; /* Fixed height to prevent button jumping */
+  object-fit: contain;
   display: block;
-  margin: 0 auto;
+  margin: 2rem auto;
 }
 
 .photo-plate p {
@@ -369,7 +443,12 @@ section {
 }
 
 .links-content {
-  margin: 3rem;
+  margin: 3rem auto;
+  padding: 3rem;
+  width: 50%;
+  max-width: 800px;
+  min-width: 300px;
+  min-height: 320px;
 }
 
 /* @media (min-width: 768px) {
@@ -449,6 +528,17 @@ section {
   .photo-grid {
     grid-template-columns: repeat(4, 1fr);
   }
+
+  .nav-button {
+    width: 3rem;
+    height: 3rem;
+    /* font-size: 1.44rem; */
+    margin: 0 7rem;
+  }
+
+  .nav-button i {
+    font-size: 2.1rem;
+  }
 }
 
 @media (min-width: 1600px) {
@@ -491,6 +581,16 @@ section {
 
   .photo-grid {
     grid-template-columns: repeat(5, 1fr);
+  }
+  .nav-button {
+    width: 3.6rem;
+    height: 3.6rem;
+    /* font-size: 1.44rem; */
+    margin: 0 14rem;
+  }
+
+  .nav-button i {
+    font-size: 2.6rem;
   }
 }
 /* main > article,
@@ -551,6 +651,17 @@ main > section {
 
   .plate-description {
     width: 40%;
+  }
+
+  .nav-button {
+    width: 2.6rem;
+    height: 2.6rem;
+    /* font-size: 1.44rem; */
+    margin: 0 1rem;
+  }
+
+  .nav-button i {
+    font-size: 1.6rem;
   }
 }
 

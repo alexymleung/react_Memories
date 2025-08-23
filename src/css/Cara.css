@@ -17,7 +17,7 @@ body {
 
 /* Cara active - set BG color and Text for active tab */
 .nav-cara li a.active {
-  background-color: var(--caraprimary) !important;
+  background-image: var(--caraprimary1) !important;
   color: var(--caraprimary-text-active) !important;
   border: 1px solid var(--carabackgroundtransparent);
 }
@@ -26,7 +26,7 @@ body {
 
 .caraUlNav {
   width: var(--setWidth);
-  background-color: var(--caraprimary);
+  background-image: var(--caraprimary2);
 }
 
 .caraUlNav a {

@@ -1,7 +1,23 @@
-import React from "react";
+import Hero from "../assets/FamilyPhotoCollage231124H.jpg";
+import HomeNav from "../components/HomeNav";
+import PhotoShow from "../components/PhotoShow";
 
 function HomePage() {
-  return <h1>HomePage</h1>;
+  return (
+    <div style={{ position: "relative", width: "100%", height: "100vh" }}>
+      <HomeNav />
+      <PhotoShow />
+      <img
+        src={Hero}
+        alt="hero"
+        style={{
+          width: "100%",
+          height: "100%",
+          objectFit: "cover",
+        }}
+      />
+    </div>
+  );
 }
 
 export default HomePage;

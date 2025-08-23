@@ -32,7 +32,7 @@ export const KarenPhotosData = () => {
       plate: "plate04",
       img: "/src/assets/KH/images/AL970713112.jpg",
       title: "Plate 4",
-      info: "Venice Waterway in the Realto Bridge.",
+      info: "Venice Railto Bridge above the waterway.",
     },
     {
       plate: "plate05",
@@ -84,21 +84,21 @@ export const KarenPhotosData = () => {
     },
     {
       plate: "plate13",
-      img: "/src/assets/KH/images/AKA_Wedding_006cr.jpg",
+      img: "/src/assets/KH/images/AL960101100KSC.jpg",
       title: "Plate 13",
-      info: "In golden colors",
+      info: "In KSC",
     },
     {
       plate: "plate14",
-      img: "/src/assets/KH/images/CKA_Wedding_022C.jpg",
+      img: "/src/assets/KH/images/AL960121300.jpg",
       title: "Plate 14",
-      info: "Looks smilley?",
+      info: "肇興七星岩",
     },
     {
       plate: "plate15",
-      img: "/src/assets/KH/images/FKA_Wedding_035C.jpg",
+      img: "/src/assets/KH/images/AKA_Wedding_006cr.jpg",
       title: "Plate 15",
-      info: "studio shots",
+      info: "In golden colors",
     },
     {
       plate: "plate16",

@@ -1,0 +1,232 @@
+.photo-show {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 50;
+}
+
+.photo-container {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.animated-photo {
+  position: absolute;
+  width: 5%; /* Start very small */
+  height: auto;
+  opacity: 0;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+  object-fit: cover;
+  transform-style: preserve-3d;
+  transition: none;
+}
+
+.photo-container.animating .animated-photo {
+  animation: photoFlyout 5s linear forwards;
+}
+
+@keyframes photoFlyout {
+  0% {
+    /* Start from position - handle both grid and percentage positioning */
+    top: calc(
+      var(--is-percentage) * var(--start-grid-y) * 1% +
+        (1 - var(--is-percentage)) * (var(--start-grid-y) * 11.11% + 5.55%)
+    );
+    left: calc(
+      var(--is-percentage) * var(--start-grid-x) * 1% +
+        (1 - var(--is-percentage)) * (var(--start-grid-x) * 10% + 5%)
+    );
+    width: 5%;
+    opacity: 0;
+    transform: translateZ(-1000px) rotateY(-90deg) scale(0.1);
+  }
+
+  20% {
+    /* Move to left side, start growing */
+    top: 40%;
+    left: 10%;
+    width: 15%;
+    opacity: 1;
+    transform: translateZ(-500px) rotateY(-45deg) scale(0.3);
+  }
+
+  35% {
+    /* Reach center, maximum size - properly centered */
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    opacity: 1;
+    transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+  }
+
+  40% {
+    /* Stay at center - properly centered */
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    opacity: 1;
+    transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+  }
+
+  60% {
+    /* Stay at center - properly centered */
+    top: 35%;
+    left: 50%;
+    width: 40%;
+    opacity: 1;
+    transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+  }
+
+  70% {
+    /* Move to right side at 80% position, medium size */
+    top: 40%;
+    left: 80%;
+    width: 20%;
+    opacity: 0.9;
+    transform: translateZ(-300px) rotateY(30deg) scale(0.5) translateX(-50%);
+  }
+
+  80% {
+    /* Continue shrinking while returning to center */
+    top: 38%;
+    left: 70%;
+    width: 15%;
+    opacity: 0.7;
+    transform: translateZ(-400px) rotateY(20deg) scale(0.4) translateX(-50%);
+  }
+
+  90% {
+    /* Continue shrinking while approaching center */
+    top: 36%;
+    left: 60%;
+    width: 10%;
+    opacity: 0.4;
+    transform: translateZ(-700px) rotateY(10deg) scale(0.2) translateX(-50%);
+  }
+
+  100% {
+    /* Final shrink and disappear at center */
+    top: 35%;
+    left: 50%;
+    width: 5%;
+    opacity: 0;
+    transform: translateZ(-1000px) rotateY(0) scale(0.1) translateX(-50%);
+  }
+}
+
+/* 3D perspective effect */
+.photo-show {
+  perspective: 1200px;
+}
+
+.animated-photo {
+  transform-origin: center center;
+}
+
+/* Ensure smooth animations */
+.animated-photo {
+  will-change: transform, opacity, width, top, left;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .animated-photo {
+    border-radius: 4px;
+  }
+
+  @keyframes photoFlyout {
+    0% {
+      /* Start from position - handle both grid and percentage positioning */
+      top: calc(
+        (var(--is-percentage) * var(--start-grid-y) * 1%) +
+          (
+            (1 - var(--is-percentage)) *
+              calc(var(--start-grid-y) * 11.11% + 5.55%)
+          )
+      );
+      left: calc(
+        (var(--is-percentage) * var(--start-grid-x) * 1%) +
+          ((1 - var(--is-percentage)) * calc(var(--start-grid-x) * 10% + 5%))
+      );
+      width: 8%;
+      opacity: 0;
+      transform: translateZ(-800px) rotateY(-90deg) scale(0.1);
+    }
+
+    20% {
+      top: 40%;
+      left: 5%;
+      width: 25%;
+      opacity: 1;
+      transform: translateZ(-400px) rotateY(-45deg) scale(0.3);
+    }
+
+    35% {
+      /* Reach center, maximum size - properly centered */
+      top: 35%;
+      left: 50%;
+      width: 60%;
+      opacity: 1;
+      transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+    }
+
+    40% {
+      /* Stay at center - properly centered */
+      top: 35%;
+      left: 50%;
+      width: 60%;
+      opacity: 1;
+      transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+    }
+
+    60% {
+      /* Stay at center - properly centered */
+      top: 35%;
+      left: 50%;
+      width: 60%;
+      opacity: 1;
+      transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+    }
+
+    70% {
+      /* Move to right side at 80% position, medium size */
+      top: 40%;
+      left: 80%;
+      width: 30%;
+      opacity: 0.9;
+      transform: translateZ(-300px) rotateY(30deg) scale(0.5) translateX(-50%);
+    }
+
+    80% {
+      /* Continue shrinking while returning to center */
+      top: 38%;
+      left: 70%;
+      width: 20%;
+      opacity: 0.7;
+      transform: translateZ(-500px) rotateY(20deg) scale(0.3) translateX(-50%);
+    }
+
+    90% {
+      /* Continue shrinking while approaching center */
+      top: 36%;
+      left: 60%;
+      width: 12%;
+      opacity: 0.4;
+      transform: translateZ(-700px) rotateY(10deg) scale(0.15) translateX(-50%);
+    }
+
+    100% {
+      /* Final shrink and disappear at center */
+      top: 35%;
+      left: 50%;
+      width: 8%;
+      opacity: 0;
+      transform: translateZ(-800px) rotateY(0) scale(0.1) translateX(-50%);
+    }
+  }
+}

@@ -28,6 +28,10 @@
 
 # 15 Framework for all pages created. also finished Chris & Cara sections
 
+# 16 fix bug of going directly to subroute causing an error, and also modifying the photoPage not showing the banner(header), by modifying the HeaderNav component. Add Homepage with carousel
+
+- fix subroute error, photoPage no banner, Add Homepage with carousel
+
 keyboard shortcut for navigation
 
 mouse over, to add transition and change color background add gradient color

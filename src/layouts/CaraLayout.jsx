@@ -2,7 +2,7 @@ import CaraNavbar from "../ui/CaraNavbar";
 import Layout from "../components/Layout";
 
 function CaraLayout() {
-  return <Layout navbar={CaraNavbar} />;
+  return <Layout subNavbar={CaraNavbar} />;
 }
 
 export default CaraLayout;

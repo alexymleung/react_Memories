@@ -18,7 +18,7 @@ function PhotoPage({
   return (
     <>
       <div id="container" className={cssClass}>
-        <HeaderNav SubNavbar={SubNavbar} headerData={headerData} />
+        {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
 
         {/* PHOTO PLATE */}
         <div className="photo-plate">
