@@ -40,7 +40,7 @@ export default KarenSportsPLATE_NUM;
 `;
 
 (async () => {
-  for (let i = 1; i <= 5; i++) {
+  for (let i = 1; i <= 6; i++) {
     const plateNum = i.toString().padStart(2, "0");
     const content = template.replace(/PLATE_NUM/g, plateNum);
 
