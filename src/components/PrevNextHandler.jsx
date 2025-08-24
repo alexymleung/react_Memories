@@ -9,7 +9,12 @@ function PrevNextHandler({ name, alias, topics, photoNo }) {
   );
 
   return (
-    <div className="photo-navigation">
+    <div
+      style={{
+        display: photoNo === 1 && "none",
+      }}
+      className="photo-navigation"
+    >
       <button className="nav-button prev-button" onClick={handlePrev}>
         <i className="fas fa-chevron-left"></i>
       </button>

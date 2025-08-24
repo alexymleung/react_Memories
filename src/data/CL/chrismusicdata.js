@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 import ChrisMusicHero from "../../assets/CL/images/fa080404_325ar.jpg";
 
 export const ChrisMusicData = () => {
@@ -25,13 +25,13 @@ export const ChrisMusicData = () => {
     },
     {
       id: 2,
-      link: `/${currentTheme.name}/${currentTheme.alias}music/plate01`,
+      link: `/${currentTheme.name}/${currentTheme.alias}music/plate02`,
       title: "Piano",
       details: "I also have regular Piano lessons.",
     },
     {
       id: 3,
-      link: `/${currentTheme.name}/${currentTheme.alias}music/plate02`,
+      link: `/${currentTheme.name}/${currentTheme.alias}music/plate03`,
       title: "Karaoke",
       details: "I  like singing Karaoke, especially Ultraman, any Ultraman.",
     },

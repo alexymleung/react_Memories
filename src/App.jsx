@@ -372,6 +372,8 @@ import KarenFamily22 from "./pages/Karen/family/KarenFamily22";
 import KarenFamily23 from "./pages/Karen/family/KarenFamily23";
 
 import KarenSchool01 from "./pages/Karen/school/KarenSchool01";
+import KarenSchool02 from "./pages/Karen/school/KarenSchool02";
+import KarenSchool03 from "./pages/Karen/school/KarenSchool03";
 
 import KarenMusic01 from "./pages/Karen/music/KarenMusic01";
 import KarenMusic02 from "./pages/Karen/music/KarenMusic02";
@@ -381,6 +383,7 @@ import KarenSports02 from "./pages/Karen/sports/KarenSports02";
 import KarenSports03 from "./pages/Karen/sports/KarenSports03";
 import KarenSports04 from "./pages/Karen/sports/KarenSports04";
 import KarenSports05 from "./pages/Karen/sports/KarenSports05";
+import KarenSports06 from "./pages/Karen/sports/KarenSports06";
 
 import KarenHobby01 from "./pages/Karen/hobby/KarenHobby01";
 import KarenHobby02 from "./pages/Karen/hobby/KarenHobby02";
@@ -810,6 +813,8 @@ const router = createBrowserRouter(
           <Route path="karenfamily/plate22" element={<KarenFamily22 />} />
           <Route path="karenfamily/plate23" element={<KarenFamily23 />} />
           <Route path="karenschool/plate01" element={<KarenSchool01 />} />
+          <Route path="karenschool/plate02" element={<KarenSchool02 />} />
+          <Route path="karenschool/plate03" element={<KarenSchool03 />} />
           <Route path="karenmusic/plate01" element={<KarenMusic01 />} />
           <Route path="karenmusic/plate02" element={<KarenMusic02 />} />
           <Route path="karensports/plate01" element={<KarenSports01 />} />
@@ -817,6 +822,7 @@ const router = createBrowserRouter(
           <Route path="karensports/plate03" element={<KarenSports03 />} />
           <Route path="karensports/plate04" element={<KarenSports04 />} />
           <Route path="karensports/plate05" element={<KarenSports05 />} />
+          <Route path="karensports/plate06" element={<KarenSports06 />} />
           <Route path="karenhobby/plate01" element={<KarenHobby01 />} />
           <Route path="karenhobby/plate02" element={<KarenHobby02 />} />
           <Route path="karenhobby/plate03" element={<KarenHobby03 />} />

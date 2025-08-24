@@ -1,4 +1,4 @@
-import Hero from "../assets/FamilyPhotoCollage231124H.jpg";
+import Hero from "../assets/FamilyPhotoCollage231124I.webp";
 import HomeNav from "../components/HomeNav";
 import PhotoShow from "../components/PhotoShow";
 

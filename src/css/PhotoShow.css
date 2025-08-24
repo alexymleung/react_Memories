@@ -48,43 +48,52 @@
 
   20% {
     /* Move to left side, start growing */
-    top: 40%;
-    left: 10%;
+    top: 30%;
+    left: 25%;
     width: 15%;
     opacity: 1;
     transform: translateZ(-500px) rotateY(-45deg) scale(0.3);
   }
 
+  28% {
+    /* Reach center, maximum size - properly centered (max 10% larger and 10% higher) */
+    top: 31%;
+    left: 15%;
+    width: 26%;
+    opacity: 1;
+    transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
+  }
+
   35% {
-    /* Reach center, maximum size - properly centered */
-    top: 35%;
-    left: 50%;
-    width: 40%;
+    /* Reach center, maximum size - properly centered (max 10% larger and 10% higher) */
+    top: 20%;
+    left: 40%;
+    width: 44%;
     opacity: 1;
     transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
   }
 
   40% {
-    /* Stay at center - properly centered */
-    top: 35%;
+    /* Stay at center - properly centered (max 10% larger and 10% higher) */
+    top: 20%;
     left: 50%;
-    width: 40%;
+    width: 48%;
     opacity: 1;
     transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
   }
 
   60% {
-    /* Stay at center - properly centered */
-    top: 35%;
+    /* Stay at center - properly centered (max 10% larger and 10% higher) */
+    top: 20%;
     left: 50%;
-    width: 40%;
+    width: 48%;
     opacity: 1;
     transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
   }
 
   70% {
     /* Move to right side at 80% position, medium size */
-    top: 40%;
+    top: 30%;
     left: 80%;
     width: 20%;
     opacity: 0.9;
@@ -93,7 +102,7 @@
 
   80% {
     /* Continue shrinking while returning to center */
-    top: 38%;
+    top: 28%;
     left: 70%;
     width: 15%;
     opacity: 0.7;
@@ -102,7 +111,7 @@
 
   90% {
     /* Continue shrinking while approaching center */
-    top: 36%;
+    top: 29%;
     left: 60%;
     width: 10%;
     opacity: 0.4;
@@ -111,7 +120,7 @@
 
   100% {
     /* Final shrink and disappear at center */
-    top: 35%;
+    top: 30%;
     left: 50%;
     width: 5%;
     opacity: 0;
@@ -167,28 +176,28 @@
     }
 
     35% {
-      /* Reach center, maximum size - properly centered */
-      top: 35%;
+      /* Reach center, maximum size - properly centered (max 10% larger and 10% higher) */
+      top: 38.5%;
       left: 50%;
-      width: 60%;
+      width: 66%;
       opacity: 1;
       transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
     }
 
     40% {
-      /* Stay at center - properly centered */
-      top: 35%;
+      /* Stay at center - properly centered (max 10% larger and 10% higher) */
+      top: 38.5%;
       left: 50%;
-      width: 60%;
+      width: 66%;
       opacity: 1;
       transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
     }
 
     60% {
-      /* Stay at center - properly centered */
-      top: 35%;
+      /* Stay at center - properly centered (max 10% larger and 10% higher) */
+      top: 38.5%;
       left: 50%;
-      width: 60%;
+      width: 66%;
       opacity: 1;
       transform: translateZ(0) rotateY(0) scale(1) translateX(-50%);
     }

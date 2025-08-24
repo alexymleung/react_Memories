@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 import JonMusicHero from "../../assets/JL/images/fa080405_097ar.jpg";
 
 export const JonMusicData = () => {
@@ -74,7 +74,7 @@ export const JonMusicData = () => {
       plate: "plate05",
       img: "/src/assets/JL/images/F1140028.jpg",
       title: "Plate 5",
-      info: "Singing with daddy in a Karaoke contest.",
+      info: "Singing 祝福 with daddy in a school Karaoke contest.",
     },
     {
       plate: "plate06",

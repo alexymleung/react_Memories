@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
 
 export const KarenPhotosData = () => {
   const { currentTheme } = useTheme();
@@ -12,49 +12,49 @@ export const KarenPhotosData = () => {
   const karenPhotosPlates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/AL901216110.jpg",
+      img: "/src/assets/KH/images/AL901216110.webp",
       title: "Plate 1",
       info: "In the Maldive resort.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/KH/images/AL970327002.jpg",
+      img: "/src/assets/KH/images/AL970327002.webp",
       title: "Plate 2",
       info: "In Toyko with Alex",
     },
     {
       plate: "plate03",
-      img: "/src/assets/KH/images/AL970330004japanB.jpg",
+      img: "/src/assets/KH/images/AL970330004.webp",
       title: "Plate 3",
       info: "The famous Mount Fuji.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/KH/images/AL970713112.jpg",
+      img: "/src/assets/KH/images/AL970713112.webp",
       title: "Plate 4",
       info: "Venice Railto Bridge above the waterway.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/KH/images/AL971005110.jpg",
+      img: "/src/assets/KH/images/AL971005110.webp",
       title: "Plate 5",
       info: "Beijing 故宫博物院.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/KH/images/AL980130010.jpg",
+      img: "/src/assets/KH/images/AL980130010.webp",
       title: "Plate 6",
       info: "With Alex at home.",
     },
     {
       plate: "plate07",
-      img: "/src/assets/KH/images/AL970330055.jpg",
+      img: "/src/assets/KH/images/AL970330055.webp",
       title: "Plate 7",
       info: "In Japan Nagashima Spaland",
     },
     {
       plate: "plate08",
-      img: "/src/assets/KH/images/AL970717060.jpg",
+      img: "/src/assets/KH/images/AL970717060.webp",
       title: "Plate 8",
       info: "In Monaco.",
     },
@@ -72,63 +72,63 @@ export const KarenPhotosData = () => {
     },
     {
       plate: "plate11",
-      img: "/src/assets/KH/images/AL970719101.jpg",
+      img: "/src/assets/KH/images/AL970719101.webp",
       title: "Plate 11",
       info: "In Paris Disney.",
     },
     {
       plate: "plate12",
-      img: "/src/assets/KH/images/AL951217230SCAA.jpg",
+      img: "/src/assets/KH/images/AL951217230.webp",
       title: "Plate 12",
       info: "In SCAA playing golf.",
     },
     {
       plate: "plate13",
-      img: "/src/assets/KH/images/AL960101100KSC.jpg",
+      img: "/src/assets/KH/images/AL960101100.webp",
       title: "Plate 13",
       info: "In KSC",
     },
     {
       plate: "plate14",
-      img: "/src/assets/KH/images/AL960121300.jpg",
+      img: "/src/assets/KH/images/AL960121300.webp",
       title: "Plate 14",
       info: "肇興七星岩",
     },
     {
       plate: "plate15",
-      img: "/src/assets/KH/images/AKA_Wedding_006cr.jpg",
+      img: "/src/assets/KH/images/AL970720007.jpg",
       title: "Plate 15",
-      info: "In golden colors",
+      info: "布魯塞爾大廣場 left of 市政廳A",
     },
     {
       plate: "plate16",
-      img: "/src/assets/KH/images/PKA_Wedding_043cr.jpg",
+      img: "/src/assets/KH/images/AL939400360.webp",
       title: "Plate 16",
-      info: "In the forest.",
+      info: "Horse Jumping at Lei Yue Mum.",
     },
     {
       plate: "plate17",
-      img: "/src/assets/KH/images/AL970330012.jpg",
+      img: "/src/assets/KH/images/AL970330012.webp",
       title: "Plate 17",
       info: "in the peace garden.",
     },
     {
       plate: "plate18",
-      img: "/src/assets/KH/images/AL970719060.jpg",
+      img: "/src/assets/KH/images/AL970719060.webp",
       title: "Plate 18",
       info: "Scary ride in Paris Disneyland.",
     },
     {
       plate: "plate19",
-      img: "/src/assets/KH/images/AL970720007.jpg",
+      img: "/src/assets/KH/images/AKA_Wedding_006cr.jpg",
       title: "Plate 19",
-      info: "布魯塞爾大廣場 left of 市政廳A",
+      info: "In golden colors",
     },
     {
       plate: "plate20",
-      img: "/src/assets/KH/images/AL939400360.jpg",
+      img: "/src/assets/KH/images/PKA_Wedding_043cr.jpg",
       title: "Plate 20",
-      info: "Horse Jumping at Lei Yue Mum.",
+      info: "In the forest.",
     },
     {
       plate: "plate21",
@@ -218,7 +218,7 @@ export const KarenPhotosData = () => {
       plate: "plate35",
       img: "/src/assets/KH/images/fa020127_057a.jpg",
       title: "Plate 35",
-      info: "With my 3 kids in playground when Yoyo was 6 month old.",
+      info: "With my 3 kids in playground when Cara was 6 month old.",
     },
     {
       plate: "plate36",
@@ -236,7 +236,7 @@ export const KarenPhotosData = () => {
       plate: "plate38",
       img: "/src/assets/KH/images/fa021001_043ar.jpg",
       title: "Plate 38",
-      info: "With 14 month old Yoyo going up Yuk Kwai Shan.",
+      info: "With 14 month old Cara going up Yuk Kwai Shan.",
     },
     {
       plate: "plate39",
@@ -266,7 +266,7 @@ export const KarenPhotosData = () => {
       plate: "plate43",
       img: "/src/assets/KH/images/fa050612_080ar.jpg",
       title: "Plate 43",
-      info: "With Yoyo and Chris at the bird's street.",
+      info: "With Cara and Chris at the bird's street.",
     },
     {
       plate: "plate44",
@@ -320,7 +320,7 @@ export const KarenPhotosData = () => {
       plate: "plate52",
       img: "/src/assets/KH/images/fa080426_392ar.jpg",
       title: "Plate 52",
-      info: "Having a good time with Yoyo in the St. Stephen's Bay.",
+      info: "Having a good time with Cara in the St. Stephen's Bay.",
     },
     {
       plate: "plate53",

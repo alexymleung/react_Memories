@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
 export const ChrisPhotosData = () => {
   const { currentTheme } = useTheme();
@@ -128,19 +128,19 @@ export const ChrisPhotosData = () => {
       plate: "plate20",
       img: "/src/assets/CL/images/fa030406_123Bar.jpg",
       title: "Plate 20",
-      info: ">With Jonathan and Yoyo in South Horizons Plaza.",
+      info: ">With Jonathan and Cara in South Horizons Plaza.",
     },
     {
       plate: "plate21",
       img: "/src/assets/CL/images/fa030407_006ar.jpg",
       title: "Plate 21",
-      info: "Playing computer with Jonathan and Yoyo at home.",
+      info: "Playing computer with Jonathan and Cara at home.",
     },
     {
       plate: "plate22",
       img: "/src/assets/CL/images/fa030820_034ar.jpg",
       title: "Plate 22",
-      info: "3 and a half year old me with Yoyo in South Horizons",
+      info: "3 and a half year old me with Cara in South Horizons",
     },
     {
       plate: "plate23",

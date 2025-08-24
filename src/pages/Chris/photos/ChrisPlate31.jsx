@@ -3,7 +3,7 @@ import { ChrisData } from "../../../data/CL/chrisdata";
 import { ChrisPhotosData } from "../../../data/CL/chrisphotosdata";
 import ChrisNavbar from "../../../ui/ChrisNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function ChrisPlate31() {
@@ -11,7 +11,9 @@ function ChrisPlate31() {
   const { currentTopic } = useTopic();
   const { chrisheader } = ChrisData();
   const { chrisPhotosPlates } = ChrisPhotosData();
-  const plateData = chrisPhotosPlates.find((plate) => plate.plate === "plate31");
+  const plateData = chrisPhotosPlates.find(
+    (plate) => plate.plate === "plate31"
+  );
   const photoNo = chrisPhotosPlates.length;
 
   return (

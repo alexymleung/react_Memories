@@ -3,7 +3,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenPhotosData } from "../../../data/KH/karenphotosdata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenPlate22() {
@@ -11,7 +11,9 @@ function KarenPlate22() {
   const { currentTopic } = useTopic();
   const { karenheader } = KarenData();
   const { karenPhotosPlates } = KarenPhotosData();
-  const plateData = karenPhotosPlates.find((plate) => plate.plate === "plate22");
+  const plateData = karenPhotosPlates.find(
+    (plate) => plate.plate === "plate22"
+  );
   const photoNo = karenPhotosPlates.length;
 
   return (

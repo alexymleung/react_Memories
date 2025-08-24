@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
 
 import CaraLinksHero from "../../assets/CR/images/fa071117_003B.jpg";
 

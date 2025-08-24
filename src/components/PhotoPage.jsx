@@ -31,8 +31,8 @@ function PhotoPage({
           />
 
           {/* PHOTO BODY */}
-          <img src={photoPlate} alt="" />
           <p>{info}</p>
+          <img src={photoPlate} alt="" />
 
           {/* AUDIO PLAYER FOR MP3 FILES */}
           {link && typeof link === "string" && link.endsWith(".mp3") && (

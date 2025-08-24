@@ -3,7 +3,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenLinksData } from "../../../data/KH/karenlinksdata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import LinksPage from "../../../components/LinksPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenLinks01() {

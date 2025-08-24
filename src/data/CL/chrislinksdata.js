@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
 import ChrisLinksHero from "../../assets/CL/images/fa070818_002Bar.jpg";
 

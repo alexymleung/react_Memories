@@ -10,7 +10,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenSportsData } from "../../../data/KH/karensportsdata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenSportsPLATE_NUM() {

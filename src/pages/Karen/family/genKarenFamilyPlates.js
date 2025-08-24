@@ -10,7 +10,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenFamilyData } from "../../../data/KH/karenfamilydata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenFamilyPLATE_NUM() {

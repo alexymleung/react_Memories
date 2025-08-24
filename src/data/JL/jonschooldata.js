@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 
 import JonSchoolHero from "../../assets/JL/images/JL@School_060211_780.jpg";
 

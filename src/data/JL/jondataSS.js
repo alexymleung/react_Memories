@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 import JonHero from "../../assets/JL/images/fa081018_724ar.jpg";
 
 import JonSchoolHero from "../../assets/JL/images/JL@School_060211_780.jpg";
@@ -385,7 +385,7 @@ export const JonData = () => {
     },
     {
       plate: "plate10",
-      img: "/src/assets/JL/images/f0990827_030ar.jpg",
+      img: "/src/assets/JL/images/f0990827_030.webp",
       title: "Plate 10",
       info: "8m-old with eyes wide open in a restaurant with Mom.",
     },

@@ -3,7 +3,7 @@ import { ChrisData } from "../../../data/CL/chrisdata";
 import { ChrisSchoolData } from "../../../data/CL/chrisschooldata";
 import ChrisNavbar from "../../../ui/ChrisNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function ChrisSchool01() {
@@ -11,7 +11,9 @@ function ChrisSchool01() {
   const { currentTopic } = useTopic();
   const { chrisheader } = ChrisData();
   const { chrisschoolplates } = ChrisSchoolData();
-  const plateData = chrisschoolplates.find((plate) => plate.plate === "plate01");
+  const plateData = chrisschoolplates.find(
+    (plate) => plate.plate === "plate01"
+  );
   const photoNo = chrisschoolplates.length;
 
   return (

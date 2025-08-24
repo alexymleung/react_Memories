@@ -3,7 +3,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenFamilyData } from "../../../data/KH/karenfamilydata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenFamily17() {
@@ -11,7 +11,9 @@ function KarenFamily17() {
   const { currentTopic } = useTopic();
   const { karenheader } = KarenData();
   const { karenfamilyplates } = KarenFamilyData();
-  const plateData = karenfamilyplates.find((plate) => plate.plate === "plate17");
+  const plateData = karenfamilyplates.find(
+    (plate) => plate.plate === "plate17"
+  );
   const photoNo = karenfamilyplates.length;
 
   return (

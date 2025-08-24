@@ -3,7 +3,7 @@ body {
 }
 
 .cara-main {
-  background-color: var(--carasecondary);
+  background-image: var(--carasecondary);
 }
 
 /* MAIN NAVBAR INDIVIDUAL SETTINGS */
@@ -40,7 +40,7 @@ body {
 
 /* PHOTO GALLERY STYLES */
 .cara .photo-gallery {
-  background-color: var(--carasecondary);
+  background-image: var(--carasecondary);
 }
 
 .cara .thumbnail-box {
@@ -53,7 +53,7 @@ body {
 }
 
 .cara .nav-button i {
-  color: var(--carasecondary);
+  color: var(--carasecondary-solid);
 }
 
 .cara .nav-button:hover {
@@ -61,7 +61,7 @@ body {
 }
 
 .cara .photo-plate {
-  background-color: var(--carasecondary);
+  background-image: var(--carasecondary);
 }
 
 .cara .photo-plate h2 {

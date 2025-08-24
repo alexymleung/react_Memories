@@ -1,30 +1,32 @@
 .home-nav {
   position: absolute;
-  top: 20px;
+  top: 0;
   left: 0;
   right: 0;
   display: flex;
   justify-content: center;
   gap: 40px;
   z-index: 100;
-  padding: 20px;
+  padding: 1.3rem;
+  background-color: rgba(0, 0, 0, 0.32);
+  backdrop-filter: blur(5px);
 }
 
 .home-nav-link {
   color: white;
   text-decoration: none;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
   font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  padding: 10px 20px;
-  border-radius: 8px;
+  /* text-transform: uppercase; */
+  letter-spacing: 0.2rem;
+  padding: 0.5rem 1.8rem;
+  border-radius: 0.4rem;
   background-color: rgba(0, 0, 0, 0.6);
   backdrop-filter: blur(10px);
   transition: all 0.3s ease;
   position: relative;
   overflow: hidden;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
 }
 
 .home-nav-link::before {
@@ -48,10 +50,62 @@
 }
 
 .home-nav-link:hover {
-  transform: translateY(-5px) scale(1.05);
+  transform: translateY(-5px) scale(1.1);
   background-color: rgba(0, 0, 0, 0.8);
   box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
-  color: #ffd700;
+}
+
+/* Theme-specific styles */
+.home-nav-link.jonathan-theme {
+  background: linear-gradient(180deg, #27b7e7 15%, #34ccff 85%);
+  color: #ffff66;
+  border: 1px solid rgba(27, 198, 255, 0.5);
+}
+
+.home-nav-link.jonathan-theme:hover {
+  background: linear-gradient(180deg, #0d9bca 15%, #058bb8 85%);
+  color: #ffff66;
+  box-shadow: 0 8px 25px rgba(0, 153, 204, 0.6);
+  border-color: rgba(255, 255, 102, 0.7);
+}
+
+.home-nav-link.chris-theme {
+  background: linear-gradient(180deg, #71aa00 15%, #79b600 85%);
+  color: #dbffdb;
+  border: 1px solid rgba(192, 255, 74, 0.5);
+}
+
+.home-nav-link.chris-theme:hover {
+  background: linear-gradient(180deg, #5e8d00 15%, #4b7000 85%);
+  color: #dbffdb;
+  box-shadow: 0 8px 25px rgba(102, 153, 0, 0.6);
+  border-color: rgba(219, 255, 219, 0.7);
+}
+
+.home-nav-link.cara-theme {
+  background: linear-gradient(180deg, #ff8a84 15%, #ff928c 85%);
+  color: #a10800;
+  border: 1px solid rgba(255, 204, 204, 0.5);
+}
+
+.home-nav-link.cara-theme:hover {
+  background: linear-gradient(180deg, #ff736b 15%, #ff372c 85%);
+  color: #3d0300;
+  box-shadow: 0 8px 25px rgba(255, 146, 140, 0.6);
+  border-color: rgba(255, 215, 212, 0.7);
+}
+
+.home-nav-link.karen-theme {
+  background: linear-gradient(180deg, #00a3a3 15%, #00aeae 85%);
+  color: #aeffff;
+  border: 1px solid rgba(128, 255, 255, 0.5);
+}
+
+.home-nav-link.karen-theme:hover {
+  background: linear-gradient(180deg, #007777 15%, #008686 85%);
+  color: #aeffff;
+  box-shadow: 0 8px 25px rgba(0, 174, 174, 0.6);
+  border-color: rgba(174, 255, 255, 0.7);
 }
 
 .home-nav-link:active {
@@ -107,6 +161,23 @@
   }
 }
 
+@media (max-width: 576px) {
+  .home-nav {
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 15px;
+    justify-content: center;
+  }
+
+  .home-nav-link {
+    font-size: 1rem;
+    padding: 8px 12px;
+    width: calc(50% - 5px);
+    max-width: 140px;
+    min-width: 120px;
+  }
+}
+
 @media (max-width: 480px) {
   .home-nav {
     gap: 10px;
@@ -115,6 +186,35 @@
 
   .home-nav-link {
     font-size: 1rem;
-    padding: 6px 12px;
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .home-nav {
+    gap: 3rem;
+    padding: 1.3rem;
+  }
+
+  .home-nav-link {
+    font-size: 1.5rem;
+
+    letter-spacing: 0.2rem;
+    padding: 0.6rem 2rem;
+    border-radius: 0.4rem;
+  }
+}
+@media (min-width: 1600px) {
+  .home-nav {
+    gap: 4rem;
+    padding: 1.3rem;
+  }
+
+  .home-nav-link {
+    font-size: 1.6rem;
+
+    letter-spacing: 0.2rem;
+    padding: 0.6rem 2.4rem;
+    border-radius: 0.4rem;
   }
 }

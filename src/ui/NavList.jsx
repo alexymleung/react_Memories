@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { useTheme } from "../context/useTheme";
+import { useTheme } from "../hooks/useTheme";
 import { useTopic } from "../hooks/useTopic";
 import "../css/Navbar.css";
 

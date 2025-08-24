@@ -33,6 +33,11 @@
     #34ccffce 0%,
     #34ccff 85%
   ); /* transparency */
+  --jonprimary3: linear-gradient(
+    180deg,
+    #34ccffce 0%,
+    #34ccff 85%
+  ); /* transparency */
   --jonprimary3: linear-gradient(180deg, #0099cc 15%, #1bc6ff 100%);
   --jonprimary4: linear-gradient(0deg, #0099cc 15%, #1bc6ff 100%);
   --jonprimary: #0099cc;
@@ -41,8 +46,19 @@
   --jonprimarytransparent: #0099cc7a;
   --jonprimary-text: #002b5c;
   --jonprimary-text-active: #ffff66;
-  --jonsecondary: #ffff66;
-  --jonbackground: #003366;
+  --jonsecondary: linear-gradient(
+    135deg,
+    #ffff66 0%,
+    #ffdd00 50%,
+    #ffcc00 100%
+  );
+  --jonsecondary-solid: #ffff66;
+  --jonbackground: linear-gradient(
+    325deg,
+    #021e3a 0%,
+    #003366 50%,
+    #004080 100%
+  );
   --jonbackgroundtransparent: #00336693;
 
   --chrisprimary1: linear-gradient(
@@ -55,12 +71,28 @@
     #83c400c7 0%,
     #79b600 85%
   ); /* transparency */
+  --chrisprimary3: linear-gradient(
+    180deg,
+    #83c400c7 0%,
+    #79b600 85%
+  ); /* transparency */
   --chrisprimary: #669900;
   --chrisprimarytransparent: #6699007c;
   --chrisprimary-text: #003000;
   --chrisprimary-text-active: #dbffdb;
-  --chrissecondary: #c0ff4a;
-  --chrisbackground: #003300;
+  --chrissecondary: linear-gradient(
+    345deg,
+    #b9f52d 0%,
+    #c0ff4a 50%,
+    #d1ff7c 100%
+  );
+  --chrissecondary-solid: #c0ff4a;
+  --chrisbackground: linear-gradient(
+    325deg,
+    #003500 0%,
+    #003300 50%,
+    #005c00 100%
+  );
   --chrisbackgroundtransparent: #0033007e;
 
   --caraprimary1: linear-gradient(
@@ -73,12 +105,28 @@
     #ff928cc5 0%,
     #ff928c 85%
   ); /* transparency */
+  --caraprimary3: linear-gradient(
+    180deg,
+    #ff928cc5 0%,
+    #ff928c 85%
+  ); /* transparency */
   --caraprimary: #ff928c;
   --caraprimarytransparent: #ff928c7e;
   --caraprimary-text: #520400;
   --caraprimary-text-active: #ffd7d4;
-  --carasecondary: #ffcccc;
-  --carabackground: #660500;
+  --carasecondary: linear-gradient(
+    135deg,
+    #ffcccc 0%,
+    #ffb3ba 50%,
+    #ff9999 100%
+  );
+  --carasecondary-solid: #ffcccc;
+  --carabackground: linear-gradient(
+    325deg,
+    #4d0000 0%,
+    #660500 50%,
+    #800000 100%
+  );
   --carabackgroundtransparent: #660500c7;
 
   --karenprimary1: linear-gradient(
@@ -91,12 +139,28 @@
     #00aeaece 0%,
     #00aeae 85%
   ); /* transparency */
+  --karenprimary3: linear-gradient(
+    180deg,
+    #00aeaece 15%,
+    #00aeae 85%
+  ); /* transparency */
   --karenprimary: #00aeae;
   --karenprimarytransparent: #00aeae79;
   --karenprimary-text: #002727;
   --karenprimary-text-active: #aeffff;
-  --karensecondary: #80ffff;
-  --karenbackground: #004646;
+  --karensecondary: linear-gradient(
+    135deg,
+    #80ffff 0%,
+    #4fd1c5 50%,
+    #38b2ac 100%
+  );
+  --karensecondary-solid: #80ffff;
+  --karenbackground: linear-gradient(
+    325deg,
+    #002c2c 0%,
+    #004646 50%,
+    #006666 100%
+  );
   --karenbackgroundtransparent: #003300b6;
 }
 
@@ -218,7 +282,7 @@ main {
   padding-left: 2.4rem;
   padding-right: 2.5rem;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 120%;
+  font-size: 130%;
 }
 
 /* SECTION SETTINGS */
@@ -472,22 +536,26 @@ section {
   section {
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 80px;
+  }
+
+  .FullHorzBox img {
+    margin-top: 2rem;
+  }
+
   #FullBoxText p {
     padding-top: 20px;
     padding-bottom: 0;
     padding-left: 3.5rem;
     padding-right: 3.5rem;
-    font-size: 130%;
-  }
-
-  section {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    padding-left: 40px;
-  }
-
-  .FullHorzBox img {
-    margin-top: 2rem;
+    font-size: 145%;
+    margin-top: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
   }
 
   .halfbox h2 {
@@ -558,6 +626,14 @@ section {
 
   .FullHorzBox img {
     margin-top: 2rem;
+    margin-left: 3.5rem;
+  }
+
+  #FullBoxText p {
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    font-size: 150%;
   }
 
   article {
@@ -611,7 +687,6 @@ main > section {
     padding-bottom: 0;
     padding-left: 2.4rem;
     padding-right: 2.5rem;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 105%;
   }
 

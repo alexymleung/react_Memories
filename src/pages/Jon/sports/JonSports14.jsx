@@ -3,7 +3,7 @@ import { JonData } from "../../../data/JL/jondata";
 import { JonSportsData } from "../../../data/JL/jonsportsdata";
 import JonNavbar from "../../../ui/JonNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function JonSports14() {

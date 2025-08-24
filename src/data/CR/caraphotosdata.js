@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.jpg";
+import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
 
 export const CaraPhotosData = () => {
   const { currentTheme } = useTheme();
@@ -30,7 +30,7 @@ export const CaraPhotosData = () => {
     },
     {
       plate: "plate04",
-      img: "/src/assets/CR/images/fa010930_051a.jpg",
+      img: "/src/assets/CR/images/fa010930_051L.webp",
       title: "Plate 4",
       info: "Nearly two month old.",
     },
@@ -258,7 +258,7 @@ export const CaraPhotosData = () => {
     },
     {
       plate: "plate42",
-      img: "/src/assets/CR/images/fa070221_354ar.jpg",
+      img: "/src/assets/CR/images/fa070221_354250824SQ.webp",
       title: "Plate 42",
       info: "Five and a half in a white shirt.",
     },

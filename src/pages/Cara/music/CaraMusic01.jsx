@@ -3,7 +3,7 @@ import { CaraData } from "../../../data/CR/caradata";
 import { CaraMusicData } from "../../../data/CR/caramusicdata";
 import CaraNavbar from "../../../ui/CaraNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function CaraMusic01() {

@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 import JonFamilyHero from "../../assets/JL/images/fa051204_323ar.jpg";
 
 export const JonFamilyData = () => {

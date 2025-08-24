@@ -3,7 +3,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenSchoolData } from "../../../data/KH/karenschooldata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenSchool01() {
@@ -11,7 +11,9 @@ function KarenSchool01() {
   const { currentTopic } = useTopic();
   const { karenheader } = KarenData();
   const { karenschoolplates } = KarenSchoolData();
-  const plateData = karenschoolplates.find((plate) => plate.plate === "plate01");
+  const plateData = karenschoolplates.find(
+    (plate) => plate.plate === "plate01"
+  );
   const photoNo = karenschoolplates.length;
 
   return (

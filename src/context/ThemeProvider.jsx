@@ -29,9 +29,15 @@ export const ThemeProvider = ({ children }) => {
 
     window.addEventListener("popstate", handlePopState);
 
+    // Also check for route changes periodically to catch React Router navigation
+    const interval = setInterval(() => {
+      updateThemeFromPath();
+    }, 100);
+
     // Cleanup
     return () => {
       window.removeEventListener("popstate", handlePopState);
+      clearInterval(interval);
     };
   }, []);
 

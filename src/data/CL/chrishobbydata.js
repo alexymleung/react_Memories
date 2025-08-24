@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 import ChrisHobbyHero from "../../assets/CL/images/fa071208_292ar.jpg";
 
 export const ChrisHobbyData = () => {

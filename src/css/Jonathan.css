@@ -9,12 +9,12 @@ body {
 }
 
 .jon-main {
-  background-color: var(--jonsecondary);
+  background-image: var(--jonsecondary);
 }
 
 /* PHOTO GALLERY STYLES */
 .jon .photo-gallery {
-  background-color: var(--jonsecondary);
+  background-image: var(--jonsecondary);
 }
 
 .jon .thumbnail-box {
@@ -27,7 +27,7 @@ body {
 }
 
 .jon .nav-button i {
-  color: var(--jonsecondary);
+  color: var(--jonsecondary-solid);
 }
 
 .jon .nav-button:hover {
@@ -35,7 +35,7 @@ body {
 }
 
 .jon .photo-plate {
-  background-color: var(--jonsecondary);
+  background-image: var(--jonsecondary);
 }
 
 .jon .photo-plate h2 {
@@ -58,7 +58,7 @@ body {
 /* Jon active - set BG color and Text for active tab */
 .nav-jonathan li a.active {
   background-image: var(--jonprimary1) !important;
-  color: var(--jonsecondary) !important;
+  color: var(--jonsecondary-solid) !important;
   border: 1px solid var(--jonbackgroundtransparent);
 }
 

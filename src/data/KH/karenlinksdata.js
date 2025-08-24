@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
 
 import KarenLinksHero from "../../assets/KH/images/fa070826_269ar.jpg";
 

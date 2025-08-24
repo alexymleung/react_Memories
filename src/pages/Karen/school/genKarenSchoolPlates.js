@@ -10,7 +10,7 @@ import { KarenData } from "../../../data/KH/karendata";
 import { KarenSchoolData } from "../../../data/KH/karenschooldata";
 import KarenNavbar from "../../../ui/KarenNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function KarenSchoolPLATE_NUM() {
@@ -40,7 +40,7 @@ export default KarenSchoolPLATE_NUM;
 `;
 
 (async () => {
-  for (let i = 1; i <= 1; i++) {
+  for (let i = 1; i <= 3; i++) {
     const plateNum = i.toString().padStart(2, "0");
     const content = template.replace(/PLATE_NUM/g, plateNum);
 

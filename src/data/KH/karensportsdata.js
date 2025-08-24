@@ -1,6 +1,6 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.jpg";
-import KarenSportsHero from "../../assets/KH/images/AL939400360.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenSportsHero from "../../assets/KH/images/AL939400360.webp";
 
 export const KarenSportsData = () => {
   const { currentTheme } = useTheme();
@@ -20,173 +20,71 @@ export const KarenSportsData = () => {
     {
       id: 1,
       link: `/${currentTheme.name}/${currentTheme.alias}sports/plate01`,
-      title: "Canoeing",
-      details:
-        "I started learning canoeing last year and have now acquired all the badges for kids, including starfish, sea horse, seal, sea lion and walrus.",
+      title: "Tennis",
+      details: "Tennis is our family favourite game.",
     },
     {
       id: 2,
       link: `/${currentTheme.name}/${currentTheme.alias}sports/plate02`,
-      title: "Windsurfing",
-      details:
-        "Together with canoeing, I also began learning windsurfing, which is not the easiest sports in the world especially when it becomes windy.",
+      title: "Swimming",
+      details: "Swimming is always fun.",
     },
     {
       id: 3,
       link: `/${currentTheme.name}/${currentTheme.alias}sports/plate04`,
-      title: "Sailing",
-      details:
-        "Apart from Windsurfing and Canoeing, I started learning sailing. It's so good to be sailing everywhere on my own.",
+      title: "Horse <Riding></Riding>",
+      details: "I used to love horse riding.",
     },
     {
       id: 4,
       link: `/${currentTheme.name}/${currentTheme.alias}sports/plate05`,
-      title: "tennis",
-      details:
-        "I began playing tennis at the age of 3 and has never given up the love of it. I play regular in Tennis classes as well with father.",
+      title: "Golf",
+      details: "I played a lot of golf before",
     },
     {
       id: 5,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate08`,
-      title: "cycling",
-      details:
-        "Ever since I was a small kid, I love cycling around the Neighourhood. Here is a photo where I was cycling happily around.",
-    },
-    {
-      id: 6,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate09`,
-      title: "soccer",
-      details:
-        "Soccer gives me very good exercise, and besides, it's very convenient to play. I can go downstairs anytime and play with my father and Karen.",
-    },
-    {
-      id: 7,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate10`,
-      title: "School Althletic Competition",
-      details: "Two gold medals I won in the School Althletic Meet.",
-    },
-    {
-      id: 8,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate12`,
-      title: "golf",
-      details: "Golf wing can be difficult yet fun",
-    },
-    {
-      id: 9,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate13`,
-      title: "judo",
-      details: "I have a lot of Judo classes.",
-    },
-    {
-      id: 10,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate14`,
-      title: "badminton",
-      details: "I had badminton classes",
-    },
-    {
-      id: 11,
-      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate15`,
-      title: "parachuting",
-      details: "One of the most exciting thing",
+      link: `/${currentTheme.name}/${currentTheme.alias}sports/plate06`,
+      title: "Badminton",
+      details: "Lately, I began to fall in love with badminton.",
     },
   ];
 
   const karensportsplates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/fa070902_669ar.jpg",
+      img: "/src/assets/KH/images/fa080501_096ar.jpg",
       title: "Plate 1",
-      info: "Paddling hard in a Kayak",
+      info: "I have been playing tennis for a long time.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/KH/images/fa071014_056ar.jpg",
+      img: "/src/assets/KH/images/f0990712_036ar.jpg",
       title: "Plate 2",
-      info: "Windsurfing I went all the way out!",
+      info: "Swimming with Alex and 8-month old Jonathan.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/KH/images/fa081018_724ar.jpg",
+      img: "/src/assets/KH/images/fa020824_032ar.jpg",
       title: "Plate 3",
-      info: "This was my best day in Windsurfing in 2008.",
+      info: "Swimming with phone-styled.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/KH/images/fa081001_699ar.jpg",
+      img: "/src/assets/KH/images/fa030501_076ar.jpg",
       title: "Plate 4",
-      info: "Free as the wind!",
+      info: "On the back of horse with Cara",
     },
     {
       plate: "plate05",
-      img: "/src/assets/KH/images/fa050822_230_780.jpg",
+      img: "/src/assets/KH/images/950629_031.jpg",
       title: "Plate 5",
-      info: "Playing tennis when I was six and a half, see my eyes on the ball.",
+      info: "I played golf in KSC a lot.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/KH/images/fa070408_075ar.jpg",
+      img: "/src/assets/KH/images/fa080506_304ar.jpg",
       title: "Plate 6",
-      info: "The eight and a half me playing tennis with dad.",
-    },
-    {
-      plate: "plate07",
-      img: "/src/assets/KH/images/fa080512_319ar.jpg",
-      title: "Plate 7",
-      info: "The nine and a half me enjoying tennis.",
-    },
-    {
-      plate: "plate08",
-      img: "/src/assets/KH/images/fa061226_016ar.jpg",
-      title: "Plate 8",
-      info: "How good it feels riding on a bicycle!",
-    },
-    {
-      plate: "plate09",
-      img: "/src/assets/KH/images/fa070311_021ar.jpg",
-      title: "Plate 9",
-      info: "Soccer with my father, sister and brother in our yard.",
-    },
-    {
-      plate: "plate10",
-      img: "/src/assets/KH/images/IMG_0811_JPG.jpg",
-      title: "Plate 10",
-      info: "I got a gold medal in 100m run!",
-    },
-    {
-      plate: "plate11",
-      img: "/src/assets/KH/images/IMG_0844.jpg",
-      title: "Plate 11",
-      info: "A gold medal in 4X60m relay!",
-    },
-    {
-      plate: "plate12",
-      img: "/src/assets/KH/images/fa070204_603ar.jpg",
-      title: "Plate 12",
-      info: "Swinging the club trying to hit the ball",
-    },
-    {
-      plate: "plate13",
-      img: "/src/assets/KH/images/fa060811_605ar.jpg",
-      title: "Plate 13",
-      info: "Judo with fun.",
-    },
-    {
-      plate: "plate14",
-      img: "/src/assets/KH/images/fa070707_179ar.jpg",
-      title: "Plate 14",
-      info: "Fun, is it not?",
-    },
-    {
-      plate: "plate15",
-      img: "/src/assets/KH/images/Thailand_001Cr.jpg",
-      title: "Plate 15",
-      info: "parachuting in Thailand.",
-    },
-    {
-      plate: "plate16",
-      img: "/src/assets/KH/images/fa070902_533ar.jpg",
-      title: "Plate 16",
-      info: "One day by the seaside",
+      info: "I like playing badminton with my friends.",
     },
   ];
 

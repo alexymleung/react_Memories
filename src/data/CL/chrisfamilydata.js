@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.jpg";
+import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 import ChrisFamilyHero from "../../assets/CL/images/fa060704_404ar.jpg";
 
 export const ChrisFamilyData = () => {
@@ -13,7 +13,7 @@ export const ChrisFamilyData = () => {
   const chrisfamilyarticle = {
     image: ChrisFamilyHero,
     alt: `${currentTheme.name} Family`,
-    info: "This is my family: father, mother, elder brother Joanthan and sister Yoyo at the back of the castle in Hong Kong Disney in year 2006.",
+    info: "This is my family: father, mother, elder brother Joanthan and sister Cara at the back of the castle in Hong Kong Disney in year 2006.",
   };
 
   const chrisfamilysection = [

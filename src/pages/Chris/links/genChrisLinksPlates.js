@@ -10,7 +10,7 @@ import { ChrisData } from "../../../data/CL/chrisdata";
 import { ChrisLinksData } from "../../../data/CL/chrislinksdata";
 import ChrisNavbar from "../../../ui/ChrisNavbar";
 import LinksPage from "../../../components/LinksPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function ChrisLinksPLATE_NUM() {

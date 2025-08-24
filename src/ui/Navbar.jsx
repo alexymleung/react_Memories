@@ -1,4 +1,4 @@
-import { useTheme } from "../context/useTheme";
+import { useTheme } from "../hooks/useTheme";
 import { navname } from "../data/navdata";
 import "../css/Navbar.css";
 import NavList from "./NavList";

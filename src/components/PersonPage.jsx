@@ -13,8 +13,8 @@ function PersonPage({
   return (
     <>
       <div id="container" className={cssClass}>
-        {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
-        <Header pic={headerData.image} alt={headerData.alt} />
+        <HeaderNav SubNavbar={SubNavbar} headerData={headerData} />
+        {/* <Header pic={headerData.image} alt={headerData.alt} /> */}
 
         <main className={`${cssClass}-main`}>
           <Article

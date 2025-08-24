@@ -3,7 +3,7 @@ import { ChrisData } from "../../../data/CL/chrisdata";
 import { ChrisSportsData } from "../../../data/CL/chrissportsdata";
 import ChrisNavbar from "../../../ui/ChrisNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function ChrisSports09() {
@@ -11,7 +11,9 @@ function ChrisSports09() {
   const { currentTopic } = useTopic();
   const { chrisheader } = ChrisData();
   const { chrissportsplates } = ChrisSportsData();
-  const plateData = chrissportsplates.find((plate) => plate.plate === "plate09");
+  const plateData = chrissportsplates.find(
+    (plate) => plate.plate === "plate09"
+  );
   const photoNo = chrissportsplates.length;
 
   return (

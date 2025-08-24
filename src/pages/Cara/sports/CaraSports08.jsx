@@ -3,7 +3,7 @@ import { CaraData } from "../../../data/CR/caradata";
 import { CaraSportsData } from "../../../data/CR/carasportsdata";
 import CaraNavbar from "../../../ui/CaraNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function CaraSports08() {

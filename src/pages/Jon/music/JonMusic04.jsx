@@ -3,7 +3,7 @@ import { JonData } from "../../../data/JL/jondata";
 import { JonMusicData } from "../../../data/JL/jonmusicdata";
 import JonNavbar from "../../../ui/JonNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function JonMusic04() {

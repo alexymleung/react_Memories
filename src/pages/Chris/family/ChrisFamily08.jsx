@@ -3,7 +3,7 @@ import { ChrisData } from "../../../data/CL/chrisdata";
 import { ChrisFamilyData } from "../../../data/CL/chrisfamilydata";
 import ChrisNavbar from "../../../ui/ChrisNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function ChrisFamily08() {
@@ -11,7 +11,9 @@ function ChrisFamily08() {
   const { currentTopic } = useTopic();
   const { chrisheader } = ChrisData();
   const { chrisfamilyplates } = ChrisFamilyData();
-  const plateData = chrisfamilyplates.find((plate) => plate.plate === "plate08");
+  const plateData = chrisfamilyplates.find(
+    (plate) => plate.plate === "plate08"
+  );
   const photoNo = chrisfamilyplates.length;
 
   return (

@@ -3,7 +3,7 @@ body {
 }
 
 .karen-main {
-  background-color: var(--karensecondary);
+  background-image: var(--karensecondary);
 }
 
 /* MAIN NAVBAR INDIVIDUAL SETTINGS */
@@ -39,7 +39,7 @@ body {
 
 /* PHOTO GALLERY STYLES */
 .karen .photo-gallery {
-  background-color: var(--karensecondary);
+  background-image: var(--karensecondary);
 }
 
 .karen .thumbnail-box {
@@ -52,7 +52,7 @@ body {
 }
 
 .karen .nav-button i {
-  color: var(--karensecondary);
+  color: var(--karensecondary-solid);
 }
 
 .karen .nav-button:hover {
@@ -60,7 +60,7 @@ body {
 }
 
 .karen .photo-plate {
-  background-color: var(--karensecondary);
+  background-image: var(--karensecondary);
 }
 
 .karen .photo-plate h2 {

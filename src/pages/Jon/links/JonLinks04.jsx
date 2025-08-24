@@ -3,7 +3,7 @@ import { JonData } from "../../../data/JL/jondata";
 import { JonLinksData } from "../../../data/JL/jonlinksdata";
 import JonNavbar from "../../../ui/JonNavbar";
 import LinksPage from "../../../components/LinksPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function JonLinks04() {

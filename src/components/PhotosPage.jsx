@@ -6,8 +6,8 @@ function PhotosPage({ headerData, photosPlates, SubNavbar, cssClass }) {
   return (
     <>
       <div id="container" className={cssClass}>
-        {/* <HeaderNav SubNavbar={SubNavbar} headerData={headerData} /> */}
-        <Header pic={headerData.image} alt={headerData.alt} />
+        <HeaderNav SubNavbar={SubNavbar} headerData={headerData} />
+        {/* <Header pic={headerData.image} alt={headerData.alt} /> */}
         <div className="photo-gallery">
           {!window.location.pathname.includes("plate") && (
             <main className="photo-grid">

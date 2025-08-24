@@ -8,7 +8,7 @@ function ThemedLayout() {
   return (
     <div
       style={{
-        backgroundColor: currentTheme?.background || "white",
+        backgroundImage: currentTheme?.background || "white",
         minHeight: "100vh",
       }}
     >

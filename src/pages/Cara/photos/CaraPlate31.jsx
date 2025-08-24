@@ -3,7 +3,7 @@ import { CaraData } from "../../../data/CR/caradata";
 import { CaraPhotosData } from "../../../data/CR/caraphotosdata";
 import CaraNavbar from "../../../ui/CaraNavbar";
 import PhotoPage from "../../../components/PhotoPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function CaraPlate31() {

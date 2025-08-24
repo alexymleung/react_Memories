@@ -1,6 +1,6 @@
 import { useTheme } from "../../hooks/useTheme";
-import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.jpg";
-import KarenHero from "../../assets/KH/images/AL970401008Kyoto.jpg";
+import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
+import KarenHero from "../../assets/KH/images/AL970401008.webp";
 
 export const KarenData = () => {
   const { currentTheme } = useTheme();

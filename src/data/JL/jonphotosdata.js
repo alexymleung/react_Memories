@@ -1,5 +1,5 @@
 import { useTheme } from "../../hooks/useTheme";
-import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.jpg";
+import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 
 export const JonPhotosData = () => {
   const { currentTheme } = useTheme();
@@ -288,7 +288,7 @@ export const JonPhotosData = () => {
     },
     {
       plate: "plate47",
-      img: "/src/assets/JL/images/fa071208_300ar.jpg",
+      img: "/src/assets/JL/images/fa071208_300cr.jpg",
       title: "Plate 47",
       info: "Nine year old me in St. Stephen Bay at Stanley.",
     },

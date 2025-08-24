@@ -3,7 +3,7 @@ import { CaraData } from "../../../data/CR/caradata";
 import { CaraLinksData } from "../../../data/CR/caralinksdata";
 import CaraNavbar from "../../../ui/CaraNavbar";
 import LinksPage from "../../../components/LinksPage";
-import { useTheme } from "../../../context/useTheme";
+import { useTheme } from "../../../hooks/useTheme";
 import { useTopic } from "../../../hooks/useTopic";
 
 function CaraLinks02() {

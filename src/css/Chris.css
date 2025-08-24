@@ -3,7 +3,7 @@ body {
 }
 
 .chris-main {
-  background-color: var(--chrissecondary);
+  background-image: var(--chrissecondary);
 }
 
 /* MAIN NAVBAR INDIVIDUAL SETTINGS */
@@ -40,7 +40,7 @@ body {
 
 /* PHOTO GALLERY STYLES */
 .chris .photo-gallery {
-  background-color: var(--chrissecondary);
+  background-image: var(--chrissecondary);
 }
 
 .chris .thumbnail-box {
@@ -53,7 +53,7 @@ body {
 }
 
 .chris .nav-button i {
-  color: var(--chrissecondary);
+  color: var(--chrissecondary-solid);
 }
 
 .chris .nav-button:hover {
@@ -61,7 +61,7 @@ body {
 }
 
 .chris .photo-plate {
-  background-color: var(--chrissecondary);
+  background-image: var(--chrissecondary);
 }
 
 .chris .photo-plate h2 {

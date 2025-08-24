@@ -3,9 +3,9 @@ import { Outlet } from "react-router-dom";
 function Layout({ subNavbar: SubNavbar }) {
   return (
     <>
-      <div className="sticky">
+      {/* <div className="sticky">
         <SubNavbar />
-      </div>
+      </div> */}
       <Outlet />
       <SubNavbar />
     </>
