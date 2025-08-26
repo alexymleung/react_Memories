@@ -1,7 +1,11 @@
 import { useTheme } from "../../hooks/useTheme";
 import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
-
 import CaraSchoolHero from "../../assets/CR/images/fa080412_327ar.jpg";
+import fa080412_357ar from "../../assets/CR/images/fa080412_357ar.jpg";
+import fa080412_310ar from "../../assets/CR/images/fa080412_310ar.jpg";
+import fa080204_041ar from "../../assets/CR/images/fa080204_041ar.jpg";
+import fa071006_111ar from "../../assets/CR/images/fa071006_111ar.jpg";
+import JL_School_780 from "../../assets/CR/images/JL_School_780.jpg";
 
 export const CaraSchoolData = () => {
   const { currentTheme } = useTheme();
@@ -43,31 +47,31 @@ export const CaraSchoolData = () => {
   const caraschoolplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CR/images/fa080412_357ar.jpg",
+      img: fa080412_357ar,
       title: "Plate 1",
       info: "With my Chinese teacher 林少玲老師",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CR/images/fa080412_310ar.jpg",
+      img: fa080412_310ar,
       title: "Plate 2",
       info: "With classmate 鄭楚楠 in school golden jubilee day.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CR/images/fa080204_041ar.jpg",
+      img: fa080204_041ar,
       title: "Plate 3",
       info: "With good friend Clara at school.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CR/images/fa071006_111ar.jpg",
+      img: fa071006_111ar,
       title: "Plate 4",
       info: "I am near school with the school building as background",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CR/images/JL_School_780.jpg",
+      img: JL_School_780,
       title: "Plate 5",
       info: "My school, Tin Wan Chi Nam.",
     },

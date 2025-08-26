@@ -1,6 +1,12 @@
 import { useTheme } from "../../hooks/useTheme";
 import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
 import KarenSportsHero from "../../assets/KH/images/AL939400360.webp";
+import fa080501_096ar from "../../assets/KH/images/fa080501_096ar.jpg";
+import f0990712_036ar from "../../assets/KH/images/f0990712_036ar.jpg";
+import fa020824_032ar from "../../assets/KH/images/fa020824_032ar.jpg";
+import fa030501_076ar from "../../assets/KH/images/fa030501_076ar.jpg";
+import _950629_031 from "../../assets/KH/images/950629_031.jpg";
+import fa080506_304ar from "../../assets/KH/images/fa080506_304ar.jpg";
 
 export const KarenSportsData = () => {
   const { currentTheme } = useTheme();
@@ -52,37 +58,37 @@ export const KarenSportsData = () => {
   const karensportsplates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/fa080501_096ar.jpg",
+      img: fa080501_096ar,
       title: "Plate 1",
       info: "I have been playing tennis for a long time.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/KH/images/f0990712_036ar.jpg",
+      img: f0990712_036ar,
       title: "Plate 2",
       info: "Swimming with Alex and 8-month old Jonathan.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/KH/images/fa020824_032ar.jpg",
+      img: fa020824_032ar,
       title: "Plate 3",
       info: "Swimming with phone-styled.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/KH/images/fa030501_076ar.jpg",
+      img: fa030501_076ar,
       title: "Plate 4",
       info: "On the back of horse with Cara",
     },
     {
       plate: "plate05",
-      img: "/src/assets/KH/images/950629_031.jpg",
+      img: _950629_031,
       title: "Plate 5",
       info: "I played golf in KSC a lot.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/KH/images/fa080506_304ar.jpg",
+      img: fa080506_304ar,
       title: "Plate 6",
       info: "I like playing badminton with my friends.",
     },

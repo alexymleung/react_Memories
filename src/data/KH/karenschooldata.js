@@ -1,7 +1,9 @@
 import { useTheme } from "../../hooks/useTheme";
 import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
-
 import KarenSchoolHero from "../../assets/KH/images/AL901110013.webp";
+import fa020421_002ar from "../../assets/KH/images/fa020421_002ar.jpg";
+import IMG_20170131_WA0022 from "../../assets/KH/images/IMG-20170131-WA0022.jpg";
+import ka_CU_Picnic from "../../assets/KH/images/ka_CU_Picnic.jpg";
 
 export const KarenSchoolData = () => {
   const { currentTheme } = useTheme();
@@ -35,20 +37,20 @@ export const KarenSchoolData = () => {
   const karenschoolplates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/fa020421_002ar.jpg",
+      img: fa020421_002ar,
       title: "Plate 1",
       info: "We sometimes have gatherings.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/KH/images/IMG-20170131-WA0022.jpg",
+      img: IMG_20170131_WA0022,
       title: "Plate 2",
       info: "This is a rare photo of me with classmate taken at CUHK",
     },
     {
       plate: "plate03",
-      img: "/src/assets/KH/images/ka_CU_Picnic.jpg",
-      title: "Plate 2",
+      img: ka_CU_Picnic,
+      title: "Plate 3",
       info: "This is a rare photo of me having picnic with my CUHK classmates",
     },
   ];

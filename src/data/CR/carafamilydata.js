@@ -1,6 +1,14 @@
 import { useTheme } from "../../hooks/useTheme";
 import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
 import CaraFamilyHero from "../../assets/CR/images/fa060704_093ar.jpg";
+import fa050710_154ar from "../../assets/CR/images/fa050710_154ar.jpg";
+import fa030413_041ar from "../../assets/CR/images/fa030413_041ar.jpg";
+import fa060617_365ar from "../../assets/CR/images/fa060617_365ar.jpg";
+import fa040229_035ar from "../../assets/CR/images/fa040229_035ar.jpg";
+import fa070707_001Bar from "../../assets/CR/images/fa070707_001Bar.jpg";
+import fa060501_001Bar from "../../assets/CR/images/fa060501_001Bar.jpg";
+import fa070128_100ar from "../../assets/CR/images/fa070128_100ar.jpg";
+import fa070824_397ar from "../../assets/CR/images/fa070824_397ar.jpg";
 
 export const CaraFamilyData = () => {
   const { currentTheme } = useTheme();
@@ -58,49 +66,49 @@ export const CaraFamilyData = () => {
   const carafamilyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CR/images/fa050710_154ar.jpg",
+      img: fa050710_154ar,
       title: "Plate 1",
       info: "With father in a picnic.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CR/images/fa030413_041ar.jpg",
+      img: fa030413_041ar,
       title: "Plate 2",
       info: "In Deep Water Bay with father",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CR/images/fa060617_365ar.jpg",
+      img: fa060617_365ar,
       title: "Plate 3",
       info: "Mother",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CR/images/fa040229_035ar.jpg",
+      img: fa040229_035ar,
       title: "Plate 4",
       info: "My elderest brother Jonathan in Hiking back in 2004.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CR/images/fa070707_001Bar.jpg",
+      img: fa070707_001Bar,
       title: "Plate 5",
       info: "My elderest brother Jonathan.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CR/images/fa060501_001Bar.jpg",
+      img: fa060501_001Bar,
       title: "Plate 6",
       info: "Brother Chris",
     },
     {
       plate: "plate07",
-      img: "/src/assets/CR/images/fa070128_100ar.jpg",
+      img: fa070128_100ar,
       title: "Plate 7",
       info: "My family at the ShauKeiWan shelter.",
     },
     {
       plate: "plate08",
-      img: "/src/assets/CR/images/fa070824_397ar.jpg",
+      img: fa070824_397ar,
       title: "Plate 8",
       info: "This is the new Venetian Macau Casino we visited at the openings.",
     },

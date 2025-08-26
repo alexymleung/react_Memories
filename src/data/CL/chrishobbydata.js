@@ -1,6 +1,14 @@
 import { useTheme } from "../../hooks/useTheme";
 import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 import ChrisHobbyHero from "../../assets/CL/images/fa071208_292ar.jpg";
+import fa030105_040ar from "../../assets/CL/images/fa030105_040ar.jpg";
+import fa030406_104ar from "../../assets/CL/images/fa030406_104ar.jpg";
+import fa060131_239ar from "../../assets/CL/images/fa060131_239ar.jpg";
+import fa020120_130ar from "../../assets/JL/images/fa020120_130ar.jpg";
+import fa040424_004ar from "../../assets/CL/images/fa040424_004ar.jpg";
+import fa060115_260ar from "../../assets/CL/images/fa060115_260ar.jpg";
+import fa070225_460ar from "../../assets/CL/images/fa070225_460ar.jpg";
+import fa070107_625ar from "../../assets/CL/images/fa070107_625ar.jpg";
 
 export const ChrisHobbyData = () => {
   const { currentTheme } = useTheme();
@@ -73,49 +81,49 @@ export const ChrisHobbyData = () => {
   const chrishobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CL/images/fa030105_040ar.jpg",
+      img: fa030105_040ar,
       title: "Plate 1",
       info: "I love hiking, especially with my mother.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CL/images/fa030406_104ar.jpg",
+      img: fa030406_104ar,
       title: "Plate 2",
       info: 'Playing one of my favourite PC game "Thomas the Tank Engine" when I was 3 year old.',
     },
     {
       plate: "plate03",
-      img: "/src/assets/CL/images/fa060131_239ar.jpg",
+      img: fa060131_239ar,
       title: "Plate 3",
       info: "Sure have fun in the park!",
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa020120_130ar.jpg",
+      img: fa020120_130ar,
       title: "Plate 4",
       info: "Playing PS2 games with brother Chris.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CL/images/fa040424_004ar.jpg",
+      img: fa040424_004ar,
       title: "Plate 5",
       info: "Just playing sand in the beach.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CL/images/fa060115_260ar.jpg",
+      img: fa060115_260ar,
       title: "Plate 6",
       info: "Am I a real astrounaut?",
     },
     {
       plate: "plate07",
-      img: "/src/assets/CL/images/fa070225_460ar.jpg",
+      img: fa070225_460ar,
       title: "Plate 7",
       info: "Painting is fun when it subject is right.",
     },
     {
       plate: "plate08",
-      img: "/src/assets/CL/images/fa070107_625ar.jpg",
+      img: fa070107_625ar,
       title: "Plate 8",
       info: "Monkey swing is one of my favourite pastime.",
     },

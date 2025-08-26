@@ -1,6 +1,7 @@
 import { useTheme } from "../../hooks/useTheme";
 import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
 import KarenMusicHero from "../../assets/KH/images/fa070107_593ar.jpg";
+import fa050305_129ar from "../../assets/KH/images/fa050305_129ar.jpg";
 
 export const KarenMusicData = () => {
   const { currentTheme } = useTheme();
@@ -34,7 +35,7 @@ export const KarenMusicData = () => {
   const karenmusicplates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/fa050305_129ar.jpg",
+      img: fa050305_129ar,
       title: "Plate 1",
       info: "Karaoke with family is always great fun.",
     },

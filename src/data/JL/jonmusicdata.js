@@ -1,6 +1,13 @@
 import { useTheme } from "../../hooks/useTheme";
 import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 import JonMusicHero from "../../assets/JL/images/fa080405_097ar.jpg";
+import fa080405_062ar from "../../assets/JL/images/fa080405_062ar.jpg";
+import fa080506_396ar from "../../assets/JL/images/fa080506_396ar.jpg";
+import fa020310_029a from "../../assets/JL/images/fa020310_029a.jpg";
+import F1140028 from "../../assets/JL/images/F1140028.jpg";
+import fa071202_462a from "../../assets/JL/images/fa071202_462a.jpg";
+import JL_Harmonica_Montage_ar from "../../assets/JL/images/JL_Harmonica_Montage_ar.jpg";
+import JL070908_PreludeInC from "../../assets/JL/multimedia/JL070908_PreludeInC.mp3";
 
 export const JonMusicData = () => {
   const { currentTheme } = useTheme();
@@ -47,44 +54,44 @@ export const JonMusicData = () => {
   const jonmusicplates = [
     {
       plate: "plate01",
-      img: "/src/assets/JL/images/fa080405_062ar.jpg",
+      img: fa080405_062ar,
       title: "Plate 1",
       info: "I am concentrating in playing violin.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/JL/images/fa080506_396ar.jpg",
+      img: fa080506_396ar,
       title: "Plate 2",
       info: "Taken with my Violin Tutor Mr. Kam in my Music Office class.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/JL/images/fa020310_029a.jpg",
+      img: fa020310_029a,
       title: "Plate 3",
       info: "See me playing keyboard at the age of three.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa080405_097ar.jpg",
+      img: JonMusicHero,
       title: "Plate 4",
       info: "I am practising for my Grade 5 examination next year. Below is a piece I played named 'Prelude in C' by JS Bach",
-      link: "/src/assets/JL/multimedia/JL070908_PreludeInC.mp3",
+      link: JL070908_PreludeInC,
     },
     {
       plate: "plate05",
-      img: "/src/assets/JL/images/F1140028.jpg",
+      img: F1140028,
       title: "Plate 5",
       info: "Singing 祝福 with daddy in a school Karaoke contest.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/JL/images/fa071202_462a.jpg",
+      img: fa071202_462a,
       title: "Plate 6",
       info: "Singing Karaoke in California Red",
     },
     {
       plate: "plate07",
-      img: "/src/assets/JL/images/JL_Harmonica_Montage_ar.jpg",
+      img: JL_Harmonica_Montage_ar,
       title: "Plate 7",
       info: "Enjoy playing harmonica.",
     },

@@ -58,7 +58,7 @@ function PhotoShow() {
     <div className="photo-show">
       <div className={`photo-container ${isAnimating ? "animating" : ""}`}>
         <img
-          src={`/src/assets/${currentPhoto.path}`}
+          src={currentPhoto.image}
           alt="Slideshow"
           className="animated-photo"
           style={{

@@ -1,6 +1,12 @@
 import { useTheme } from "../../hooks/useTheme";
 import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
 import CaraHobbyHero from "../../assets/CR/images/fa060820_004ar.jpg";
+import fa041227_057ar from "../../assets/CR/images/fa041227_057ar.jpg";
+import fa060212_336ar from "../../assets/CR/images/fa060212_336ar.jpg";
+import fa040711_012ar from "../../assets/CR/images/fa040711_012ar.jpg";
+import fa080406_221ar from "../../assets/CR/images/fa080406_221ar.jpg";
+import fa040409_025ar from "../../assets/CR/images/fa040409_025ar.jpg";
+import fa040725_122ar from "../../assets/CR/images/fa040725_122ar.jpg";
 
 export const CaraHobbyData = () => {
   const { currentTheme } = useTheme();
@@ -73,37 +79,37 @@ export const CaraHobbyData = () => {
   const carahobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CR/images/fa041227_057ar.jpg",
+      img: fa041227_057ar,
       title: "Plate 1",
       info: "Hiking in the hills",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CR/images/fa060212_336ar.jpg",
+      img: fa060212_336ar,
       title: "Plate 2",
       info: "So much fun playing in the slide.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CR/images/fa040711_012ar.jpg",
+      img: fa040711_012ar,
       title: "Plate 3",
       info: "See the fun of playing with sand.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CR/images/fa080406_221ar.jpg",
+      img: fa080406_221ar,
       title: "Plate 4",
       info: "I never get tired of playing in the sand.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CR/images/fa040409_025ar.jpg",
+      img: fa040409_025ar,
       title: "Plate 5",
       info: "Great Budda behind me.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CR/images/fa040725_122ar.jpg",
+      img: fa040725_122ar,
       title: "Plate 6",
       info: "Brother and me making bread.",
     },

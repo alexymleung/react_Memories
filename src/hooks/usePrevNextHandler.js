@@ -3,19 +3,23 @@ import { useNavigate } from "react-router-dom";
 function usePrevNextHandler(name, alias, topics, photoNo) {
   const navigate = useNavigate();
 
-  // Extract topic from current URL path instead of relying on topics parameter
-  const getCurrentTopicFromUrl = () => {
-    const currentPath = window.location.pathname;
-    const parts = currentPath.split("/");
-    const topicSegment = parts[2]; // jonphotos, jonfamily, etc
+  // Extract topic directly from URL path
+  const getCurrentTopic = () => {
+    const path = window.location.pathname;
 
-    if (topicSegment.includes("family")) return "family";
-    if (topicSegment.includes("school")) return "school";
-    if (topicSegment.includes("music")) return "music";
-    if (topicSegment.includes("sports")) return "sports";
-    if (topicSegment.includes("hobby")) return "hobby";
-    if (topicSegment.includes("photos")) return "photos";
-    if (topicSegment.includes("links")) return "links";
+    // Simple regex to extract topic from path
+    const topicMatch = path.match(
+      /\/([a-z]+)(family|school|music|sports|hobby|photos|links|info)/i
+    );
+
+    if (topicMatch && topicMatch[2]) {
+      return topicMatch[2].toLowerCase();
+    }
+
+    // Fallback to topics parameter if provided
+    if (topics && typeof topics === "string") {
+      return topics;
+    }
     return "info";
   };
 
@@ -23,7 +27,7 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
     // Extract current plate number from URL
     const currentPath = window.location.pathname;
     const plateNum = parseInt(currentPath.match(/plate(\d+)/)?.[1] || "1");
-    const currentTopic = getCurrentTopicFromUrl();
+    const currentTopic = getCurrentTopic();
 
     if (plateNum === 1) {
       navigate(
@@ -45,7 +49,7 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
   const handleNext = () => {
     const currentPath = window.location.pathname;
     const plateNum = parseInt(currentPath.match(/plate(\d+)/)?.[1] || "1");
-    const currentTopic = getCurrentTopicFromUrl();
+    const currentTopic = getCurrentTopic();
 
     if (plateNum === photoNo) {
       navigate(`/${name}/${alias}${currentTopic}/plate01`);
@@ -60,7 +64,7 @@ function usePrevNextHandler(name, alias, topics, photoNo) {
   };
 
   const handleUp = () => {
-    const currentTopic = getCurrentTopicFromUrl();
+    const currentTopic = getCurrentTopic();
     navigate(`/${name}/${alias}${currentTopic}`);
   };
 

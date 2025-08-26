@@ -891,7 +891,8 @@ const router = createBrowserRouter(
         <Route path="*" element={<h1>PAGE NOT FOUND</h1>} />
       </Route>
     </>
-  )
+  ),
+  { basename: "/react_Memories" }
 );
 
 function App() {

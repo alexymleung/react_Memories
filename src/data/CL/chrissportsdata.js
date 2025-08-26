@@ -2,6 +2,29 @@ import { useTheme } from "../../hooks/useTheme";
 import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
 import ChrisSportsHero from "../../assets/CL/images/fa061030_099ar.jpg";
+import fa080406_076ar from "../../assets/CL/images/fa080406_076ar.jpg";
+import fa081018_539ar from "../../assets/CL/images/fa081018_539ar.jpg";
+import fa080413_152ar from "../../assets/CL/images/fa080413_152ar.jpg";
+import fa080413_347ar from "../../assets/CL/images/fa080413_347ar.jpg";
+import fa080413_556ar from "../../assets/CL/images/fa080413_556ar.jpg";
+import fa080427_078a from "../../assets/CL/images/fa080427_078a.jpg";
+import fa081001_500ar from "../../assets/CL/images/fa081001_500ar.jpg";
+import fa040725_040ar from "../../assets/CL/images/fa040725_040ar.jpg";
+import fa050822_156ar from "../../assets/CL/images/fa050822_156ar.jpg";
+import fa080512_216ar from "../../assets/CL/images/fa080512_216ar.jpg";
+import fa060326_279ar from "../../assets/CL/images/fa060326_279ar.jpg";
+import fa070819_069ar from "../../assets/CL/images/fa070819_069ar.jpg";
+import fa070819_341ar from "../../assets/CL/images/fa070819_341ar.jpg";
+import fa040613_101ar from "../../assets/CL/images/fa040613_101ar.jpg";
+import fa080119_388ar from "../../assets/CL/images/fa080119_388ar.jpg";
+import fa070204_586ar from "../../assets/CL/images/fa070204_586ar.jpg";
+import fa070311_064ar from "../../assets/CL/images/fa070311_064ar.jpg";
+import fa070303_147 from "../../assets/CL/images/fa070303_147.jpg";
+import fa071223_316ar from "../../assets/CL/images/fa071223_316ar.jpg";
+import fa070707_242ar from "../../assets/CL/images/fa070707_242ar.jpg";
+import fa070722_356ar from "../../assets/CL/images/fa070722_356ar.jpg";
+import Fa050624s005a from "../../assets/CL/images/Fa050624s005a.jpg";
+import fa080517_029a from "../../assets/CL/images/fa080517_029a.jpg";
 
 export const ChrisSportsData = () => {
   const { currentTheme } = useTheme();
@@ -114,140 +137,140 @@ export const ChrisSportsData = () => {
   const chrissportsplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CL/images/fa080406_076ar.jpg",
+      img: fa080406_076ar,
       title: "Plate 1",
       info: ">I want to become a good windsurfer",
     },
     {
       plate: "plate02",
-      img: "/src/assets/CL/images/fa081018_539ar.jpg",
+      img: fa081018_539ar,
       title: "Plate 2",
       info: "I am beginning to master the skill of windsurfing",
     },
     {
       plate: "plate03",
-      img: "/src/assets/CL/images/fa080413_152ar.jpg",
+      img: fa080413_152ar,
       title: "Plate 3",
       info: "I was learning canoe.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/CL/images/fa080413_347ar.jpg",
+      img: fa080413_347ar,
       title: "Plate 4",
       info: "I was beginning to enjoy canoeing.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/CL/images/fa080413_556ar.jpg",
+      img: fa080413_556ar,
       title: "Plate 6",
       info: "Obviously, I enjoy being in a canoe.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/CL/images/fa080427_078a.jpg",
+      img: fa080427_078a,
       title: "Plate 6",
       info: "Getting the hang of canoeing.",
     },
     {
       plate: "plate07",
-      img: "/src/assets/CL/images/fa081001_500ar.jpg",
+      img: fa081001_500ar,
       title: "Plate 7",
       info: "Can you see me smiling sweetly in my dingy?",
     },
     {
       plate: "plate08",
-      img: "/src/assets/CL/images/fa040725_040ar.jpg",
+      img: fa040725_040ar,
       title: "Plate 8",
       info: "Tennis lesson when I was four and a half.",
     },
     {
       plate: "plate09",
-      img: "/src/assets/CL/images/fa050822_156ar.jpg",
+      img: fa050822_156ar,
       title: "Plate 9",
-      info: "See how serious I am on the ball when I was five and a half!",
+      info: "See how serious I are on the ball when I was five and a half!",
     },
     {
       plate: "plate10",
-      img: "/src/assets/CL/images/fa080512_216ar.jpg",
+      img: fa080512_216ar,
       title: "Plate 10",
       info: "I like playing tennis with Jonathan.!",
     },
     {
       plate: "plate11",
-      img: "/src/assets/CL/images/fa060326_279ar.jpg",
+      img: fa060326_279ar,
       title: "Plate 11",
       info: "How good it feels riding on a bicycle!",
     },
     {
       plate: "plate12",
-      img: "/src/assets/CL/images/fa070819_069ar.jpg",
+      img: fa070819_069ar,
       title: "Plate 12",
       info: "I totally enjoy it!",
     },
     {
       plate: "plate13",
-      img: "/src/assets/CL/images/fa070819_341ar.jpg",
+      img: fa070819_341ar,
       title: "Plate 13",
       info: "Really fun!",
     },
 
     {
       plate: "plate14",
-      img: "/src/assets/CL/images/fa040613_101ar.jpg",
+      img: fa040613_101ar,
       title: "Plate 14",
       info: "What a way to spend in the pool in the heat of summer!.",
     },
     {
       plate: "plate15",
-      img: "/src/assets/CL/images/fa080119_388ar.jpg",
+      img: fa080119_388ar,
       title: "Plate 15",
       info: "See how happy I am on the back on a horse!",
     },
     {
       plate: "plate16",
-      img: "/src/assets/CL/images/fa070204_586ar.jpg",
+      img: fa070204_586ar,
       title: "Plate 16",
       info: "turning the body well in the swing",
     },
     {
       plate: "plate17",
-      img: "/src/assets/CL/images/fa070311_064ar.jpg",
+      img: fa070311_064ar,
       title: "Plate 17",
       info: "powerful kick!",
     },
     {
       plate: "plate18",
-      img: "/src/assets/CL/images/fa070303_147.jpg",
+      img: fa070303_147,
       title: "Plate 18",
       info: "powerful kick!",
     },
     {
       plate: "plate19",
-      img: "/src/assets/CL/images/fa071223_316ar.jpg",
+      img: fa071223_316ar,
       title: "Plate 19",
       info: "My judo lesson!",
     },
     {
       plate: "plate20",
-      img: "/src/assets/CL/images/fa070707_242ar.jpg",
+      img: fa070707_242ar,
       title: "Plate 20",
       info: "Badminton is another racket skills I enjoyed!.",
     },
     {
       plate: "plate21",
-      img: "/src/assets/CL/images/fa070722_356ar.jpg",
+      img: fa070722_356ar,
       title: "Plate 22",
       info: "I want to run fast and far!",
     },
     {
       plate: "plate22",
-      img: "/src/assets/CL/images/Fa050624s005a.jpg",
+      img: Fa050624s005a,
       title: "Plate 22",
       info: "So much fun up in the sky!",
     },
     {
       plate: "plate23",
-      img: "/src/assets/CL/images/fa080517_029a.jpg",
+      img: fa080517_029a,
       title: "Plate 23",
       info: "Archery is fun!",
     },

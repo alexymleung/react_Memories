@@ -2,6 +2,22 @@ import { useTheme } from "../../hooks/useTheme";
 import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 
 import JonSportsHero from "../../assets/JL/images/fa070902_649ar.jpg";
+import fa070902_669ar from "../../assets/JL/images/fa070902_669ar.jpg";
+import fa071014_056ar from "../../assets/JL/images/fa071014_056ar.jpg";
+import fa081018_724ar from "../../assets/JL/images/fa081018_724ar.jpg";
+import fa081001_699ar from "../../assets/JL/images/fa081001_699ar.jpg";
+import fa050822_230_780 from "../../assets/JL/images/fa050822_230_780.jpg";
+import fa070408_075ar from "../../assets/JL/images/fa070408_075ar.jpg";
+import fa080512_319ar from "../../assets/JL/images/fa080512_319ar.jpg";
+import fa061226_016ar from "../../assets/JL/images/fa061226_016ar.jpg";
+import fa070311_021ar from "../../assets/JL/images/fa070311_021ar.jpg";
+import IMG_0811_JPG from "../../assets/JL/images/IMG_0811_JPG.jpg";
+import IMG_0844 from "../../assets/JL/images/IMG_0844.jpg";
+import fa070204_603ar from "../../assets/JL/images/fa070204_603ar.jpg";
+import fa060811_605ar from "../../assets/JL/images/fa060811_605ar.jpg";
+import fa070707_179ar from "../../assets/JL/images/fa070707_179ar.jpg";
+import Thailand_001Cr from "../../assets/JL/images/Thailand_001Cr.jpg";
+import fa070902_533ar from "../../assets/JL/images/fa070902_533ar.jpg";
 
 export const JonSportsData = () => {
   const { currentTheme } = useTheme();
@@ -95,97 +111,97 @@ export const JonSportsData = () => {
   const jonsportsplates = [
     {
       plate: "plate01",
-      img: "/src/assets/JL/images/fa070902_669ar.jpg",
+      img: fa070902_669ar,
       title: "Plate 1",
       info: "Paddling hard in a Kayak",
     },
     {
       plate: "plate02",
-      img: "/src/assets/JL/images/fa071014_056ar.jpg",
+      img: fa071014_056ar,
       title: "Plate 2",
       info: "Windsurfing I went all the way out!",
     },
     {
       plate: "plate03",
-      img: "/src/assets/JL/images/fa081018_724ar.jpg",
+      img: fa081018_724ar,
       title: "Plate 3",
       info: "This was my best day in Windsurfing in 2008.",
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa081001_699ar.jpg",
+      img: fa081001_699ar,
       title: "Plate 4",
       info: "Free as the wind!",
     },
     {
       plate: "plate05",
-      img: "/src/assets/JL/images/fa050822_230_780.jpg",
+      img: fa050822_230_780,
       title: "Plate 5",
       info: "Playing tennis when I was six and a half, see my eyes on the ball.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/JL/images/fa070408_075ar.jpg",
+      img: fa070408_075ar,
       title: "Plate 6",
       info: "The eight and a half me playing tennis with dad.",
     },
     {
       plate: "plate07",
-      img: "/src/assets/JL/images/fa080512_319ar.jpg",
+      img: fa080512_319ar,
       title: "Plate 7",
       info: "The nine and a half me enjoying tennis.",
     },
     {
       plate: "plate08",
-      img: "/src/assets/JL/images/fa061226_016ar.jpg",
+      img: fa061226_016ar,
       title: "Plate 8",
       info: "How good it feels riding on a bicycle!",
     },
     {
       plate: "plate09",
-      img: "/src/assets/JL/images/fa070311_021ar.jpg",
+      img: fa070311_021ar,
       title: "Plate 9",
       info: "Soccer with my father, sister and brother in our yard.",
     },
     {
       plate: "plate10",
-      img: "/src/assets/JL/images/IMG_0811_JPG.jpg",
+      img: IMG_0811_JPG,
       title: "Plate 10",
       info: "I got a gold medal in 100m run!",
     },
     {
       plate: "plate11",
-      img: "/src/assets/JL/images/IMG_0844.jpg",
+      img: IMG_0844,
       title: "Plate 11",
       info: "A gold medal in 4X60m relay!",
     },
     {
       plate: "plate12",
-      img: "/src/assets/JL/images/fa070204_603ar.jpg",
+      img: fa070204_603ar,
       title: "Plate 12",
       info: "Swinging the club trying to hit the ball",
     },
     {
       plate: "plate13",
-      img: "/src/assets/JL/images/fa060811_605ar.jpg",
+      img: fa060811_605ar,
       title: "Plate 13",
       info: "Judo with fun.",
     },
     {
       plate: "plate14",
-      img: "/src/assets/JL/images/fa070707_179ar.jpg",
+      img: fa070707_179ar,
       title: "Plate 14",
       info: "Fun, is it not?",
     },
     {
       plate: "plate15",
-      img: "/src/assets/JL/images/Thailand_001Cr.jpg",
+      img: Thailand_001Cr,
       title: "Plate 15",
       info: "parachuting in Thailand.",
     },
     {
       plate: "plate16",
-      img: "/src/assets/JL/images/fa070902_533ar.jpg",
+      img: fa070902_533ar,
       title: "Plate 16",
       info: "One day by the seaside",
     },

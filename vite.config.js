@@ -5,9 +5,11 @@ import react from "@vitejs/plugin-react";
 import eslint from "vite-plugin-eslint";
 
 // https://vite.dev/config/
-export default defineConfig({
+export default defineConfig(({ mode }) => ({
+  // base: mode === "production" ? "/react_Memories/" : "/",
+  base: "/react_Memories/",
   plugins: [react(), eslint()],
-});
+}));
 
 // npm install eslint --save-dev
 // npm install eslint@8.56.0 --save-dev

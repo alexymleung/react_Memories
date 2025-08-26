@@ -1,6 +1,7 @@
 import { useTheme } from "../../hooks/useTheme";
 import CaraBanner from "../../assets/CR/images/Buttons/CaraBanner.webp";
 import CaraMusicHero from "../../assets/CR/images/fa080404_352ar.jpg";
+import fa080404_347ar from "../../assets/CR/images/fa080404_347ar.jpg";
 
 export const CaraMusicData = () => {
   const { currentTheme } = useTheme();
@@ -34,7 +35,7 @@ export const CaraMusicData = () => {
   const caramusicplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CR/images/fa080404_347ar.jpg",
+      img: fa080404_347ar,
       title: "Plate 1",
       info: "I love playing piano. Here, I am playing 'Mountain Climbing'.",
     },

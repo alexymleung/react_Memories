@@ -1,6 +1,13 @@
 import { useTheme } from "../../hooks/useTheme";
 import JonBanner from "../../assets/JL/images/Buttons/JonathanBanner.webp";
 import JonHobbyHero from "../../assets/JL/images/fa071208_118ar.jpg";
+import fa031116_017ar from "../../assets/JL/images/fa031116_017ar.jpg";
+import fa000125_238ar from "../../assets/JL/images/fa000125_238ar.jpg";
+import fa020120_130ar from "../../assets/JL/images/fa020120_130ar.jpg";
+import fa050212s029ar from "../../assets/JL/images/fa050212s029ar.jpg";
+import fa050705_070ar from "../../assets/JL/images/fa050705_070ar.jpg";
+import fa080426_269ar from "../../assets/JL/images/fa080426_269ar.jpg";
+import fa080504_262ar from "../../assets/JL/images/fa080504_262ar.jpg";
 
 export const JonHobbyData = () => {
   const { currentTheme } = useTheme();
@@ -75,49 +82,49 @@ export const JonHobbyData = () => {
   const jonhobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/JL/images/fa031116_017ar.jpg",
+      img: fa031116_017ar,
       title: "Plate 1",
       info: "Hiking in Lamma Island in 2003",
     },
     {
       plate: "plate02",
-      img: "/src/assets/JL/images/fa071208_118ar.jpg",
+      img: JonHobbyHero,
       title: "Plate 2",
       info: "Lamma revisited in 2007.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/JL/images/fa000125_238ar.jpg",
+      img: fa000125_238ar,
       title: "Plate 3",
       info: "See me head start in computer when I am just one year old!",
     },
     {
       plate: "plate04",
-      img: "/src/assets/JL/images/fa020120_130ar.jpg",
+      img: fa020120_130ar,
       title: "Plate 4",
       info: "Playing computer games with brother Chris.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/JL/images/fa050212s029ar.jpg",
+      img: fa050212s029ar,
       title: "Plate 5",
-      info: "Here, I am participating in a charity Chinese Calligraphy event for the new year.",
+      info: "Here, I are participating in a charity Chinese Calligraphy event for the new year.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/JL/images/fa050705_070ar.jpg",
+      img: fa050705_070ar,
       title: "Plate 6",
       info: "The dinosaur exhibition in Taikoo Place in 2005.",
     },
     {
       plate: "plate07",
-      img: "/src/assets/JL/images/fa080426_269ar.jpg",
+      img: fa080426_269ar,
       title: "Plate 7",
       info: "This is the first fish I catched all my life",
     },
     {
       plate: "plate08",
-      img: "/src/assets/JL/images/fa080504_262ar.jpg",
+      img: fa080504_262ar,
       title: "Plate 8",
       info: "I was participating in the Hong Kong history medal and this was taken at the Boy Scout headquarter in Wanchai after I finished the event.",
     },

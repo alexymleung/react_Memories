@@ -1,6 +1,13 @@
 import { useTheme } from "../../hooks/useTheme";
 import KarenBanner from "../../assets/KH/images/Buttons/KarenBanner.webp";
 import KarenHobbyHero from "../../assets/KH/images/fa020512_059ar.jpg";
+import fa070107_593ar from "../../assets/KH/images/fa070107_593ar.jpg";
+import fa030105_040ar from "../../assets/KH/images/fa030105_040ar.jpg";
+import fa031116_014ar from "../../assets/KH/images/fa031116_014ar.jpg";
+import fa060827_303ar from "../../assets/KH/images/fa060827_303ar.jpg";
+import fa020417_122ar from "../../assets/KH/images/fa020417_122ar.jpg";
+import fa040424_006ar from "../../assets/KH/images/fa040424_006ar.jpg";
+import fa040725_134ar from "../../assets/KH/images/fa040725_134ar.jpg";
 
 export const KarenHobbyData = () => {
   const { currentTheme } = useTheme();
@@ -47,43 +54,43 @@ export const KarenHobbyData = () => {
   const karenhobbyplates = [
     {
       plate: "plate01",
-      img: "/src/assets/KH/images/fa070107_593ar.jpg",
+      img: fa070107_593ar,
       title: "Plate 1",
       info: "Having good time with Jonathan, Chris and Cara in Yuk Kwai Shan.",
     },
     {
       plate: "plate02",
-      img: "/src/assets/KH/images/fa030105_040ar.jpg",
+      img: fa030105_040ar,
       title: "Plate 2",
       info: "Here again with my Chris.",
     },
     {
       plate: "plate03",
-      img: "/src/assets/KH/images/fa031116_014ar.jpg",
+      img: fa031116_014ar,
       title: "Plate 3",
       info: "In Lamma Island",
     },
     {
       plate: "plate04",
-      img: "/src/assets/KH/images/fa060827_303ar.jpg",
+      img: fa060827_303ar,
       title: "Plate 4",
       info: "Enjoying sliders with Cara while Jonathan was looking on.",
     },
     {
       plate: "plate05",
-      img: "/src/assets/KH/images/fa020417_122ar.jpg",
+      img: fa020417_122ar,
       title: "Plate 5",
       info: "With baby Chris in the Shatin Racing Park.",
     },
     {
       plate: "plate06",
-      img: "/src/assets/KH/images/fa040424_006ar.jpg",
+      img: fa040424_006ar,
       title: "Plate 6",
       info: "Strolling along in the beach with Jonathan",
     },
     {
       plate: "plate07",
-      img: "/src/assets/KH/images/fa040725_134ar.jpg",
+      img: fa040725_134ar,
       title: "Plate 7",
       info: "Enjoying going out with my kids.",
     },

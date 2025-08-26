@@ -32,7 +32,7 @@
 
 # 17 karen part done, project completed, Total 402pages (250824)
 
-# 18 context consolidated, add check photoNo for PrevNextHandler, add color gradient to sec and background colors, total 405 pages (250824)
+# 18 context consolidated, add check photoNo for PrevNextHandler, add color gradient to sec and background, total 405 pages (250824)
 
 keyboard shortcut for navigation
 

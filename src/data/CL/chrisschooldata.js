@@ -2,6 +2,7 @@ import { useTheme } from "../../hooks/useTheme";
 import ChrisBanner from "../../assets/CL/images/Buttons/ChrisBanner.webp";
 
 import ChrisSchoolHero from "../../assets/CL/images/fa080523_092ar.jpg";
+import fa071006_110ar from "../../assets/CL/images/fa071006_110ar.jpg";
 
 export const ChrisSchoolData = () => {
   const { currentTheme } = useTheme();
@@ -42,7 +43,7 @@ export const ChrisSchoolData = () => {
   const chrisschoolplates = [
     {
       plate: "plate01",
-      img: "/src/assets/CL/images/fa071006_110ar.jpg",
+      img: fa071006_110ar,
       title: "Plate 1",
       info: "You can see my school at the back.",
     },
