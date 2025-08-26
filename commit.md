@@ -17,3 +17,5 @@
 - 8f377a8 3rd commit, HTML semantics, SubNavbar refactoring
 - df401a9 2nd commit, 2 levels of Navbar completed.
 - bfce2e6 1st commit, router with nested structure created
+
+git checkout bfce2e6
